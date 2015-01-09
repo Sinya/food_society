@@ -1,10 +1,21 @@
 FacebookUserCast::Application.routes.draw do
-#  match 'auth/:provider/callback', to: 'sessions#create', via: [:get, :post]
+  get "foods/new"
+  get "foods/create"
+  get "food/new"
+  get "food/create"
   match 'auth/failure', to: redirect('/'), via: [:get, :post]
   match 'signout', to:'sessions#destroy', as: 'signout', via: [:get, :post]
   get 'auth/facebook/callback', to: 'sessions#create'
   root "static_pages#home"
   get 'show' => 'friends#show'
+
+  resources :users
+  resources :foods
+  post '/ask_for_food' => 'foods#ask_for_food', as: :ask_for_food
+
+
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
