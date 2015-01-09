@@ -6,6 +6,8 @@ gem 'omniauth-facebook', '1.4.0'
 gem 'figaro'
 gem 'koala'
 
+gem 'bootstrap-sass'
+
 group :development do
   gem 'sqlite3'
 end
