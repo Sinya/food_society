@@ -5,6 +5,7 @@ gem 'rails', '4.0.0'
 gem 'omniauth-facebook', '1.4.0'
 gem 'figaro'
 gem 'koala'
+gem 'hirb'
 
 gem 'bootstrap-sass'
 

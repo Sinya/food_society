@@ -22,6 +22,8 @@
               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand">
+        <%= image_tag("dishes_logo.png", size: "30x30") %> 
+
         <%= link_to "Foodtest", root_path, id:"logo" %>
 
             </a>
@@ -35,9 +37,9 @@
 
 
                     <li>
-                      <a href="#"> 
+                      <a href="#">
+                        <%= image_tag(my_photo, size: "22x25") %> 
                         <%= current_user.name %> 
-                        <%= image_tag("dishes_logo.png", size: "22x25") %> 
                       </a>
                       
  
