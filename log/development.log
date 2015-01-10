@@ -20113,3 +20113,423 @@ Started GET "/assets/all_food_can_use.js?body=1" for 127.0.0.1 at 2015-01-10 15:
 
 
 Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 15:59:01 +0800
+
+
+Started GET "/show_food_can_use" for 127.0.0.1 at 2015-01-10 17:00:48 +0800
+Processing by AllFoodCanUseController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mFood Load (0.3ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 10202600536729493[0m
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 10203635573353449
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 931369630206444[0m
+  [1m[35mFood Load (0.3ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 785426611527110
+  Rendered all_food_can_use/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2557ms (Views: 1109.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 17:00:51 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 17:00:51 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 17:00:51 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 17:00:51 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 17:00:51 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 17:00:51 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 17:00:51 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 17:00:51 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 17:00:51 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 17:00:51 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 17:00:51 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 17:00:51 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 17:00:51 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 17:00:51 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 17:00:51 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 17:04:03 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.2ms)
+  [1m[35mUser Load (2.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 844ms (Views: 827.9ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 17:04:04 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 491ms (Views: 490.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 17:04:04 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 17:04:04 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 17:04:04 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 17:04:04 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 17:04:04 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 17:04:04 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 17:04:04 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 17:04:05 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 17:04:05 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 17:04:05 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 17:04:05 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 17:04:05 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 17:04:05 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 17:04:05 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 17:04:05 +0800
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-10 17:04:08 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 17:04:08 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 17:04:09 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 17:04:10 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQA7sEg4wmYm0eSWrvvdxxLMYKu-9LsedpH9Ut2dkNV406SpA5Zy1CZJ7BB_Al1gpHgsaeKh-HV2vXoi1YtLMFcRKOIbm_PVj3VYys-69aBHx97FtRalGa-SJlq_vmH0yAUoWtRhzon_Koce_QQvGDf7inNoMwD77FPNiYNV28GcVt00kWTOMs9yPTg1NyvUfJXg2izaufhVRtZKW0dUvdglvIQ-B9vRXZ32YdTfHIsvzUOHiRy2s3CUpW88qW0gJhQLzauKPj6zi85D4P6LnXF1_uIusa-Rb2qiQRV6MSr_Qji8xCV3g81_Dip8OSfMKfA" for 127.0.0.1 at 2015-01-10 17:04:10 +0800
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQA7sEg4wmYm0eSWrvvdxxLMYKu-9LsedpH9Ut2dkNV406SpA5Zy1CZJ7BB_Al1gpHgsaeKh-HV2vXoi1YtLMFcRKOIbm_PVj3VYys-69aBHx97FtRalGa-SJlq_vmH0yAUoWtRhzon_Koce_QQvGDf7inNoMwD77FPNiYNV28GcVt00kWTOMs9yPTg1NyvUfJXg2izaufhVRtZKW0dUvdglvIQ-B9vRXZ32YdTfHIsvzUOHiRy2s3CUpW88qW0gJhQLzauKPj6zi85D4P6LnXF1_uIusa-Rb2qiQRV6MSr_Qji8xCV3g81_Dip8OSfMKfA"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10202600536729493' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  UPDATE "users" SET "oauth_token" = ?, "oauth_expires_at" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["oauth_token", "CAAJH0FLgA7ABAFZBrl5LwDpASfFn45gKTKHDjeSd1zMh2F1XTtZAP5rf0t90vE55ZBwG7JtMvFMUKklmAm2IF3Ldnv0JxYr2MqOe72mHVSjmGYrcvZACfDZAJgHVfgRVLjZCeZBMZAv9Un0MQQgQnxbLbZAFon97peOo2leCSKmDF756F5FpVCaYSixEfWHGnWqX85PTJappgZCicrnqcM7uS1"], ["oauth_expires_at", Tue, 10 Mar 2015 17:20:08 UTC +00:00], ["updated_at", Sat, 10 Jan 2015 09:04:11 UTC +00:00]]
+  [1m[36m (9.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 18ms (ActiveRecord: 10.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 17:04:11 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 697ms (Views: 696.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 17:04:12 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 17:04:12 +0800
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 17:04:12 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 17:04:12 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 17:04:12 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 17:04:12 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 17:04:12 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 17:04:12 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 17:04:12 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 17:04:12 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 17:04:12 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 17:04:12 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 17:04:12 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 17:04:12 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 17:04:12 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 17:15:16 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+  [1m[35mUser Load (2.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 124ms
+
+ActionView::Template::Error (undefined local variable or method `new_foods_path' for #<#<Class:0x007fc6959f6a38>:0x007fc6959f4d28>):
+    33:                   <li> <%= link_to "Home", root_path %> </li>
+    34:                     <% if !current_user.nil? %>
+    35: 
+    36:                   <li> <%= link_to "Foods", new_foods_path %> </li>
+    37: 
+    38:                   <li> <%= link_to "Many_Foods", show_food_can_use_path %> </li>
+    39: 
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb___2929761631517482243_70245445102960'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 17:15:47 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 717ms (Views: 716.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 17:15:47 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 17:15:47 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 17:15:47 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 17:15:47 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 17:15:47 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 17:15:47 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 17:15:47 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 17:15:47 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 17:15:47 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 17:15:47 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 17:15:48 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 17:15:48 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 17:15:48 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 17:15:48 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 17:15:48 +0800
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-10 17:15:49 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mFood Load (0.3ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE (user_id = '10202600536729493') ORDER BY due ASC[0m
+  Rendered foods/new.html.erb within layouts/application (12.6ms)
+Completed 500 Internal Server Error in 35ms
+
+ActionView::Template::Error (undefined method `foods_path' for #<#<Class:0x007fc6969d8cd0>:0x007fc6969d1a70>):
+    1: <h1>Food New</h1>
+    2: 
+    3: 
+    4:   <%= form_for @food do |f| %>
+    5: 
+    6: 	<%= f.label :name %>
+    7: 	<%= f.text_field :name, :required => true %><br>
+  app/views/foods/new.html.erb:4:in `_app_views_foods_new_html_erb__23308075478293858_70245453550960'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.4ms)
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-10 17:15:49 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE (user_id = '10202600536729493') ORDER BY due ASC[0m
+  Rendered foods/new.html.erb within layouts/application (12.9ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (undefined method `foods_path' for #<#<Class:0x007fc6969d8cd0>:0x007fc695b87f78>):
+    1: <h1>Food New</h1>
+    2: 
+    3: 
+    4:   <%= form_for @food do |f| %>
+    5: 
+    6: 	<%= f.label :name %>
+    7: 	<%= f.text_field :name, :required => true %><br>
+  app/views/foods/new.html.erb:4:in `_app_views_foods_new_html_erb__23308075478293858_70245446066460'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.0ms)
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-10 17:16:12 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE (user_id = '10202600536729493') ORDER BY due ASC[0m
+  Rendered shared/_food.html.erb (1.5ms)
+  Rendered foods/new.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 707ms (Views: 666.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 17:16:13 +0800
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 17:16:13 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 17:16:13 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 17:16:13 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 17:16:13 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 17:16:13 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 17:16:13 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 17:16:13 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 17:16:13 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 17:16:13 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 17:16:13 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 17:16:13 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 17:16:13 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 17:16:13 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 17:16:13 +0800
+
+
+Started GET "/show_food_can_use" for 127.0.0.1 at 2015-01-10 17:16:17 +0800
+Processing by AllFoodCanUseController#show as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mFood Load (0.3ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 10202600536729493[0m
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 10203635573353449
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 931369630206444[0m
+  [1m[35mFood Load (0.1ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 785426611527110
+  Rendered all_food_can_use/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1368ms (Views: 580.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-10 17:16:20 +0800
+Processing by FoodsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mFood Load (0.3ms)[0m  SELECT "foods".* FROM "foods" WHERE (user_id = '10202600536729493') ORDER BY due ASC
+  Rendered shared/_food.html.erb (1.3ms)
+  Rendered foods/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 665ms (Views: 663.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 17:16:23 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 728ms (Views: 726.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 17:16:25 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 1772ms (Views: 750.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/show_food_can_use" for 127.0.0.1 at 2015-01-10 17:16:32 +0800
+Processing by AllFoodCanUseController#show as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 10202600536729493
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 10203635573353449[0m
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 931369630206444
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 785426611527110[0m
+  Rendered all_food_can_use/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1919ms (Views: 544.2ms | ActiveRecord: 0.8ms)
