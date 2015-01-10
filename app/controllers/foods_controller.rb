@@ -8,14 +8,14 @@ class FoodsController < ApplicationController
   def new
     @foods = Food.from_food_list(current_user).order('due ASC')
     @food = Food.new(params[:food])
-    @food.user_id = current_user.uid
+    # @food.user_id = current_user.uid
     @food.uid = current_user.uid
 
   end
 
   def create
     @food = Food.new(create_params) 
-    @food.user_id = current_user.uid
+    # @food.user_id = current_user.uid
     @food.uid = current_user.uid
 
     if @food.save
