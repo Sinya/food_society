@@ -18,5 +18,4 @@ private
   helper_method :my_photo
 
 
-
 end

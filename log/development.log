@@ -21393,3 +21393,2543 @@ Processing by AllFoodCanUseController#show as HTML
   [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '931369630206444'[0m
   Rendered all_food_can_use/show.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 3382ms (Views: 1461.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-10 18:25:04 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE (uid = '10202600536729493') ORDER BY due ASC[0m
+  Rendered shared/_food.html.erb (0.7ms)
+  Rendered foods/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 1503ms (Views: 1469.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/stylesheets/application.css" for 127.0.0.1 at 2015-01-10 18:25:05 +0800
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.8ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.2ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (39.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 18:25:06 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 18:25:06 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 18:25:06 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 18:25:06 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 18:25:06 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 18:25:06 +0800
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-10 18:25:57 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE (uid = '10202600536729493') ORDER BY due ASC[0m
+  Rendered shared/_food.html.erb (0.6ms)
+  Rendered foods/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 2221ms (Views: 2219.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 18:25:59 +0800
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 18:25:59 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 18:25:59 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 18:25:59 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 18:25:59 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 18:25:59 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 18:25:59 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 18:25:59 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 18:25:59 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 18:25:59 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 18:25:59 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 18:25:59 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 18:25:59 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 18:25:59 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 18:25:59 +0800
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:11 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:11 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:11 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:11 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:11 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:11 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:11 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:11 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:11 +0800
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-10 18:26:38 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE (uid = '10202600536729493') ORDER BY due ASC[0m
+  Rendered shared/_food.html.erb (0.9ms)
+  Rendered foods/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 1891ms (Views: 1888.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:40 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:40 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:40 +0800
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:40 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:40 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:40 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 18:26:40 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 18:26:40 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:40 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 18:26:40 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 18:26:40 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 18:26:40 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:40 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:40 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 18:26:40 +0800
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-10 18:26:47 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE (uid = '10202600536729493') ORDER BY due ASC[0m
+  Rendered shared/_food.html.erb (5.1ms)
+  Rendered foods/new.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 1492ms (Views: 1490.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:49 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:49 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:49 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:49 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:49 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:49 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:49 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:49 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 18:26:49 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 18:26:49 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 18:26:49 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 18:26:49 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 18:26:49 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 18:26:49 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 18:26:49 +0800
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-10 18:27:38 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE (uid = '10202600536729493') ORDER BY due ASC[0m
+  Rendered shared/_food.html.erb (0.7ms)
+  Rendered foods/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 1517ms (Views: 1515.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 18:27:40 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 18:27:40 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 18:27:40 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 18:27:40 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 18:27:40 +0800
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 18:27:40 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 18:27:40 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 18:27:40 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 18:27:40 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 18:27:40 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 18:27:40 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 18:27:40 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 18:27:40 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 18:27:40 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 18:27:40 +0800
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-10 18:28:10 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE (uid = '10202600536729493') ORDER BY due ASC[0m
+  Rendered shared/_food.html.erb (0.5ms)
+  Rendered foods/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 1650ms (Views: 1647.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 18:28:11 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 18:28:11 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 18:28:12 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 18:28:12 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 18:28:12 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 18:28:12 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 18:28:12 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 18:28:12 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 18:28:12 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 18:28:12 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 18:28:12 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 18:28:12 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 18:28:12 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 18:28:12 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 18:28:12 +0800
+
+
+Started GET "/dishes_logo.png" for 127.0.0.1 at 2015-01-10 18:28:12 +0800
+
+ActionController::RoutingError (No route matches [GET] "/dishes_logo.png"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.9ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (31.0ms)
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-10 18:29:38 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE (uid = '10202600536729493') ORDER BY due ASC[0m
+  Rendered shared/_food.html.erb (1.0ms)
+  Rendered foods/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 1462ms (Views: 1459.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 18:29:39 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 18:29:39 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 18:29:39 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 18:29:39 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 18:29:39 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 18:29:39 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 18:29:39 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 18:29:39 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 18:29:39 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 18:29:39 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 18:29:39 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 18:29:39 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 18:29:39 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 18:29:39 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 18:29:39 +0800
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-10 18:30:37 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE (uid = '10202600536729493') ORDER BY due ASC[0m
+  Rendered shared/_food.html.erb (0.6ms)
+  Rendered foods/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 1472ms (Views: 1469.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 18:30:39 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 18:30:39 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 18:30:39 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 18:30:39 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 18:30:39 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 18:30:39 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 18:30:39 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 18:30:39 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 18:30:39 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 18:30:39 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 18:30:39 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 18:30:39 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 18:30:39 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 18:30:39 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 18:30:39 +0800
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-10 18:30:41 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 18:30:41 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 18:30:42 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 18:30:43 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQDrVyuAW6QBXwzX-b94w872kKlaUWQeyYGrDI4rRWQrSLONzRWBRtDZoMVIfQTIRkQiBu5FTrxZeR3-AMCCVwBcxGrH0jfjeX7Eb4ZFxpWQ9YnBM2gQ6uUb7v8N32VfX0fydzv-abJeJ0OZb7amEd3bEkIaXmBNPfm-VORfw4RDUhas1bfYlLTSiePtTZFgYLrMgpN98DroK2CPj50ao3ME1FUQrxEU3kRfIndsjPIf3TVrHV1cERThIw-u3J4mMnLCtKMXV-Nw5bv4GH_cn_K4c7SZVUk_pP11PUopGwH1B1foSjiomErIp7O-Sv-MFcw" for 127.0.0.1 at 2015-01-10 18:30:44 +0800
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDrVyuAW6QBXwzX-b94w872kKlaUWQeyYGrDI4rRWQrSLONzRWBRtDZoMVIfQTIRkQiBu5FTrxZeR3-AMCCVwBcxGrH0jfjeX7Eb4ZFxpWQ9YnBM2gQ6uUb7v8N32VfX0fydzv-abJeJ0OZb7amEd3bEkIaXmBNPfm-VORfw4RDUhas1bfYlLTSiePtTZFgYLrMgpN98DroK2CPj50ao3ME1FUQrxEU3kRfIndsjPIf3TVrHV1cERThIw-u3J4mMnLCtKMXV-Nw5bv4GH_cn_K4c7SZVUk_pP11PUopGwH1B1foSjiomErIp7O-Sv-MFcw"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10202600536729493' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "oauth_token" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["oauth_token", "CAAJH0FLgA7ABAI4j7akhKcJkZCmoxZCpZAjKh1thkbTZA3h74kZBkHUJFO1E4PSGZCZBGZBKv9gPTVDqCYzdxWFZB3E3PYdEIhp0pOZBNtYFZB5jBIyR8jtufSq7dPJHX1BZCZCe5fbRSsVsM8iSvI12rGf2MT66RaH3jGTXux8rCUhbmq404GZC4YeLakDc0R6e4vjZBjdO44VGs1Vtr0r93ELpy76"], ["updated_at", Sat, 10 Jan 2015 10:30:47 UTC +00:00]]
+  [1m[36m (9.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 17ms (ActiveRecord: 10.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 18:30:47 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 1587ms (Views: 1585.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 18:30:48 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 18:30:48 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 18:30:48 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 18:30:48 +0800
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 18:30:48 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 18:30:48 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 18:30:48 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 18:30:48 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 18:30:48 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 18:30:48 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 18:30:48 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 18:30:48 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 18:30:48 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 18:30:48 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 18:30:48 +0800
+
+
+Started GET "/show_food_can_use" for 127.0.0.1 at 2015-01-10 20:14:48 +0800
+Processing by AllFoodCanUseController#show as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10202600536729493'
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10203635573353449'[0m
+  [1m[35mFood Load (0.1ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '931369630206444'
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '785426611527110'[0m
+  Rendered all_food_can_use/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2591ms (Views: 1197.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/show_food_can_use" for 127.0.0.1 at 2015-01-10 21:10:22 +0800
+Processing by AllFoodCanUseController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mFood Load (0.3ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10203635573353449'[0m
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10202600536729493'
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '931369630206444'[0m
+  Rendered all_food_can_use/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 2131ms (Views: 756.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 21:10:24 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 21:10:24 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 21:10:24 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 21:10:24 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 21:10:24 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 21:10:24 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 21:10:24 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 21:10:24 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 21:10:24 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 21:10:24 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 21:10:24 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 21:10:24 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 21:10:24 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 21:10:24 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 21:10:24 +0800
+
+
+Started GET "/images/fb.png" for 127.0.0.1 at 2015-01-10 21:10:24 +0800
+
+ActionController::RoutingError (No route matches [GET] "/images/fb.png"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (29.6ms)
+
+
+Started GET "/show_food_can_use" for 127.0.0.1 at 2015-01-10 21:11:05 +0800
+Processing by AllFoodCanUseController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10203635573353449'[0m
+  [1m[35mFood Load (0.1ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10202600536729493'
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '931369630206444'[0m
+  Rendered all_food_can_use/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2515ms (Views: 1132.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 21:11:07 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 21:11:07 +0800
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 21:11:07 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 21:11:07 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 21:11:07 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 21:11:07 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 21:11:07 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 21:11:07 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 21:11:07 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 21:11:07 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 21:11:07 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 21:11:07 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 21:11:07 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 21:11:07 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 21:11:07 +0800
+
+
+Started GET "/show_food_can_use" for 127.0.0.1 at 2015-01-10 21:14:42 +0800
+Processing by AllFoodCanUseController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10203635573353449'[0m
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10202600536729493'
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '931369630206444'[0m
+  Rendered all_food_can_use/show.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 1804ms
+
+ActionView::Template::Error (undefined local variable or method `my_photo' for #<#<Class:0x007fb1bb9fb7e8>:0x007fb1bb9f9128>):
+    38: 
+    39:                     <li>
+    40:                       <a href="#">
+    41:                       <!--  <%= image_tag(my_photo, size: "22x25") %> -->
+    42:                         <%= current_user.name %> 
+    43:                       </a>
+    44:                 
+  app/views/layouts/application.html.erb:41:in `_app_views_layouts_application_html_erb___435243702120931485_70200666839160'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.4ms)
+
+
+Started GET "/show_food_can_use" for 127.0.0.1 at 2015-01-10 21:14:51 +0800
+Processing by AllFoodCanUseController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mFood Load (0.3ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10203635573353449'[0m
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10202600536729493'
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '931369630206444'[0m
+  Rendered all_food_can_use/show.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 3780ms
+
+ActionView::Template::Error (type: OAuthException, code: 2500, message: Unknown path components: /fields=id,name,picture.type(small) [HTTP 400]):
+    59:     <div class="top_banner">
+    60: 
+    61:         <div class="block Photo">
+    62:             <%= image_tag(mine["picture"]["data"]["url"] , size: "22x25") %> 
+    63:         </div>
+    64: 
+    65:         <div class="block name" >
+  app/controllers/application_controller.rb:17:in `mine'
+  app/views/layouts/application.html.erb:62:in `_app_views_layouts_application_html_erb___435243702120931485_70200692234820'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.7ms)
+
+
+Started GET "/show_food_can_use" for 127.0.0.1 at 2015-01-10 21:15:41 +0800
+Processing by AllFoodCanUseController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10203635573353449'[0m
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10202600536729493'
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '931369630206444'[0m
+  Rendered all_food_can_use/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4569ms (Views: 2841.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 21:15:46 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 21:15:46 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 21:15:46 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 21:15:46 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 21:15:46 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 21:15:46 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 21:15:46 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 21:15:46 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 21:15:46 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 21:15:46 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 21:15:46 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 21:15:46 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 21:15:46 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 21:15:46 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 21:15:46 +0800
+
+
+Started GET "/show_food_can_use" for 127.0.0.1 at 2015-01-10 21:16:42 +0800
+Processing by AllFoodCanUseController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10203635573353449'[0m
+  [1m[35mFood Load (0.1ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10202600536729493'
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '931369630206444'[0m
+  Rendered all_food_can_use/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1817ms (Views: 903.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/show_food_can_use" for 127.0.0.1 at 2015-01-10 21:16:44 +0800
+Processing by AllFoodCanUseController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mFood Load (0.3ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10203635573353449'[0m
+  [1m[35mFood Load (0.3ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10202600536729493'
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '931369630206444'[0m
+  Rendered all_food_can_use/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2421ms (Views: 1532.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 21:16:46 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 21:16:46 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 21:16:46 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 21:16:46 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 21:16:46 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 21:16:46 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 21:16:46 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 21:16:46 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 21:16:46 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 21:16:46 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 21:16:46 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 21:16:46 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 21:16:46 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 21:16:46 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 21:16:46 +0800
+
+
+Started GET "/show_food_can_use" for 127.0.0.1 at 2015-01-10 21:17:30 +0800
+Processing by AllFoodCanUseController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10203635573353449'[0m
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10202600536729493'
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '931369630206444'[0m
+  Rendered all_food_can_use/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4427ms (Views: 2730.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/show_food_can_use" for 127.0.0.1 at 2015-01-10 21:17:34 +0800
+Processing by AllFoodCanUseController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mFood Load (0.3ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10203635573353449'[0m
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10202600536729493'
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '931369630206444'[0m
+  Rendered all_food_can_use/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4429ms (Views: 2295.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 21:17:38 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 21:17:38 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 21:17:38 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 21:17:38 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 21:17:38 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 21:17:38 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 21:17:38 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 21:17:38 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 21:17:38 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 21:17:39 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 21:17:39 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 21:17:39 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 21:17:39 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 21:17:39 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 21:17:39 +0800
+
+
+Started GET "/show_food_can_use" for 127.0.0.1 at 2015-01-10 21:17:46 +0800
+Processing by AllFoodCanUseController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10203635573353449'[0m
+  [1m[35mFood Load (0.1ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10202600536729493'
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '931369630206444'[0m
+  Rendered all_food_can_use/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4170ms (Views: 2523.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 21:17:51 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 21:17:51 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 21:17:51 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 21:17:51 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 21:17:51 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 21:17:51 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 21:17:51 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 21:17:51 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 21:17:51 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 21:17:51 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 21:17:51 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 21:17:51 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 21:17:51 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 21:17:51 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 21:17:51 +0800
+
+
+Started GET "/show_food_can_use" for 127.0.0.1 at 2015-01-10 21:18:07 +0800
+Processing by AllFoodCanUseController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mFood Load (0.3ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10203635573353449'[0m
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10202600536729493'
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '931369630206444'[0m
+  Rendered all_food_can_use/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5565ms (Views: 3441.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 21:18:12 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 21:18:12 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 21:18:12 +0800
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 21:18:12 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 21:18:12 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 21:18:12 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 21:18:12 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 21:18:12 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 21:18:12 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 21:18:12 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 21:18:12 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 21:18:12 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 21:18:12 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 21:18:12 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 21:18:12 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 21:19:02 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 21:19:02 +0800
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 21:19:02 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 21:19:02 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 21:19:02 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 21:19:02 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 21:19:02 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 21:19:02 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 21:19:02 +0800
+
+
+Started GET "/show_food_can_use" for 127.0.0.1 at 2015-01-10 21:19:37 +0800
+Processing by AllFoodCanUseController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mFood Load (0.3ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10202600536729493'[0m
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10203635573353449'
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '931369630206444'[0m
+  [1m[35mFood Load (0.1ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '785426611527110'
+  Rendered all_food_can_use/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2183ms (Views: 1186.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 21:19:39 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 21:19:39 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 21:19:39 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 21:19:39 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 21:19:39 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 21:19:39 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 21:19:39 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 21:19:39 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 21:19:39 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 21:19:39 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 21:19:39 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 21:19:39 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 21:19:39 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 21:19:39 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 21:19:39 +0800
+
+
+Started GET "/show_food_can_use" for 127.0.0.1 at 2015-01-10 21:20:33 +0800
+Processing by AllFoodCanUseController#show as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mFood Load (0.3ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10202600536729493'
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10203635573353449'[0m
+  [1m[35mFood Load (0.1ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '931369630206444'
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '785426611527110'[0m
+  Rendered all_food_can_use/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4445ms (Views: 2344.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 21:20:38 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 21:20:38 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 21:20:38 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 21:20:38 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 21:20:38 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 21:20:38 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 21:20:38 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 21:20:38 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 21:20:38 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 21:20:38 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 21:20:38 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 21:20:38 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 21:20:38 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 21:20:38 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 21:20:38 +0800
+
+
+Started GET "/show_food_can_use" for 127.0.0.1 at 2015-01-10 22:27:04 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AllFoodCanUseController#show as HTML
+  [1m[35mUser Load (4.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10202600536729493'[0m
+  [1m[35mFood Load (0.3ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10203635573353449'
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '931369630206444'[0m
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '785426611527110'
+  Rendered all_food_can_use/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 3952ms (Views: 2111.1ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 22:27:08 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 22:27:08 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 22:27:08 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 22:27:08 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 22:27:08 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 22:27:08 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 22:27:08 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 22:27:08 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 22:27:08 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 22:27:08 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 22:27:08 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 22:27:08 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 22:27:08 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 22:27:08 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 22:27:09 +0800
+
+
+Started GET "/show_food_can_use" for 127.0.0.1 at 2015-01-10 22:27:44 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AllFoodCanUseController#show as HTML
+  [1m[35mUser Load (2.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10202600536729493'[0m
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10203635573353449'
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '931369630206444'[0m
+  [1m[35mFood Load (0.1ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '785426611527110'
+  Rendered all_food_can_use/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 2904ms (Views: 1510.5ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 22:27:47 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 22:27:47 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 22:27:47 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 22:27:47 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 22:27:47 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 22:27:47 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 22:27:47 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 22:27:47 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 22:27:47 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 22:27:47 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 22:27:47 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 22:27:47 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 22:27:47 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 22:27:47 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 22:27:47 +0800
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-10 22:27:49 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 22:27:49 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (undefined method `oauth_token' for nil:NilClass):
+    60:     <div class="top_banner">
+    61: 
+    62:         <div class="block Photo">
+    63:           <%= image_tag(my_photo) %> 
+    64:         </div>
+    65: 
+    66:         <div class="block name" >
+  app/controllers/application_controller.rb:14:in `my_photo'
+  app/views/layouts/application.html.erb:63:in `_app_views_layouts_application_html_erb___3633219781281863079_70141796011120'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (47.9ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (58.5ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-10 22:27:50 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 22:27:50 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `oauth_token' for nil:NilClass):
+    60:     <div class="top_banner">
+    61: 
+    62:         <div class="block Photo">
+    63:           <%= image_tag(my_photo) %> 
+    64:         </div>
+    65: 
+    66:         <div class="block name" >
+  app/controllers/application_controller.rb:14:in `my_photo'
+  app/views/layouts/application.html.erb:63:in `_app_views_layouts_application_html_erb___3633219781281863079_70141796011120'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 22:27:55 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `oauth_token' for nil:NilClass):
+    60:     <div class="top_banner">
+    61: 
+    62:         <div class="block Photo">
+    63:           <%= image_tag(my_photo) %> 
+    64:         </div>
+    65: 
+    66:         <div class="block name" >
+  app/controllers/application_controller.rb:14:in `my_photo'
+  app/views/layouts/application.html.erb:63:in `_app_views_layouts_application_html_erb___3633219781281863079_70141796011120'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 22:28:37 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `oauth_token' for nil:NilClass):
+    60:     <div class="top_banner">
+    61: 
+    62:         <div class="block Photo">
+    63:           <%= image_tag(my_photo) %> 
+    64:         </div>
+    65: 
+    66:         <div class="block name" >
+  app/controllers/application_controller.rb:14:in `my_photo'
+  app/views/layouts/application.html.erb:63:in `_app_views_layouts_application_html_erb___3633219781281863079_70141796011120'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 22:28:47 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `oauth_token' for nil:NilClass):
+    60:     <div class="top_banner">
+    61: 
+    62:         <div class="block Photo">
+    63:           <%= image_tag(my_photo) %> 
+    64:         </div>
+    65: 
+    66:         <div class="block name" >
+  app/controllers/application_controller.rb:14:in `my_photo'
+  app/views/layouts/application.html.erb:63:in `_app_views_layouts_application_html_erb___3633219781281863079_70141796011120'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 22:28:48 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `oauth_token' for nil:NilClass):
+    60:     <div class="top_banner">
+    61: 
+    62:         <div class="block Photo">
+    63:           <%= image_tag(my_photo) %> 
+    64:         </div>
+    65: 
+    66:         <div class="block name" >
+  app/controllers/application_controller.rb:14:in `my_photo'
+  app/views/layouts/application.html.erb:63:in `_app_views_layouts_application_html_erb___3633219781281863079_70141796011120'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 22:29:20 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 65ms
+
+ActionView::Template::Error (undefined method `oauth_token' for nil:NilClass):
+    60:     <div class="top_banner">
+    61: 
+    62:         <div class="block Photo">
+    63:           <%= image_tag(my_photo) %> 
+    64:         </div>
+    65: 
+    66:         <div class="block name" >
+  app/controllers/application_controller.rb:14:in `my_photo'
+  app/views/layouts/application.html.erb:63:in `_app_views_layouts_application_html_erb___2996290309023325313_70154516011040'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 22:29:55 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 22:29:56 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 22:29:56 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 22:29:56 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 22:29:56 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 22:29:56 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 22:29:56 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 22:29:56 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 22:29:56 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 22:29:56 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 22:29:56 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 22:29:56 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 22:29:56 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 22:29:56 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 22:29:56 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 22:29:56 +0800
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 22:30:05 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 22:30:06 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQBwwNxwEzVajHNPLuiuXbVY-VGQURoFehHD_WE4Lexix6pTn0W7j0hW8WiqbrjyebmKZRngaleYnuh3S3U-r6kpnBp-6NaiVueCGQI-rYGcBdnv_3zxBrx9qulQiiCKywoLJxX54a2APky7GItiVZgUrzb37EydUvmUhsAxwtiwaZ2myB_wFMcUnBXlskOJmhjSf3ri-AhMOMX2wirvVONgOjK4wfPXYyBxQaNgkmsppYO5vgqAwlww1E-2PO5X11R0TueksSmCanmOglQx-oCnTGEPXsMflF1BAhGk_z3E61-LWVOzRxlWgmFVygnHOKo" for 127.0.0.1 at 2015-01-10 22:30:07 +0800
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBwwNxwEzVajHNPLuiuXbVY-VGQURoFehHD_WE4Lexix6pTn0W7j0hW8WiqbrjyebmKZRngaleYnuh3S3U-r6kpnBp-6NaiVueCGQI-rYGcBdnv_3zxBrx9qulQiiCKywoLJxX54a2APky7GItiVZgUrzb37EydUvmUhsAxwtiwaZ2myB_wFMcUnBXlskOJmhjSf3ri-AhMOMX2wirvVONgOjK4wfPXYyBxQaNgkmsppYO5vgqAwlww1E-2PO5X11R0TueksSmCanmOglQx-oCnTGEPXsMflF1BAhGk_z3E61-LWVOzRxlWgmFVygnHOKo"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10202600536729493' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.8ms)[0m  UPDATE "users" SET "oauth_token" = ?, "oauth_expires_at" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["oauth_token", "CAAJH0FLgA7ABAJRLaREVdmdc8pzP6YppHwbknmS9mE3MJmCoUb7HqysefF2J4raZBXRFrsmvJOHIDrHAKaZCwXqwzZAAbVqivPZCaKxRKYNpEdkdrYyAY2i4ZA9jpj3i1Ce4nZCROijMLZAkKdZCD4NJZCDdANsfF9MUFYaChbDJZCGtbvnm8inD0s9poaWjZASYZCSGlDbTPHDNxTTtamX3lHf5"], ["oauth_expires_at", Tue, 10 Mar 2015 17:20:09 UTC +00:00], ["updated_at", Sat, 10 Jan 2015 14:30:09 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 39ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 22:30:09 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 2404ms (Views: 2402.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:11 +0800
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:11 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:11 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:11 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:11 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:11 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:11 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:11 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:11 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 22:30:11 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 22:30:12 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 22:30:12 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 22:30:12 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 22:30:12 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 22:30:12 +0800
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-10 22:30:30 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 22:30:30 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+ERROR: compiling _app_views_layouts_application_html_erb___2996290309023325313_70154532928860 RAISED /Users/SinyaPeng/Programming/SNA/food_society/app/views/layouts/application.html.erb:96: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/SinyaPeng/Programming/SNA/food_society/app/views/layouts/application.html.erb:98: syntax error, unexpected end-of-input, expecting keyword_end
+Function body:           def _app_views_layouts_application_html_erb___2996290309023325313_70154532928860(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "layouts/application";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_append='<!DOCTYPE html>
+<html>
+<head>
+  <title>Food Society</title>
+  ';@output_buffer.append=( stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true );@output_buffer.safe_append='
+  ';@output_buffer.append=( javascript_include_tag "application", "data-turbolinks-track" => true );@output_buffer.safe_append='
+  ';@output_buffer.append=( csrf_meta_tags );@output_buffer.safe_append='
+</head>
+<body>
+
+  <!-- Navigation bar
+    ================================================== -->
+ 
+  <div class="navbar navbar-inverse">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand">
+        ';@output_buffer.append=( image_tag("dishes_logo.png", size: "30x30") );@output_buffer.safe_append=' 
+';@output_buffer.safe_append='        ';@output_buffer.append=( link_to "Foodtest", root_path, id:"logo" );@output_buffer.safe_append='
+
+            </a>
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li> ';@output_buffer.append=( link_to "Home", root_path );@output_buffer.safe_append=' </li>
+';                     if !current_user.nil? 
+@output_buffer.safe_append='
+                  <li> ';@output_buffer.append=( link_to "Foods", new_food_path );@output_buffer.safe_append=' </li>
+                  <li> ';@output_buffer.append=( link_to "Many_Foods", show_food_can_use_path );@output_buffer.safe_append=' </li>
+
+                    <li>
+                      <a href="#">
+                        ';@output_buffer.append=( image_tag(my_photo, size: "22x25") );@output_buffer.safe_append=' 
+';@output_buffer.safe_append='                        ';@output_buffer.append=( current_user.name );@output_buffer.safe_append=' 
+';@output_buffer.safe_append='                      </a>
+                
+                  <li>';@output_buffer.append=( link_to "sign out",signout_path, id: 'sign_out' );@output_buffer.safe_append='</li>                    
+
+';                     else 
+@output_buffer.safe_append='                  <li> ';@output_buffer.append=( link_to "sign in with facebook", "/auth/facebook", id: "sign_in" );@output_buffer.safe_append=' </li> 
+';                     end 
+@output_buffer.safe_append='              </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+  <!-- Top banner
+    ================================================== -->
+
+    <div class="top_banner">
+
+        <div class="block Photo">
+';           if !current_user.nil? 
+@output_buffer.safe_append='          ';@output_buffer.append=( image_tag(my_photo) );@output_buffer.safe_append=' 
+';@output_buffer.safe_append='        </div>
+
+        <div class="block name" >
+            <h1> FBUserName 
+              <span class=" block light"> </span>
+            </h1>
+            <div class="block">
+            <h1>
+            <span class="block triangle" id="triangle-left"></span>
+            <span class=" block wanttosay"> want to say...</span>
+            </h1>
+          </div>
+        </div>
+
+    </div>
+
+
+    <div id="user-widget">
+';       if current_user 
+@output_buffer.safe_append='        Signed in as <strong>';@output_buffer.append=( current_user.name );@output_buffer.safe_append='</strong>
+        ';@output_buffer.append=( link_to "sign out",signout_path, id: 'sign_out' );@output_buffer.safe_append='
+';       else 
+@output_buffer.safe_append='        ';@output_buffer.append=( link_to "sign in with facebook", "/auth/facebook", id: "sign_in" );@output_buffer.safe_append='
+';       end 
+@output_buffer.safe_append='    </div>
+
+';@output_buffer.append=( yield );@output_buffer.safe_append='
+
+</body>
+</html>
+';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `module_eval'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `compile'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:248:in `block in compile!'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `synchronize'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `compile!'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:142:in `block in render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications.rb:161:in `instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:141:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:403:in `_run__3091626961046975446__process_action__callbacks'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal.rb:195:in `dispatch'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal.rb:231:in `block in action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `each'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:655:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:186:in `call!'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:164:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/omniauth-1.2.2/lib/omniauth/builder.rb:59:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/query_cache.rb:36:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/migration.rb:369:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__1664420258935747623__call__callbacks'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+/Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+/Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (/Users/SinyaPeng/Programming/SNA/food_society/app/views/layouts/application.html.erb:96: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/SinyaPeng/Programming/SNA/food_society/app/views/layouts/application.html.erb:98: syntax error, unexpected end-of-input, expecting keyword_end):
+    93: </body>
+    94: </html>
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.0) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.0) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.0) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:403:in `_run__3091626961046975446__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:186:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/builder.rb:59:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__1664420258935747623__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.5ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-10 22:30:30 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 22:30:30 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+ERROR: compiling _app_views_layouts_application_html_erb___2996290309023325313_70154532928860 RAISED /Users/SinyaPeng/Programming/SNA/food_society/app/views/layouts/application.html.erb:96: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/SinyaPeng/Programming/SNA/food_society/app/views/layouts/application.html.erb:98: syntax error, unexpected end-of-input, expecting keyword_end
+Function body:           def _app_views_layouts_application_html_erb___2996290309023325313_70154532928860(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "layouts/application";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_append='<!DOCTYPE html>
+<html>
+<head>
+  <title>Food Society</title>
+  ';@output_buffer.append=( stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true );@output_buffer.safe_append='
+  ';@output_buffer.append=( javascript_include_tag "application", "data-turbolinks-track" => true );@output_buffer.safe_append='
+  ';@output_buffer.append=( csrf_meta_tags );@output_buffer.safe_append='
+</head>
+<body>
+
+  <!-- Navigation bar
+    ================================================== -->
+ 
+  <div class="navbar navbar-inverse">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand">
+        ';@output_buffer.append=( image_tag("dishes_logo.png", size: "30x30") );@output_buffer.safe_append=' 
+';@output_buffer.safe_append='        ';@output_buffer.append=( link_to "Foodtest", root_path, id:"logo" );@output_buffer.safe_append='
+
+            </a>
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li> ';@output_buffer.append=( link_to "Home", root_path );@output_buffer.safe_append=' </li>
+';                     if !current_user.nil? 
+@output_buffer.safe_append='
+                  <li> ';@output_buffer.append=( link_to "Foods", new_food_path );@output_buffer.safe_append=' </li>
+                  <li> ';@output_buffer.append=( link_to "Many_Foods", show_food_can_use_path );@output_buffer.safe_append=' </li>
+
+                    <li>
+                      <a href="#">
+                        ';@output_buffer.append=( image_tag(my_photo, size: "22x25") );@output_buffer.safe_append=' 
+';@output_buffer.safe_append='                        ';@output_buffer.append=( current_user.name );@output_buffer.safe_append=' 
+';@output_buffer.safe_append='                      </a>
+                
+                  <li>';@output_buffer.append=( link_to "sign out",signout_path, id: 'sign_out' );@output_buffer.safe_append='</li>                    
+
+';                     else 
+@output_buffer.safe_append='                  <li> ';@output_buffer.append=( link_to "sign in with facebook", "/auth/facebook", id: "sign_in" );@output_buffer.safe_append=' </li> 
+';                     end 
+@output_buffer.safe_append='              </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+  <!-- Top banner
+    ================================================== -->
+
+    <div class="top_banner">
+
+        <div class="block Photo">
+';           if !current_user.nil? 
+@output_buffer.safe_append='          ';@output_buffer.append=( image_tag(my_photo) );@output_buffer.safe_append=' 
+';@output_buffer.safe_append='        </div>
+
+        <div class="block name" >
+            <h1> FBUserName 
+              <span class=" block light"> </span>
+            </h1>
+            <div class="block">
+            <h1>
+            <span class="block triangle" id="triangle-left"></span>
+            <span class=" block wanttosay"> want to say...</span>
+            </h1>
+          </div>
+        </div>
+
+    </div>
+
+
+    <div id="user-widget">
+';       if current_user 
+@output_buffer.safe_append='        Signed in as <strong>';@output_buffer.append=( current_user.name );@output_buffer.safe_append='</strong>
+        ';@output_buffer.append=( link_to "sign out",signout_path, id: 'sign_out' );@output_buffer.safe_append='
+';       else 
+@output_buffer.safe_append='        ';@output_buffer.append=( link_to "sign in with facebook", "/auth/facebook", id: "sign_in" );@output_buffer.safe_append='
+';       end 
+@output_buffer.safe_append='    </div>
+
+';@output_buffer.append=( yield );@output_buffer.safe_append='
+
+</body>
+</html>
+';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `module_eval'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `compile'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:248:in `block in compile!'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `synchronize'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `compile!'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:142:in `block in render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications.rb:161:in `instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:141:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:403:in `_run__3091626961046975446__process_action__callbacks'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal.rb:195:in `dispatch'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal.rb:231:in `block in action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `each'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:655:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:186:in `call!'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:164:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/omniauth-1.2.2/lib/omniauth/builder.rb:59:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/query_cache.rb:36:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/migration.rb:369:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__1664420258935747623__call__callbacks'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+/Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+/Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (/Users/SinyaPeng/Programming/SNA/food_society/app/views/layouts/application.html.erb:96: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/SinyaPeng/Programming/SNA/food_society/app/views/layouts/application.html.erb:98: syntax error, unexpected end-of-input, expecting keyword_end):
+    93: </body>
+    94: </html>
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.0) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.0) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.0) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:403:in `_run__3091626961046975446__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:186:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/builder.rb:59:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__1664420258935747623__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 22:30:45 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:45 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:45 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:45 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:45 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:45 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:45 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:45 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:45 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:45 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 22:30:45 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 22:30:45 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 22:30:45 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 22:30:45 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 22:30:45 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 22:30:45 +0800
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 22:30:47 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 22:30:48 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQDJWyHITG1E1jBTo3sDEkJvZCDZcPbakOotDP5-ZXBd9h4z1w2sGkTXuPGdGSAvzlguZcM5OTYBATxlKkwWpQ3SCtEu2GWLeaBXzGAi7EO_bftbS716TtNY1ixXWxrCbgfxdhOIFxHjJ4t_UBq1YNrqMJCy5Hcwz_tr5rKCfC1-jEh7LSNjYsZXb6hy92lz7yjgG_N7M_zZ8CDbAlheDzDESH9Jkk8RkpIpr9cMY7sQBBBGAW3MYx1_LgyLzB3uUU9dCs610tc-0l0p_8uJuntgYKtsyB7DkUTOtmv7H2stluG0f0Hc2bCEuyYSZIejF6Q" for 127.0.0.1 at 2015-01-10 22:30:48 +0800
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDJWyHITG1E1jBTo3sDEkJvZCDZcPbakOotDP5-ZXBd9h4z1w2sGkTXuPGdGSAvzlguZcM5OTYBATxlKkwWpQ3SCtEu2GWLeaBXzGAi7EO_bftbS716TtNY1ixXWxrCbgfxdhOIFxHjJ4t_UBq1YNrqMJCy5Hcwz_tr5rKCfC1-jEh7LSNjYsZXb6hy92lz7yjgG_N7M_zZ8CDbAlheDzDESH9Jkk8RkpIpr9cMY7sQBBBGAW3MYx1_LgyLzB3uUU9dCs610tc-0l0p_8uJuntgYKtsyB7DkUTOtmv7H2stluG0f0Hc2bCEuyYSZIejF6Q"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10202600536729493' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "users" SET "oauth_token" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["oauth_token", "CAAJH0FLgA7ABAFNq81VIjhKEEVWZBTblC7bv2Akzh7nTxIsnCekRj6HQkPLKrelAmBpRtc3dkIN45USSZCXyHWd2UnU8hLJVXl7pbMgBNJ3zdpRJIDhjk6cQ7xm2dOepH43SyqwAk2t9zeNsg3eiwZAfRFkW9a9vIPRGs1mKdKQ3rHkk7WrgPrpM9Vb5s0gu67tZB6rGUYvsChViyk8j"], ["updated_at", Sat, 10 Jan 2015 14:30:49 UTC +00:00]]
+  [1m[35m (9.2ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 13ms (ActiveRecord: 9.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 22:30:49 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1761ms (Views: 1760.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:51 +0800
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:51 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:51 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:51 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:51 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:51 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:51 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:51 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 22:30:51 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 22:30:51 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 22:30:51 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 22:30:51 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 22:30:51 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 22:30:51 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 22:30:51 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 22:30:59 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+  [1m[35mUser Load (2.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 1709ms (Views: 1692.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 22:31:01 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 22:31:01 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 22:31:01 +0800
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 22:31:01 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 22:31:01 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 22:31:01 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 22:31:01 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 22:31:01 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 22:31:01 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 22:31:01 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 22:31:01 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 22:31:01 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 22:31:01 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 22:31:01 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 22:31:01 +0800
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-10 22:31:06 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 22:31:06 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 22:31:07 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 22:31:07 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQBalH3tZ36MQC4ZH-qF31ZXsVsl_g3XVCZO9Ij2_wAN0Q3P9TZ4CpZa3tx1826g4XotOLKKuKyEauszH7rhpwnS7edSDuSumhn27uG1txoGx5ll8AnRpRrsw_qAzvr33OFOISFDlBSy9EeUSqfZ9CL_VbAX-ygxCTAQvY6RjmzQRVwTks3kzrM5JDoupu2pjIiQdHAiZ1WG-HV6lFEJZcIpfHrnwS9uMJTUTMjJlith3qwI8hjEqWF8NNkwGsU4sGwpNPTcXhnwpn6BR8FRxxRireBq5yu-QTYy9694X5lGFUwGmx6yzdY-1KQ2kXcKVEI" for 127.0.0.1 at 2015-01-10 22:31:52 +0800
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBalH3tZ36MQC4ZH-qF31ZXsVsl_g3XVCZO9Ij2_wAN0Q3P9TZ4CpZa3tx1826g4XotOLKKuKyEauszH7rhpwnS7edSDuSumhn27uG1txoGx5ll8AnRpRrsw_qAzvr33OFOISFDlBSy9EeUSqfZ9CL_VbAX-ygxCTAQvY6RjmzQRVwTks3kzrM5JDoupu2pjIiQdHAiZ1WG-HV6lFEJZcIpfHrnwS9uMJTUTMjJlith3qwI8hjEqWF8NNkwGsU4sGwpNPTcXhnwpn6BR8FRxxRireBq5yu-QTYy9694X5lGFUwGmx6yzdY-1KQ2kXcKVEI"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10202600536729493' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.5ms)[0m  [1mUPDATE "users" SET "oauth_token" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["oauth_token", "CAAJH0FLgA7ABAKMikS8WlvJkodRLgpvG1FyQOzlV12iKwzbMrNTHPw39EcUZAsS0ZBDBHNbiPMYLBVAdMBb9mt3G2NdfF1vgZCUuZADffp4zseIKEXefrWTJvVRBNtvXbaPymzyZB8lXZBoYMi4hH3ZACbfXbxpRYFjKnSHdmEmM9AxGmCHGQEMktZAtOgKcz2E2Brj3KGKwy5cILfRrgsju"], ["updated_at", Sat, 10 Jan 2015 14:31:53 UTC +00:00]]
+  [1m[35m (9.0ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 20ms (ActiveRecord: 10.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 22:31:53 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2327ms (Views: 2326.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/all_food_can_use.css?body=1" for 127.0.0.1 at 2015-01-10 22:31:56 +0800
+
+
+Started GET "/assets/demo2.css?body=1" for 127.0.0.1 at 2015-01-10 22:31:56 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 22:31:56 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 22:31:56 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 22:31:56 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 22:31:56 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 22:31:56 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 22:31:56 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 22:31:56 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 22:31:56 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 22:31:56 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 22:31:56 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-10 22:31:56 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 22:31:56 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 22:31:56 +0800
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-10 22:32:02 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 22:32:02 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+  [1m[36mUser Load (1.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1[0m
