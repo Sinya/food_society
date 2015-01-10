@@ -10528,3 +10528,3665 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 12:48:36
 
 
 Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 12:48:36 +0800
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-10 12:51:18 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 12:51:18 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 12:51:19 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 12:51:20 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQBL4RDXbA-9QjLxTghDKLmTjJ5uFWD_eLE2Rqfhjsmxl6QeDKqd4jjlDcJIe2wcM8Q_lYwJVGquRPKw9xlcjQW07U2lBMjP0CBSjXnndLCBdLog3DAvRHml9x7qlUQMWcn4SY5S79a_i36xrXLgKC6C90O_t1Kv5mDnL8R5bj8bGjjGwJSF7L0-PGvBaq8fPRlE5DI9EHJybpa-xjm4nLx5VMdZvb6h7J9HwRCJwdlbry4yiB6wosmlBBKmQ2jTFXgwSLHt6hKiO6Nm_2pDSDAXUbOxC3t9dvsY1EHVkLIIlNRccNT4mfG-G9URdzRuNzI" for 127.0.0.1 at 2015-01-10 12:51:21 +0800
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBL4RDXbA-9QjLxTghDKLmTjJ5uFWD_eLE2Rqfhjsmxl6QeDKqd4jjlDcJIe2wcM8Q_lYwJVGquRPKw9xlcjQW07U2lBMjP0CBSjXnndLCBdLog3DAvRHml9x7qlUQMWcn4SY5S79a_i36xrXLgKC6C90O_t1Kv5mDnL8R5bj8bGjjGwJSF7L0-PGvBaq8fPRlE5DI9EHJybpa-xjm4nLx5VMdZvb6h7J9HwRCJwdlbry4yiB6wosmlBBKmQ2jTFXgwSLHt6hKiO6Nm_2pDSDAXUbOxC3t9dvsY1EHVkLIIlNRccNT4mfG-G9URdzRuNzI"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10203635573353449' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "oauth_token" = ?, "updated_at" = ? WHERE "users"."id" = 2[0m  [["oauth_token", "CAAJH0FLgA7ABANaEAxH0vgIAgzwiqUiBAdfn8VVavEJQNZAHwEQTst7CPOmeKsgLMm27iUZBAgdDvqK89kEH8fc0FCep2ciI3jwMX6pslFrtSIeqYInclZBRf9jmvAJUAJpFUCH4rxwqxk5RCJXVWcbC5WgBG1sOtSpZAG8hpYImMptWr2X6"], ["updated_at", Sat, 10 Jan 2015 04:51:23 UTC +00:00]]
+  [1m[35m (9.1ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 14ms (ActiveRecord: 9.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 12:51:23 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 12:51:23 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 12:51:23 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 12:51:23 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 12:51:23 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 12:51:23 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 12:51:23 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 12:51:23 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:23 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:23 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:23 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:23 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:23 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:23 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:23 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:23 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 12:51:23 +0800
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-10 12:51:34 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 12:51:34 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 12:51:36 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 12:51:37 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQD7qELtYng5X-NTmM9ZnJHVw2Xa1bLj1VFTtIrW14LPIzTDPYWHdiLhUeedjiJF33qmJu2QwxHgCto6oZq-SjcBwq0GS9vxTqsCkUsRV_Aa5u14TWn31C3CLvruhZinKIfVmy3VFp8lB3Mlk00kfwhERNfKZKIzGGfddSRIMGbGUoZX889E34fD7mra-w7n2XubEqLK1yKz6lwvxrbXfxKXkI9CIaBmq7WVS-4YKu9tLat5m2YO4b8gza9Bue2cH1TCw0JEAEGUuLXsVukRm01Vgbquj6CtPWEDIpnZRhqXoVhomIbiRkzcyvIGvEpyTDQ" for 127.0.0.1 at 2015-01-10 12:51:38 +0800
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQD7qELtYng5X-NTmM9ZnJHVw2Xa1bLj1VFTtIrW14LPIzTDPYWHdiLhUeedjiJF33qmJu2QwxHgCto6oZq-SjcBwq0GS9vxTqsCkUsRV_Aa5u14TWn31C3CLvruhZinKIfVmy3VFp8lB3Mlk00kfwhERNfKZKIzGGfddSRIMGbGUoZX889E34fD7mra-w7n2XubEqLK1yKz6lwvxrbXfxKXkI9CIaBmq7WVS-4YKu9tLat5m2YO4b8gza9Bue2cH1TCw0JEAEGUuLXsVukRm01Vgbquj6CtPWEDIpnZRhqXoVhomIbiRkzcyvIGvEpyTDQ"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10203635573353449' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "oauth_token" = ?, "oauth_expires_at" = ?, "updated_at" = ? WHERE "users"."id" = 2  [["oauth_token", "CAAJH0FLgA7ABABGlm7sgboHEToHZCJId7EX4ysGqMQWiGq13AI7WngUnUcXAdNrNuM02o5owUgbuSjA8BrxZC0LHIGtYZCMjIFelGMZCOoEzZBaM4ZCWQ1bc5rrhAQG2EUwQZCWLgojTGRWmxslSdXoXk4OroDmZAqkBAq3v6id1DpenufKXNmMQ"], ["oauth_expires_at", Wed, 11 Mar 2015 04:40:08 UTC +00:00], ["updated_at", Sat, 10 Jan 2015 04:51:39 UTC +00:00]]
+  [1m[36m (9.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 13ms (ActiveRecord: 9.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 12:51:39 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 12:51:40 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 12:51:40 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 12:51:40 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 12:51:40 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 12:51:40 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 12:51:40 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 12:51:40 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:40 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:40 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:40 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:40 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:40 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:40 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:40 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:40 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 12:51:40 +0800
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-10 12:51:42 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 12:51:42 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 12:51:48 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 12:51:49 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQB05F4Y95wMtPppOb0SeEFo0ukcI7wA5HkNytKHAdjG-mFZRZ2PvRIqEQEj-Fn6Y8TXQesv04ZMH_veEi8d83Y5iIvmwJkM-bx_Of_VRWzoPQaiSftKW3Fgup-3UyaeV2H9ZcKNQCf5B3e7-Ae6ejpf3fAc4RF1Otyrk54tBD2m05pNYe1qLUDy0wOXtiVU_d0v1OhzYjmwnpwAzqXYAcXEyRSLDwQpauNPW8N7PyOtbBLOE3OcTOkSteS2DueYYrPF0M2_mgUs1oaXQ2hWZ1_UBUZobEd_UZGKggXsxO6EGeqUxPdtcuj2oKSMli8e_NQ" for 127.0.0.1 at 2015-01-10 12:51:50 +0800
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQB05F4Y95wMtPppOb0SeEFo0ukcI7wA5HkNytKHAdjG-mFZRZ2PvRIqEQEj-Fn6Y8TXQesv04ZMH_veEi8d83Y5iIvmwJkM-bx_Of_VRWzoPQaiSftKW3Fgup-3UyaeV2H9ZcKNQCf5B3e7-Ae6ejpf3fAc4RF1Otyrk54tBD2m05pNYe1qLUDy0wOXtiVU_d0v1OhzYjmwnpwAzqXYAcXEyRSLDwQpauNPW8N7PyOtbBLOE3OcTOkSteS2DueYYrPF0M2_mgUs1oaXQ2hWZ1_UBUZobEd_UZGKggXsxO6EGeqUxPdtcuj2oKSMli8e_NQ"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10203635573353449' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "oauth_token" = ?, "updated_at" = ? WHERE "users"."id" = 2[0m  [["oauth_token", "CAAJH0FLgA7ABANZB2gUCO8wcmb95qSPlFhLyUszZCNWWg2alVPITILc8UOfEI6lHDPFbnN80f1WagxADFvE2qWqZCMtiGkKzKRLDvDZBsVpkf5vqyY9lLmRBTxCtGUhTGjqSZASHynbp7iOLtkUy37iUFonpW6Q0DgcW6Q8GYj86gOTrykdgy"], ["updated_at", Sat, 10 Jan 2015 04:51:52 UTC +00:00]]
+  [1m[35m (8.9ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 13ms (ActiveRecord: 9.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 12:51:52 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 12:51:52 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 12:51:52 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 12:51:52 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 12:51:52 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 12:51:52 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 12:51:52 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 12:51:52 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:52 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:52 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:52 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:52 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:52 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:52 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:52 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 12:51:52 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 12:51:52 +0800
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-10 12:51:55 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 12:51:55 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 12:52:11 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 12:52:11 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 12:52:11 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 12:52:11 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 12:52:11 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 12:52:11 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 12:52:11 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 12:52:12 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:12 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:12 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:12 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:12 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:12 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:12 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:12 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:12 +0800
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 12:52:13 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 12:52:14 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQCeBJdbUAbFg26XBXQfTQAwFMfFSZPcJWPahsne-g-_eZV0Q3P7JvoBSgNxDTIouH-7cTqdbJN5B-Mglpji35SOBscm47U07MJvFRA0fLdh7JhhVHJ640CjxX1AZY9FlsRqBE0kUt6xalW7gQtGzLpj4TAGezh1kzPrO-Ygs7kOaFwcWlxlOT8oo2znXPI8uH7kGqkbe2uXYlEkz2BKIpGPueQNXCKNW_JJVhUDFPxkZFdaKmVfsCuMiv7QlaSlPwQWD8HVLWPXsFVmIz-KD_9aKGbht82esQgCr4kHPxwyE-2oSGBlBS7ELJVAHhDvFDY" for 127.0.0.1 at 2015-01-10 12:52:14 +0800
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQCeBJdbUAbFg26XBXQfTQAwFMfFSZPcJWPahsne-g-_eZV0Q3P7JvoBSgNxDTIouH-7cTqdbJN5B-Mglpji35SOBscm47U07MJvFRA0fLdh7JhhVHJ640CjxX1AZY9FlsRqBE0kUt6xalW7gQtGzLpj4TAGezh1kzPrO-Ygs7kOaFwcWlxlOT8oo2znXPI8uH7kGqkbe2uXYlEkz2BKIpGPueQNXCKNW_JJVhUDFPxkZFdaKmVfsCuMiv7QlaSlPwQWD8HVLWPXsFVmIz-KD_9aKGbht82esQgCr4kHPxwyE-2oSGBlBS7ELJVAHhDvFDY"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10203635573353449' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "oauth_token" = ?, "updated_at" = ? WHERE "users"."id" = 2  [["oauth_token", "CAAJH0FLgA7ABAGhcCvJklv6kvc6byaGMvboFfIlcAlmlPk0vEVrL6Mi3CPmia3Q5vg49fOMmFG2frC3jW1W6tWZCheXQ2DyZAxi6PdwytBIaIEZBcGRZA1wqnHr8FKtPNJRe6Ue3eDsKZCjqJCvxQp5yZAxHq4a8QbkmMZBsHkS9cD7OpsNe40e"], ["updated_at", Sat, 10 Jan 2015 04:52:16 UTC +00:00]]
+  [1m[36m (9.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 13ms (ActiveRecord: 9.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 12:52:16 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 12:52:16 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 12:52:16 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 12:52:17 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 12:52:17 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 12:52:17 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 12:52:17 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 12:52:17 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:17 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:17 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:17 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:17 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:17 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:17 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:17 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:17 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 12:52:17 +0800
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-10 12:52:20 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 12:52:20 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 12:52:38 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 12:52:38 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 12:52:38 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 12:52:38 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 12:52:38 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 12:52:38 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 12:52:38 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 12:52:38 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:38 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:38 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:38 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:38 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:38 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:38 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:38 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 12:52:38 +0800
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 12:52:40 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 12:52:40 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQByV-YIrGZ9l1-Vg5Jg3HO-C2luSVfz_6znbDTOF6oYex0tVFWNDpzmRr29opiaAseOAvIZicVbuP-JYLsoQ62ksclpDuMLLenoN7tXUUMFfRrFSytUN0xKf67gZZOuSVDOu6eqd9IWwMfDOn1IvlXB-m5H_c-03rfzTAN3aQZKst34vBR2x3WT4Qu5GLC8hFOCkG88Aic8XnuU3FpsHKqqvc_NUHkvrNLeMtmwVrSUAHHoziU1BbIm-iu1tgzL7BOSoAcBwLuFirhqC57ahxUNKtFzEgPOgg9n6hYjORQsbXQU-ZdCbuGMaDAalIT8ti7JxyN7DnddOT-9HdGEL5KA" for 127.0.0.1 at 2015-01-10 12:53:10 +0800
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQByV-YIrGZ9l1-Vg5Jg3HO-C2luSVfz_6znbDTOF6oYex0tVFWNDpzmRr29opiaAseOAvIZicVbuP-JYLsoQ62ksclpDuMLLenoN7tXUUMFfRrFSytUN0xKf67gZZOuSVDOu6eqd9IWwMfDOn1IvlXB-m5H_c-03rfzTAN3aQZKst34vBR2x3WT4Qu5GLC8hFOCkG88Aic8XnuU3FpsHKqqvc_NUHkvrNLeMtmwVrSUAHHoziU1BbIm-iu1tgzL7BOSoAcBwLuFirhqC57ahxUNKtFzEgPOgg9n6hYjORQsbXQU-ZdCbuGMaDAalIT8ti7JxyN7DnddOT-9HdGEL5KA"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '931369630206444' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "users" ("created_at", "name", "oauth_expires_at", "oauth_token", "provider", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 10 Jan 2015 04:53:12 UTC +00:00], ["name", "游佳霖"], ["oauth_expires_at", Wed, 11 Mar 2015 04:53:10 UTC +00:00], ["oauth_token", "CAAJH0FLgA7ABAM2osRKyxu4e9ynvZCZB8tHkoWqSYDoZA1qpGYqlBZCWGhWdZC2YA7kTyZAbPrxes8p4hI3Tuldr4JD4R5ZBsw5UBA0EWF3m7NHrOuzGp6wtXAlxHbZCtA5fSn13bnNewBMpwW9hP0F8G4boSaDeSwyyoISmZC2o2htZAziSG1AlkKt5LluiXEwXyStke8BrnI1yKodwa44DwA"], ["provider", "facebook"], ["uid", "931369630206444"], ["updated_at", Sat, 10 Jan 2015 04:53:12 UTC +00:00]]
+  [1m[35m (9.0ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 16ms (ActiveRecord: 10.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 12:53:12 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 12:53:12 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 12:53:12 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 12:53:15 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 12:53:18 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered friends/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 3843ms (Views: 13.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 12:53:22 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered friends/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3243ms (Views: 9.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 12:53:25 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered friends/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3158ms (Views: 12.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 12:53:29 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered friends/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3175ms (Views: 11.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 12:53:32 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered friends/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3635ms (Views: 11.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 12:53:35 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered friends/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3520ms (Views: 10.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 12:53:39 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered friends/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3256ms (Views: 12.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 12:53:42 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered friends/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3577ms (Views: 8.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 12:53:46 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered friends/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4836ms (Views: 15.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/foods/new" for 127.0.0.1 at 2015-01-10 12:53:51 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mFood Load (0.3ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE (user_id = 3) ORDER BY due ASC[0m
+  Rendered shared/_food.html.erb (0.0ms)
+  Rendered foods/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 32ms (Views: 16.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 12:53:51 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 12:53:51 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered friends/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5754ms (Views: 12.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 12:53:56 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered friends/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 6373ms (Views: 12.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 12:54:03 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (1.8ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mUser Load (21.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered friends/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 93720ms (Views: 12.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 12:55:37 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 12:55:37 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 12:55:37 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 12:55:37 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 12:55:37 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 12:55:37 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 12:55:37 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 12:55:37 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 12:55:37 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 12:55:37 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 12:55:37 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 12:55:37 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 12:55:37 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 12:55:37 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 12:55:37 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 12:55:37 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 12:55:37 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 12:55:37 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 12:56:35 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 12:56:36 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 12:56:36 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 12:56:36 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 12:56:36 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 12:56:36 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 12:56:36 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 12:56:36 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 12:56:36 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 12:56:36 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 12:56:36 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 12:56:36 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 12:56:36 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 12:56:36 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 12:56:36 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 12:56:36 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 12:56:36 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 12:56:37 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered friends/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2718ms (Views: 9.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 12:56:40 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered friends/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5528ms (Views: 8.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 12:56:45 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+Completed 200 OK in 31ms (Views: 19.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 12:56:45 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 12:56:45 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 12:56:45 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 12:56:45 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 12:56:45 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 12:56:45 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 12:56:45 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 12:56:45 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 12:56:45 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 12:56:45 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 12:56:45 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 12:56:45 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 12:56:45 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 12:56:45 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 12:56:45 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 12:56:45 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 12:56:47 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered friends/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 2619ms (Views: 15.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 12:56:50 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered friends/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2140ms (Views: 9.8ms | ActiveRecord: 0.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 12:58:27 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 13:07:27 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 13:07:28 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQAFwKm8a2lLwl7FhVgUx32vHd7sF4c0Ap3t6XZQSRF2TTrCcVljsalknv-7OBJ3Ye_Nh_bRdtsD1sVEkewRGyLtTUcLh_nYS5Yy9PeXSoQIx3hPK68XBp9UB4AbcT7Ff5AEzQgUrrwYauagP1P8pUwnanwUNuHR_sqIOwyV6fSFMIhzAwSGJK56j06VGoyyrIwkv8zl7cy4YXP8jcivJ3OKb2HyAQid8uk7_fILc33U0EGz76dgwhea-1YUgTy7eGz4KljIeeoSwCvSK7q2X3-2kAkPCcyTgaufBGrK2KHq0mVdcv8n3oUm6lfIwD7tF1M" for 127.0.0.1 at 2015-01-10 13:07:29 +0800
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAFwKm8a2lLwl7FhVgUx32vHd7sF4c0Ap3t6XZQSRF2TTrCcVljsalknv-7OBJ3Ye_Nh_bRdtsD1sVEkewRGyLtTUcLh_nYS5Yy9PeXSoQIx3hPK68XBp9UB4AbcT7Ff5AEzQgUrrwYauagP1P8pUwnanwUNuHR_sqIOwyV6fSFMIhzAwSGJK56j06VGoyyrIwkv8zl7cy4YXP8jcivJ3OKb2HyAQid8uk7_fILc33U0EGz76dgwhea-1YUgTy7eGz4KljIeeoSwCvSK7q2X3-2kAkPCcyTgaufBGrK2KHq0mVdcv8n3oUm6lfIwD7tF1M"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10202600536729493' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "users" SET "oauth_token" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["oauth_token", "CAAJH0FLgA7ABACS8ZBZCF3G03u3twf7ZAHcBWkO1rgx0fXL2fUx1ioAjxvyg05pO8WuoiZARAjoFZBj3Ph4bQWDqfHdmDbeFZBBwmEy4Um7xzNxmEQotJDpgUYvXeM6WsZCljJFvXEWeig7V6worEcmBinQ48v04qx10dZArinTwpeTMKcIhnoMS23ZBokuuZBhkOZB98pxWCxRhIab4pbZCJpib"], ["updated_at", Sat, 10 Jan 2015 05:07:31 UTC +00:00]]
+  [1m[35m (9.0ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 15ms (ActiveRecord: 9.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:07:31 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:07:31 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:07:31 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:07:31 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:07:31 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:07:31 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:07:31 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:07:31 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:07:31 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:07:31 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:07:31 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:07:31 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:07:31 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:07:31 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:07:31 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:07:31 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:07:31 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:07:34 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 3303ms (Views: 20.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:11:21 +0800
+
+ActionController::RoutingError (undefined local variable or method `current_user' for ApplicationController:Class):
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/friends_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (8.8ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (60.7ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:11:30 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 3763ms (Views: 17.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:11:34 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:11:34 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:11:34 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:11:34 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:11:34 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:11:34 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:11:34 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:11:34 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:11:34 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:11:34 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:11:34 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:11:34 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:11:34 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:11:34 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:11:34 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:11:34 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:12:33 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3567ms (Views: 12.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:12:37 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:12:37 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:12:37 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:12:37 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:12:37 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:12:37 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:12:37 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:12:37 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:12:37 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:12:37 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:12:37 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:12:37 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:12:37 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:12:37 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:12:37 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:12:37 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:13:20 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3683ms (Views: 58.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:13:24 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:13:24 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:13:24 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:13:24 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:13:24 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:13:24 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:13:24 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:13:24 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:13:24 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:13:24 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:13:24 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:13:24 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:13:24 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:13:24 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:13:24 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:13:24 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:14:33 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3114ms (Views: 16.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:14:36 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:14:36 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:14:36 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:14:36 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:14:36 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:14:36 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:14:36 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:14:36 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:14:36 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:14:36 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:14:36 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:14:36 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:14:37 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:14:37 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:14:37 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:14:37 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:14:51 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3163ms (Views: 15.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:14:54 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:14:54 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:14:54 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:14:54 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:14:54 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:14:54 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:14:54 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:14:54 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:14:54 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:14:54 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:14:54 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:14:54 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:14:54 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:14:54 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:14:54 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:14:54 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:15:16 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3550ms (Views: 14.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:15:19 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:15:19 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:15:19 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:15:19 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:15:19 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:15:19 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:15:19 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:15:19 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:15:19 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:15:19 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:15:19 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:15:19 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:15:19 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:15:19 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:15:19 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:15:19 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:15:26 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:15:26 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:15:26 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:15:26 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:15:26 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:15:26 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:15:26 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:15:43 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.5ms)
+ERROR: compiling _app_views_layouts_application_html_erb___2093759178130450500_70308009395760 RAISED /Users/SinyaPeng/Programming/SNA/food_society/app/views/layouts/application.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting ')'
+...root_path, id:"logo"  image_tag("dishes_logo.png", size: "30...
+...                               ^
+Function body:           def _app_views_layouts_application_html_erb___2093759178130450500_70308009395760(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "layouts/application";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_append='<!DOCTYPE html>
+<html>
+<head>
+  <title>FacebookUserCast</title>
+  ';@output_buffer.append=( stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true );@output_buffer.safe_append='
+  ';@output_buffer.append=( javascript_include_tag "application", "data-turbolinks-track" => true );@output_buffer.safe_append='
+  ';@output_buffer.append=( csrf_meta_tags );@output_buffer.safe_append='
+</head>
+<body>
+
+
+  <!-- Navigation bar
+    ================================================== -->
+ 
+  <div class="navbar navbar-inverse">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand">
+        ';@output_buffer.append=( image_tag("dishes_logo.png", size: "30x30") );@output_buffer.safe_append=' 
+';@output_buffer.safe_append='
+        ';@output_buffer.append=( link_to "Foodtest", root_path, id:"logo"  image_tag("dishes_logo.png", size: "30x30")  );@output_buffer.safe_append='
+
+            </a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                  <li> ';@output_buffer.append=( link_to "Home", root_path );@output_buffer.safe_append=' </li>
+';                     if !current_user.nil? 
+@output_buffer.safe_append='
+                  <li> ';@output_buffer.append=( link_to "Foods", new_food_path );@output_buffer.safe_append=' </li>
+
+
+                    <li>
+                      <a href="#">
+                        ';@output_buffer.append=( image_tag(@my_photo, size: "22x25") );@output_buffer.safe_append=' 
+';@output_buffer.safe_append='                        ';@output_buffer.append=( current_user.name );@output_buffer.safe_append=' 
+';@output_buffer.safe_append='                        ';@output_buffer.append=( image_tag("dishes_logo.png", size: "22x25") );@output_buffer.safe_append=' 
+';@output_buffer.safe_append='                      </a>
+                      
+ 
+                  <li>';@output_buffer.append=( link_to "sign out",signout_path, id: 'sign_out' );@output_buffer.safe_append='</li>
+                </ul>
+                      </ul>
+                    </li>
+
+
+';                     else 
+@output_buffer.safe_append='              <li> ';@output_buffer.append=( link_to "sign in with facebook", "/auth/facebook", id: "sign_in" );@output_buffer.safe_append=' </li> 
+';             end 
+@output_buffer.safe_append='
+
+
+              </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+  <div id="user-widget">
+';     if current_user 
+@output_buffer.safe_append='      Signed in as <strong>';@output_buffer.append=( current_user.name );@output_buffer.safe_append='</strong>
+      ';@output_buffer.append=( link_to "sign out",signout_path, id: 'sign_out' );@output_buffer.safe_append='
+';     else 
+@output_buffer.safe_append='      ';@output_buffer.append=( link_to "sign in with facebook", "/auth/facebook", id: "sign_in" );@output_buffer.safe_append='
+';     end 
+@output_buffer.safe_append='  </div>
+
+';@output_buffer.append=( yield );@output_buffer.safe_append='
+
+</body>
+</html>
+';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `module_eval'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `compile'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:248:in `block in compile!'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `synchronize'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `compile!'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:142:in `block in render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications.rb:161:in `instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:141:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:403:in `_run__1252725592992052444__process_action__callbacks'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal.rb:195:in `dispatch'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal.rb:231:in `block in action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `each'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:655:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:186:in `call!'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:164:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/omniauth-1.2.2/lib/omniauth/builder.rb:59:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/query_cache.rb:36:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/migration.rb:369:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__2284776854298897973__call__callbacks'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+/Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+/Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+Completed 500 Internal Server Error in 3103ms
+
+ActionView::Template::Error (/Users/SinyaPeng/Programming/SNA/food_society/app/views/layouts/application.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting ')'
+...root_path, id:"logo"  image_tag("dishes_logo.png", size: "30...
+...                               ^):
+    24:             <a class="navbar-brand">
+    25:         <%= image_tag("dishes_logo.png", size: "30x30") %> 
+    26: 
+    27:         <%= link_to "Foodtest", root_path, id:"logo"  image_tag("dishes_logo.png", size: "30x30")  %>
+    28: 
+    29:             </a>
+    30:             </div>
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.0) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.0) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.0) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:403:in `_run__1252725592992052444__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:186:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/builder.rb:59:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__2284776854298897973__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.6ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.7ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:15:56 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3059ms (Views: 14.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:15:59 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:15:59 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:15:59 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:15:59 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:15:59 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:15:59 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:15:59 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:15:59 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:15:59 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:15:59 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:15:59 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:15:59 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:15:59 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:15:59 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:15:59 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:15:59 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:16:19 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3880ms (Views: 13.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:16:23 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:16:23 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:16:23 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:16:23 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:16:23 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:16:23 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:16:23 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:16:23 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:16:23 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:16:23 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:16:23 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:16:23 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:16:23 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:16:23 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:16:23 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:16:23 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:16:35 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3539ms (Views: 9.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:16:38 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3106ms (Views: 8.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:16:42 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:16:42 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:16:42 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:16:42 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:16:42 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:16:42 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:16:42 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:16:42 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:16:42 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:16:42 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:16:42 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:16:42 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:16:42 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:16:42 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:16:42 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:16:42 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:18:15 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1607ms (Views: 8.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:17 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:17 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:17 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:17 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:17 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:17 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:17 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:17 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:17 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:17 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:17 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:17 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:17 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:17 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:17 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:18:17 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:18:35 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2010ms (Views: 11.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:37 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:37 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:37 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:37 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:37 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:37 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:37 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:37 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:37 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:37 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:37 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:37 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:37 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:38 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:38 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:18:38 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:18:41 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 1622ms (Views: 12.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:43 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:43 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:43 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:43 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:43 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:43 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:43 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:43 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:43 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:43 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:43 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:43 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:43 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:43 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:43 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:18:43 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:18:54 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2017ms (Views: 13.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:56 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:56 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:56 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:56 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:56 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:56 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:18:56 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:56 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:56 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:56 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:56 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:56 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:56 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:56 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:18:56 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:18:56 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:19:13 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1535ms (Views: 12.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:19:15 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:19:15 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:19:15 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:19:15 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:19:15 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:19:15 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:19:15 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:15 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:15 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:15 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:15 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:15 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:15 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:15 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:19:15 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:15 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:19:20 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1043ms (Views: 10.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:19:21 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:19:21 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:19:21 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:19:21 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:19:21 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:19:21 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:19:21 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:21 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:21 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:21 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:21 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:21 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:21 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:21 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:19:21 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:21 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:19:28 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1149ms (Views: 19.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:19:30 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:19:30 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:19:30 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:19:30 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:19:30 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:19:30 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:19:30 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:30 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:30 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:30 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:30 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:30 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:30 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:30 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:19:30 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:19:30 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:24:00 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 2464ms (Views: 13.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:24:03 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:24:03 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:24:03 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:24:03 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:24:03 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:24:03 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:24:03 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:24:03 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:24:03 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:24:03 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:24:03 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:24:03 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:24:03 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:24:03 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:24:03 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:24:03 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:26:27 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 2481ms (Views: 11.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:26:30 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:26:30 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:26:30 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:26:30 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:26:30 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:26:30 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:30 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:30 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:26:30 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:30 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:30 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:30 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:30 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:30 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:30 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:26:30 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:26:31 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2468ms (Views: 12.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:26:33 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:26:33 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:26:33 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:26:33 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:26:34 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:26:34 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:26:34 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:34 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:34 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:34 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:34 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:34 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:34 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:34 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:34 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:26:34 +0800
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-10 13:26:35 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:26:35 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 13:26:36 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 13:26:37 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 13:26:38 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 13:26:38 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 13:26:38 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQAF0fROtmvYrfKy6kT-jHKXSd7_MA1wNknG4CPKqNiV0Abm7oIbBxGDj1jKdiI2z_eBS0FZUiNnQugEiiMSLsvAveYUBSDBKKh0QYLoHZCRa8DmxQJpAYcIfTGlcyiAeJwDTqA61085Ol4Szd3UzNOc6VhRdWA0Y-Iy56w2cRR1-7j7Y2IPEqbZkHFFCkBKm0uWj8Y2oe_bhARoDA4bpmVUpt_60wQJx9oHqSjFzIyioENBU78IsQHOW416u131oErEr5VjTleOwoR7EYNew30qhuQ_oRc6hPC4BN6dkfi5cgAV_sU0eTpCDx2NWPELeIo" for 127.0.0.1 at 2015-01-10 13:26:39 +0800
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAF0fROtmvYrfKy6kT-jHKXSd7_MA1wNknG4CPKqNiV0Abm7oIbBxGDj1jKdiI2z_eBS0FZUiNnQugEiiMSLsvAveYUBSDBKKh0QYLoHZCRa8DmxQJpAYcIfTGlcyiAeJwDTqA61085Ol4Szd3UzNOc6VhRdWA0Y-Iy56w2cRR1-7j7Y2IPEqbZkHFFCkBKm0uWj8Y2oe_bhARoDA4bpmVUpt_60wQJx9oHqSjFzIyioENBU78IsQHOW416u131oErEr5VjTleOwoR7EYNew30qhuQ_oRc6hPC4BN6dkfi5cgAV_sU0eTpCDx2NWPELeIo"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10202600536729493' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "oauth_token" = ?, "oauth_expires_at" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["oauth_token", "CAAJH0FLgA7ABAC5XFsEfHs9SZCTKwNAKlQOMvZBZCxwz68iaHowupr3lLBKYFzRTQwyRni4gnzZCxXFnroklB7kPOsxAjPDQwl9cNYXWJamVcsqRNDPqu8j75rAjHlQb6WzwKXJrqOi4s6RZBQ5Sp87bVQA3hAqQIHi78AUSHgwlnD9ANf8ZB0N6sAMahIDBS1eQsZCA2ZAU44AplXigQRDD"], ["oauth_expires_at", Tue, 10 Mar 2015 17:20:08 UTC +00:00], ["updated_at", Sat, 10 Jan 2015 05:26:40 UTC +00:00]]
+  [1m[36m (9.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 16ms (ActiveRecord: 9.9ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 13:26:40 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 13:26:40 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:26:40 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:26:40 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:26:40 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:26:40 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:26:40 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:26:40 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:40 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:26:40 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:40 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:26:40 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:40 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:40 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:40 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:40 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:40 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:26:40 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:26:40 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:27:02 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 2420ms (Views: 12.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:27:17 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 3237ms (Views: 11.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:27:21 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:27:21 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:27:21 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:27:21 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:27:21 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:27:21 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:27:21 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:27:21 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:27:21 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:27:21 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:27:21 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:27:21 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:27:21 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:27:21 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:27:21 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:27:21 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:27:55 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 2496ms (Views: 12.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:27:58 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:27:58 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:27:58 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:27:58 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:27:58 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:27:58 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:27:58 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:27:58 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:27:58 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:27:58 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:27:58 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:27:58 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:27:58 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:27:58 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:27:58 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:27:58 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:28:12 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2466ms (Views: 8.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:28:14 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:28:14 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:28:14 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:28:14 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:28:14 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:28:14 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:28:14 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:28:14 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:28:14 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:28:14 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:28:14 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:28:14 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:28:14 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:28:14 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:28:14 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:28:14 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:28:21 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:28:24 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:28:26 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1587ms (Views: 13.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:29:31 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 3554ms
+
+ActionView::Template::Error (undefined local variable or method `my_photo' for #<#<Class:0x007fe3b7e45000>:0x007fe3b7e44150>):
+    38: 
+    39:                     <li>
+    40:                       <a href="#">
+    41:                         <%= image_tag(my_photo, size: "22x25") %> 
+    42:                         <%= current_user.name %> 
+    43:                       </a>
+    44:                       
+  app/views/layouts/application.html.erb:41:in `_app_views_layouts_application_html_erb___2093759178130450500_70308009732540'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.4ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:30:00 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4660ms (Views: 783.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:04 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:04 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:04 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:04 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:04 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:04 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:04 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:04 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:04 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:05 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:05 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:05 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:05 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:05 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:05 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:30:05 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:30:06 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 1490ms (Views: 1489.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:30:08 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1482ms (Views: 1481.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:30:09 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 1554ms (Views: 1553.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:30:11 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1613ms (Views: 1612.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:30:13 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 1442ms (Views: 1441.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:30:14 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1436ms (Views: 1435.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:30:15 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 1458ms (Views: 1457.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:30:17 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 2334ms (Views: 2333.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:30:19 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 1432ms (Views: 1431.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:30:21 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1826ms (Views: 1825.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-10 13:30:22 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:23 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:23 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:23 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:23 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:23 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:23 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:23 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:23 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:23 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:23 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:23 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:23 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:23 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:23 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:23 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:30:23 +0800
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-10 13:30:30 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:30:30 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 13:30:32 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 13:30:32 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQA15EU4BjZL2lLl72BH3gWfA71tIbDl9UQNhHaH5uImGs0cVA_7jKK6_e40yFvEOZIO2HGrBdfUom8t3NKoXxVg0p2gSF-UayY6g-wBCK8DcyDGOo6RbMFhdlvfV_DT5L2pJu-cfXGmPvNtU3U2tp_oCWcbsjm_QpY2rbVlJKgWuHhmuTe-HM0VhHnbBWD0PcdWL3vRBgpYXFv7FrlbCe9tw6wgCw_WvihY5RpgwgSSdTUXK1iC1MSb2XtuOWYRgX9OyrjMwvkfAdZCl4VddvhSgi1Dq0yJGZ0t7BsTcolxro0JpHq1mAK4Vmmy08yJbDc" for 127.0.0.1 at 2015-01-10 13:30:33 +0800
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQA15EU4BjZL2lLl72BH3gWfA71tIbDl9UQNhHaH5uImGs0cVA_7jKK6_e40yFvEOZIO2HGrBdfUom8t3NKoXxVg0p2gSF-UayY6g-wBCK8DcyDGOo6RbMFhdlvfV_DT5L2pJu-cfXGmPvNtU3U2tp_oCWcbsjm_QpY2rbVlJKgWuHhmuTe-HM0VhHnbBWD0PcdWL3vRBgpYXFv7FrlbCe9tw6wgCw_WvihY5RpgwgSSdTUXK1iC1MSb2XtuOWYRgX9OyrjMwvkfAdZCl4VddvhSgi1Dq0yJGZ0t7BsTcolxro0JpHq1mAK4Vmmy08yJbDc"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10202600536729493' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "users" SET "oauth_token" = ?, "oauth_expires_at" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["oauth_token", "CAAJH0FLgA7ABAH1V3OtzgTAHfGh6OZCblJDRK2OZBEN7L9KgSv4HVgxK433gCpHupd2TY8TZAzgcAzFfl73ecUYBr1LrgOKKJajBtUKFSNHs35BPZCiWchUGmzLrhm4IyHZCnQF5qymG4Rv183ZBW0lLKZC2KhgdE0DyyVmF2mGse1VvZBZCnQjItVmvQTU3LHsER3VR8WAeGzJXV7fJi2V2C"], ["oauth_expires_at", Tue, 10 Mar 2015 17:20:09 UTC +00:00], ["updated_at", Sat, 10 Jan 2015 05:30:34 UTC +00:00]]
+  [1m[36m (9.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 15ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:30:34 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 1199ms (Views: 1198.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:36 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:36 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:36 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:36 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:36 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:36 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:36 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:36 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:36 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:36 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:36 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:36 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:36 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:36 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:36 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:30:36 +0800
+
+
+Started GET "/foods/new" for 127.0.0.1 at 2015-01-10 13:30:39 +0800
+Processing by FoodsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE (user_id = 1) ORDER BY due ASC
+  Rendered shared/_food.html.erb (0.5ms)
+  Rendered foods/new.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 704ms (Views: 676.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/foods/new" for 127.0.0.1 at 2015-01-10 13:30:54 +0800
+Processing by FoodsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE (user_id = 1) ORDER BY due ASC
+  Rendered shared/_food.html.erb (0.7ms)
+  Rendered foods/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 3660ms (Views: 3625.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:30:58 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 748ms (Views: 746.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:58 +0800
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:58 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:58 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:58 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:58 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:58 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:58 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:30:58 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:58 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:58 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:58 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:58 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:58 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:58 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:30:58 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:30:58 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:31:00 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 1991ms (Views: 1989.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:31:11 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1923ms (Views: 1921.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:31:13 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:31:13 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:31:13 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:31:13 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:31:13 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:31:13 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:31:13 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:31:13 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:31:13 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:31:13 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:31:13 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:31:13 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:31:13 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:31:13 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:31:13 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:31:13 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-10 13:31:15 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5996ms (Views: 4379.0ms | ActiveRecord: 0.1ms)
+  [1m[35mFood Load (0.3ms)[0m  SELECT "foods".* FROM "foods"
+  [1m[36mFood Load (0.3ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 2 LIMIT 1[0m
+  [1m[35mFood Load (0.5ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."id" IN ('user_id', 2)
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 2 LIMIT 1[0m
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 2 LIMIT 1
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 2 LIMIT 1[0m
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 2 LIMIT 4
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 2[0m
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 3
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE (3)[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mFood Load (0.3ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 1[0m
+  [1m[35mFood Load (0.3ms)[0m  SELECT "foods".* FROM "foods" WHERE (1)
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT 1
+
+
+Started GET "/foods/new" for 127.0.0.1 at 2015-01-10 13:37:38 +0800
+Processing by FoodsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE (user_id = 3) ORDER BY due ASC
+  Rendered shared/_food.html.erb (0.0ms)
+  Rendered foods/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 2581ms (Views: 2547.0ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/foods" for 127.0.0.1 at 2015-01-10 13:37:47 +0800
+Processing by FoodsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IMirCY5Nuw/+5/D5JT/EOw57KNJ2r8KYst6huQ1hAn4=", "food"=>{"name"=>"apple", "category"=>"fruit", "due"=>"2015-01-08"}, "commit"=>"New Food!"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "foods" ("category", "created_at", "due", "name", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["category", "fruit"], ["created_at", Sat, 10 Jan 2015 05:37:47 UTC +00:00], ["due", Thu, 08 Jan 2015], ["name", "apple"], ["updated_at", Sat, 10 Jan 2015 05:37:47 UTC +00:00], ["user_id", 3]]
+  [1m[35m (8.9ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/foods/new
+Completed 302 Found in 15ms (ActiveRecord: 9.6ms)
+
+
+Started GET "/foods/new" for 127.0.0.1 at 2015-01-10 13:37:47 +0800
+Processing by FoodsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE (user_id = 3) ORDER BY due ASC
+  Rendered shared/_food.html.erb (0.5ms)
+  Rendered foods/new.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 1459ms (Views: 1456.7ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/foods" for 127.0.0.1 at 2015-01-10 13:37:48 +0800
+Processing by FoodsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IMirCY5Nuw/+5/D5JT/EOw57KNJ2r8KYst6huQ1hAn4=", "food"=>{"name"=>"apple", "category"=>"fruit", "due"=>"2015-01-08"}, "commit"=>"New Food!"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "foods" ("category", "created_at", "due", "name", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["category", "fruit"], ["created_at", Sat, 10 Jan 2015 05:37:48 UTC +00:00], ["due", Thu, 08 Jan 2015], ["name", "apple"], ["updated_at", Sat, 10 Jan 2015 05:37:48 UTC +00:00], ["user_id", 3]]
+  [1m[35m (16.8ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/foods/new
+Completed 302 Found in 23ms (ActiveRecord: 17.7ms)
+
+
+Started GET "/foods/new" for 127.0.0.1 at 2015-01-10 13:37:48 +0800
+Processing by FoodsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE (user_id = 3) ORDER BY due ASC
+  Rendered shared/_food.html.erb (0.6ms)
+  Rendered foods/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 1482ms (Views: 1479.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:37:50 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:37:50 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:37:50 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:37:50 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:37:50 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:37:50 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:37:50 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:37:50 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:37:50 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:37:50 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:37:50 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:37:50 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:37:50 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:37:50 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:37:50 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:37:50 +0800
+
+
+Started POST "/foods" for 127.0.0.1 at 2015-01-10 13:37:58 +0800
+Processing by FoodsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IMirCY5Nuw/+5/D5JT/EOw57KNJ2r8KYst6huQ1hAn4=", "food"=>{"name"=>"asd", "category"=>"cake", "due"=>"2015-01-15"}, "commit"=>"New Food!"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "foods" ("category", "created_at", "due", "name", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["category", "cake"], ["created_at", Sat, 10 Jan 2015 05:37:58 UTC +00:00], ["due", Thu, 15 Jan 2015], ["name", "asd"], ["updated_at", Sat, 10 Jan 2015 05:37:58 UTC +00:00], ["user_id", 3]]
+  [1m[35m (8.8ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/foods/new
+Completed 302 Found in 15ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/foods/new" for 127.0.0.1 at 2015-01-10 13:37:58 +0800
+Processing by FoodsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE (user_id = 3) ORDER BY due ASC
+  Rendered shared/_food.html.erb (0.8ms)
+  Rendered foods/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 1448ms (Views: 1443.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:38:00 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:38:00 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:38:00 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:38:00 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:38:00 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:38:00 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:38:00 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:38:00 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:38:00 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:38:00 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:38:00 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:38:00 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:38:00 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:38:00 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:38:00 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:38:00 +0800
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35mFood Load (0.3ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 3
+  [1m[36mFood Load (0.5ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 3[0m
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 3
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 3[0m
+  [1m[35mFood Load (0.3ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 3
+  [1m[36mFood Load (0.3ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 3[0m
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 1
+  [1m[36mFood Load (0.3ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 3[0m
+  [1m[36mUser Load (2.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT 1
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 1[0m
+  [1m[35mFood Load (0.3ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 3
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 2 LIMIT 1[0m
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 3 LIMIT 1
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."user_id" = 3[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:57:31 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+Completed 200 OK in 1622ms (Views: 1621.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:57:33 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:57:33 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:57:33 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:57:33 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:57:33 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:57:33 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:57:33 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:57:33 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:57:33 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:57:33 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:57:33 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:57:33 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:57:33 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:57:33 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:57:33 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:57:33 +0800
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-10 13:57:36 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:57:36 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 13:57:38 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 13:57:40 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQDV1Dda0kuX0PZGpF6GRiatbsC-bqKpzxHiNa5sECU2C-RLlBybmENbOPznGEOWOYoQRZ1haqEwf-Gt2SxIUVDnUernMDyZWZGfKcKhzNzn_wnmv4jzgW31kLkLe7LUBq88itx7VL9OS0BcrGx15Y3JPrhTDFxTdtVPR7kTTEn2PSveAbgQjNLCXM6wRfw99HfKaRcggA1tLGdzC8TflR27ZOb5Iq-RZCPJPlZPHCEo56K7qk_X4AJchNOXGY0CeXJR2kTqVqk1dN5DpURf9Bw-DF2yALKDlsg7QnzI8L8AEiwmhC22LTmU1jxePhNJqXmy9fclLq7_B4bvlZ9DqSCA" for 127.0.0.1 at 2015-01-10 13:57:41 +0800
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDV1Dda0kuX0PZGpF6GRiatbsC-bqKpzxHiNa5sECU2C-RLlBybmENbOPznGEOWOYoQRZ1haqEwf-Gt2SxIUVDnUernMDyZWZGfKcKhzNzn_wnmv4jzgW31kLkLe7LUBq88itx7VL9OS0BcrGx15Y3JPrhTDFxTdtVPR7kTTEn2PSveAbgQjNLCXM6wRfw99HfKaRcggA1tLGdzC8TflR27ZOb5Iq-RZCPJPlZPHCEo56K7qk_X4AJchNOXGY0CeXJR2kTqVqk1dN5DpURf9Bw-DF2yALKDlsg7QnzI8L8AEiwmhC22LTmU1jxePhNJqXmy9fclLq7_B4bvlZ9DqSCA"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '931369630206444' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "users" SET "oauth_token" = ?, "oauth_expires_at" = ?, "updated_at" = ? WHERE "users"."id" = 3  [["oauth_token", "CAAJH0FLgA7ABAOGwVsvLAZAq2SWN2oJg3g4nN6p5lhqicLMt9a0DfmRjHgwwm1J2lh5cjEHVwT6NPqTjLZBxEwVyk3WdmycBYWe34VJ5bWol5xrruQEf2F2BH8ZAxZAjHdL32NG0KEGY9Vi4KNWT3QM5I5f1WDq0Hnjy0OpnezDWZCN2opV2G4kZCl1jcyTh6D0tpoNNc3TALMITihczWn"], ["oauth_expires_at", Wed, 11 Mar 2015 04:53:11 UTC +00:00], ["updated_at", Sat, 10 Jan 2015 05:57:42 UTC +00:00]]
+  [1m[36m (8.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 13ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:57:42 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+Completed 200 OK in 1205ms (Views: 1203.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 13:57:43 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:57:43 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:57:43 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:57:43 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:57:43 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:57:43 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:57:43 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:57:43 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:57:43 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:57:43 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:57:43 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:57:43 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:57:43 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:57:43 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:57:43 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:57:43 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:57:43 +0800
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-10 13:57:48 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:57:48 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 13:58:04 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-10 13:58:04 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQBLEFhZPPkgzXBjak3DOpxkvFuI7qm7lw9UEs6HrFjMNOw3DoqS8mQestDneMHtz76syIYrXphNjL8CCo9izoqoasnBVq9JssgQ0e6m_xi5r8dBQ78O-K-aszFGho7G2dJjwwPXD05IKOwQ-hvXV0PGoKpnoVFmg-MACO1VfHuDNUdkNErthzM5AkFrUSRnd170F_i_6X7xRsiLCV4DxCcoKeiTd3w8JlU2VAo_fWQimCbPr-LEjn5cVvTQBb-vV9UkW7h3FXfZMK432MUc7lM64iYeHvuB5cFyTvA6LGCGTkpWxWldZSC_sgP3J-QXQD5o_rS425Qs2PlLkzmqHD3b" for 127.0.0.1 at 2015-01-10 13:58:16 +0800
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBLEFhZPPkgzXBjak3DOpxkvFuI7qm7lw9UEs6HrFjMNOw3DoqS8mQestDneMHtz76syIYrXphNjL8CCo9izoqoasnBVq9JssgQ0e6m_xi5r8dBQ78O-K-aszFGho7G2dJjwwPXD05IKOwQ-hvXV0PGoKpnoVFmg-MACO1VfHuDNUdkNErthzM5AkFrUSRnd170F_i_6X7xRsiLCV4DxCcoKeiTd3w8JlU2VAo_fWQimCbPr-LEjn5cVvTQBb-vV9UkW7h3FXfZMK432MUc7lM64iYeHvuB5cFyTvA6LGCGTkpWxWldZSC_sgP3J-QXQD5o_rS425Qs2PlLkzmqHD3b"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10203635573353449' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (9.6ms)[0m  [1mUPDATE "users" SET "oauth_token" = ?, "oauth_expires_at" = ?, "updated_at" = ? WHERE "users"."id" = 2[0m  [["oauth_token", "CAAJH0FLgA7ABAMs0deqCRWoNIaxUFckY8Xxumj744KSpyqExGrgY64G5JZCpsePYLlJSnNlxyXsfAc08BH1DPhbXHaWGayPGsRytZAIIFDFryjTYGhl8eOoM2XaRdqi0D64GujDz8g67E6tfplozlphlYSrKEAjeDXzSeyhZA1OEZC87FGbLq3vQU4UAZBVhdB2kWZAoPIrYZB07O1d3FSE"], ["oauth_expires_at", Wed, 11 Mar 2015 04:40:07 UTC +00:00], ["updated_at", Sat, 10 Jan 2015 05:58:16 UTC +00:00]]
+  [1m[35m (94.2ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 108ms (ActiveRecord: 104.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-10 13:58:17 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 783ms (Views: 782.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:17 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:17 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:17 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:17 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:17 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:17 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:17 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:17 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:17 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:17 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:17 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:17 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:17 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:17 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:17 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:58:17 +0800
+
+
+Started GET "/foods/new" for 127.0.0.1 at 2015-01-10 13:58:23 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE (user_id = 2) ORDER BY due ASC[0m
+  Rendered shared/_food.html.erb (0.7ms)
+  Rendered foods/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 1382ms (Views: 1380.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/foods" for 127.0.0.1 at 2015-01-10 13:58:31 +0800
+Processing by FoodsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IMirCY5Nuw/+5/D5JT/EOw57KNJ2r8KYst6huQ1hAn4=", "food"=>{"name"=>"hhh", "category"=>"ooo", "due"=>""}, "commit"=>"New Food!"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "foods" ("category", "created_at", "name", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["category", "ooo"], ["created_at", Sat, 10 Jan 2015 05:58:31 UTC +00:00], ["name", "hhh"], ["updated_at", Sat, 10 Jan 2015 05:58:31 UTC +00:00], ["user_id", 2]]
+  [1m[36m (8.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/foods/new
+Completed 302 Found in 16ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/foods/new" for 127.0.0.1 at 2015-01-10 13:58:31 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mFood Load (0.3ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE (user_id = 2) ORDER BY due ASC[0m
+  Rendered shared/_food.html.erb (1.0ms)
+  Rendered foods/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 715ms (Views: 711.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:31 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:31 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:31 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:31 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:31 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:31 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:31 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:31 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:31 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:31 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:31 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:32 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:32 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:32 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:32 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:58:32 +0800
+
+
+Started POST "/foods" for 127.0.0.1 at 2015-01-10 13:58:42 +0800
+Processing by FoodsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IMirCY5Nuw/+5/D5JT/EOw57KNJ2r8KYst6huQ1hAn4=", "food"=>{"name"=>"iii", "category"=>"ppp", "due"=>""}, "commit"=>"New Food!"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "foods" ("category", "created_at", "name", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["category", "ppp"], ["created_at", Sat, 10 Jan 2015 05:58:42 UTC +00:00], ["name", "iii"], ["updated_at", Sat, 10 Jan 2015 05:58:42 UTC +00:00], ["user_id", 2]]
+  [1m[36m (9.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/foods/new
+Completed 302 Found in 16ms (ActiveRecord: 10.2ms)
+
+
+Started GET "/foods/new" for 127.0.0.1 at 2015-01-10 13:58:42 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE (user_id = 2) ORDER BY due ASC[0m
+  Rendered shared/_food.html.erb (0.9ms)
+  Rendered foods/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 2181ms (Views: 2178.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:45 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:45 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:45 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:45 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:45 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:45 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:45 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:45 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:45 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:45 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:45 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:45 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:45 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:45 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:45 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:58:45 +0800
+
+
+Started POST "/foods" for 127.0.0.1 at 2015-01-10 13:58:55 +0800
+Processing by FoodsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IMirCY5Nuw/+5/D5JT/EOw57KNJ2r8KYst6huQ1hAn4=", "food"=>{"name"=>"uuu", "category"=>"yyy", "due"=>"2015-01-06"}, "commit"=>"New Food!"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "foods" ("category", "created_at", "due", "name", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)  [["category", "yyy"], ["created_at", Sat, 10 Jan 2015 05:58:55 UTC +00:00], ["due", Tue, 06 Jan 2015], ["name", "uuu"], ["updated_at", Sat, 10 Jan 2015 05:58:55 UTC +00:00], ["user_id", 2]]
+  [1m[36m (9.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/foods/new
+Completed 302 Found in 15ms (ActiveRecord: 9.8ms)
+
+
+Started GET "/foods/new" for 127.0.0.1 at 2015-01-10 13:58:55 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE (user_id = 2) ORDER BY due ASC[0m
+  Rendered shared/_food.html.erb (3.6ms)
+  Rendered foods/new.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 2107ms (Views: 2105.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:57 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:57 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:57 +0800
+
+
+Started GET "/assets/friends.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:57 +0800
+
+
+Started GET "/assets/root.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:57 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:57 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-10 13:58:58 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:58 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:58 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:58 +0800
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:58 +0800
+
+
+Started GET "/assets/friends.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:58 +0800
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:58 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:58 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-10 13:58:58 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-10 13:58:58 +0800
