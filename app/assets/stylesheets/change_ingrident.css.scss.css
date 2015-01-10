@@ -1,0 +1,13 @@
+@import url(http://adapt.960.gs/assets/css/960.css);
+
+.all{
+    margin: 1em;
+	height: 400px;
+	width: 700px;
+	background-color: #f59d98;
+/*    #F1CF89;*/
+	font-family: Verdana ;
+	color: #423E4C ;
+	position: relative;
+
+}

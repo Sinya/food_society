@@ -11,84 +11,233 @@
   <!-- Navigation bar
     ================================================== -->
  
-  <div class="navbar navbar-inverse">
-        <div class="container">
-
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand">
-        <%= image_tag("dishes_logo.png", size: "30x30") %> 
-        <%= link_to "Foodtest", root_path, id:"logo" %>
+      <nav class="nav">
+          
+            <a class="top">
+        <strong><%= link_to "Foodtest", root_path, id:"logo" %></strong>
+        <span><%= image_tag("dishes_logo.png", size: "30x30", :class => "img_banner" ) %></span> 
 
             </a>
-            </div>
-
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                  <li> <%= link_to "Home", root_path %> </li>
+       
+                  <span> <%= link_to "Home", root_path %> </span>
                     <% if !current_user.nil? %>
 
-                  <li> <%= link_to "Foods", new_food_path %> </li>
-                  <li> <%= link_to "Many_Foods", show_food_can_use_path %> </li>
+                  <span> <%= link_to "Foods", new_food_path %> </span>
+                  <span> <%= link_to "Many_Foods", show_food_can_use_path %> </span>
 
-                    <li>
+                    <span>
                       <a href="#">
-                        <%= image_tag(my_photo, size: "22x25") %> 
+                        <%= image_tag(my_photo, size: "22x25", :class => "img_banner") %> 
                         <%= current_user.name %> 
-                      </a>
+                      </a></span>
+
                 
-                  <li><%= link_to "sign out",signout_path, id: 'sign_out' %></li>                    
+                  <span><%= link_to "sign out",signout_path, id: 'sign_out' %></span>                    
 
                     <% else %>
-                  <li> <%= link_to "sign in with facebook", "/auth/facebook", id: "sign_in" %> </li> 
+                  <span> <%= link_to "sign in with facebook", "/auth/facebook", id: "sign_in" %> </span> 
                     <% end %>
-              </ul>
-
-            </div>
-        </div>
-    </div>
+              
+    </nav>
 
 
   <!-- Top banner
     ================================================== -->
 
-    <div class="top_banner">
+        <div class="top_banner">
 
-        <div class="block Photo">
-          <% if !current_user.nil? %>
-          <%= image_tag(my_photo) %> 
-          <% end %>
+                <div class="block Photo">
+                  <% if !current_user.nil? %>
+                  <%= image_tag(my_photo, size:"122x125", :class => "FBPhOTO") %> 
+                  <% else %>
+
+                  <% end %>
+
+                </div>
+
+                <div class="block name" >
+                    <h1> 
+                       <% if !current_user.nil? %>
+         
+                      <strong><%= current_user.name %></strong> 
+
+
+                      <span class=" block light"> </span>
+                    </h1>
+                    <div class="block">
+                    <h1>
+                    <span class="block triangle" id="triangle-left"></span>
+                    <span class=" block wanttosay"> want to say...</span>
+                    </h1>
+                  </div>
+                </div>
+
+
+                <div class="block topFriends">
+                  <% if !@friends.nil? %>
+
+                    <% @friends.each do |f| %>
+                      <div class="block box">
+                      <%= image_tag(f["picture"]["data"]["url"], :class => "block littlePhoto" ) %>
+                      </div>
+                    <% end %>
+                    <% end %>
+
+                </div>
+
+            <% end %>
 
         </div>
 
-        <div class="block name" >
-            <h1> FBUserName 
-              <span class=" block light"> </span>
-            </h1>
-            <div class="block">
-            <h1>
-            <span class="block triangle" id="triangle-left"></span>
-            <span class=" block wanttosay"> want to say...</span>
-            </h1>
-          </div>
-        </div>
 
-    </div>
+        <section>
+            <!--    左側那欄按鈕        -->
+            <div class="block left_button">
+                <div class="block but">
+                    <a class="fancybox" href="#AddIngredient">
+                       <%= image_tag("add-icon.png", :class=>"add" ) %> </a>
+                </div>
+                <div class="block but">
+                    <a class="fancybox" href="#ChangeIngredient">
+                      <%= image_tag("share.png", :class=>"add" ) %> </a>
+                </div>
+            </div> <!--左側那欄按鈕-->
 
 
-    <div id="user-widget">
-      <% if current_user %>
-        Signed in as <strong><%= current_user.name %></strong>
-        <%= link_to "sign out",signout_path, id: 'sign_out' %>
-      <% else %>
-        <%= link_to "sign in with facebook", "/auth/facebook", id: "sign_in" %>
-      <% end %>
-    </div>
+            <!--    中間那大塊        -->
+            <div class="block comment">
+
+                <!-- Squared THREE -->
+                <div class=" block squaredThree">
+                    <input type="checkbox" value="None" id="squaredThree" name="check" />
+                    <label for="squaredThree"></label>
+                </div><div><p>&nbsp; &nbsp; only show friends</p></div>
+                
+                <!--        清單欄        -->
+                <div class="block requests" style="overflow-x:hidden;overflow-y:auto;">
+                    <div class="block want">want</div>
+                    
+                    <!--        清單 item           -->
+                    <div class="block req_box">
+
+                            <div class="block box">
+                                <a href="#">
+                                  <div class="block littlePhoto"> 
+                                    <img src="#" height="40px" width="40px"></div>
+                                </a>
+                            </div>
+
+                            <div class="block light2"></div>
+                            <div class="block request_name">FriendName</div>
+                            <div class="block need_food">
+                                
+                                <div class="block box2">
+                                    <%= image_tag("/乳製品/優格.png", size:"40x40" ) %> 
+                                </div>
+
+                                <div class="block box2">
+                                    <img src="../images/category/其他配料/葡萄乾.png" height="40px" width="40px" >
+                                </div>
+                                <div class="block box2">
+                                    <img src="../images/category/乳製品/起司.png" height="40px" width="40px" >
+                                </div>
+                            
+                            </div>
+
+                            <div class="block box3">
+                                <a href="#">
+                                    <%= image_tag("Hand.png", size:"40x40" ) %> 
+                                </a>
+                            </div>
+
+                    </div><!--        清單 item end            -->
+                   
+                        
+                    
+                </div><!--      清單欄end          -->
+            </div><!--    中間那大塊 end        -->
+
+                      
+            <!--    我的冰箱        -->
+            <div class="block refriger">
+                <p><strong>My Refrigerator</strong> </p>
+                <div class="block refrigerator" style="overflow-x:hidden;overflow-y:auto;">
+                    
+                    <p class="block class_name">穀物類</p>
+                    <div class="block food_class">
+                        <div class="block need_food">
+                            <div class="block box2"><img src="../images/category/穀物類/飯.png" height="40px" width="40px" ></div>
+                            <div class="block box2"><img src="../images/category/穀物類/麵.png" height="40px" width="40px" ></div>
+                            <div class="block box2"><img src="../images/category/穀物類/堅果.png" height="40px" width="40px" ></div>
+                        </div>
+                    </div>
+
+                    <p class="block class_name">蛋豆魚肉類</p>
+                    <div class="block food_class">
+                        <div class="block need_food">
+                            <div class="block box2"><img src="../images/category/蛋豆魚肉類/豆腐.png" height="40px" width="40px" ></div>
+                            <div class="block box2"><img src="../images/category/蛋豆魚肉類/鮭魚.png" height="40px" width="40px" ></div>
+                            <div class="block box2"><img src="../images/category/蛋豆魚肉類/蛋.png" height="40px" width="40px" ></div>
+                            <div class="block box2"><img src="../images/category/蛋豆魚肉類/鮪魚.png" height="40px" width="40px" ></div>
+                            <div class="block box2"><img src="../images/category/蛋豆魚肉類/牛排.png" height="40px" width="40px" ></div>
+                            <div class="block box2"><img src="../images/category/蛋豆魚肉類/豬肉.png" height="40px" width="40px" ></div>
+                            <div class="block box2"><img src="../images/category/蛋豆魚肉類/雞肉.png" height="40px" width="40px" ></div>
+                            <div class="block box2"><img src="../images/category/蛋豆魚肉類/豌豆.png" height="40px" width="40px" ></div>
+                            <div class="block box2"><img src="../images/category/蛋豆魚肉類/龍蝦.png" height="40px" width="40px" ></div>
+                            <div class="block box2"><img src="../images/category/蛋豆魚肉類/蝦.png" height="40px" width="40px" ></div>
+                        </div>
+                    </div>
+                
+                    <p class="block class_name">蔬菜類</p>
+                    <div class="block food_class">
+                        <div class="block need_food">
+                            <div class="block box2"><img src="../images/category/蔬菜類/高麗菜.png" height="40px" width="40px" ></div>
+                            <div class="block box2"><img src="../images/category/蔬菜類/小白菜.png" height="40px" width="40px" ></div>
+                            <div class="block box2"><img src="../images/category/蔬菜類/蔥.png" height="40px" width="40px" ></div>
+                        </div>
+                    </div>
+                    
+                    <p class="block class_name">果物類</p>
+                    <div class="block food_class">
+                        <div class="block need_food">
+                            <div class="block box2"><img src="../images/category/果物類/蘋果.png" height="40px" width="40px" ></div>
+                            <div class="block box2"><img src="../images/category/果物類/香蕉.png" height="40px" width="40px" ></div>
+                            <div class="block box2"><img src="../images/category/果物類/桑椹.png" height="40px" width="40px" ></div>
+                            <div class="block box2"><img src="../images/category/果物類/草莓.png" height="40px" width="40px" ></div>
+                            <div class="block box2"><img src="../images/category/果物類/檸檬.png" height="40px" width="40px" ></div>
+                        </div>
+                    </div>
+                    
+                    <p class="block class_name">乳製品</p>
+                    <div class="block food_class">
+                        <div class="block need_food">
+                            <div class="block box2"><img src="../images/category/乳製品/優格.png" height="40px" width="40px" ></div>
+                            <div class="block box2"><img src="../images/category/乳製品/牛奶.png" height="40px" width="40px" ></div>
+                            <div class="block box2"><img src="../images/category/乳製品/起司.png" height="40px" width="40px" ></div>
+                        </div>
+                    </div>
+                    
+                    <p class="block class_name">其他配料</p>
+                    <div class="block food_class">
+                        <div class="block need_food">
+                            <div class="block box2"><img src="../images/category/其他配料/糖.png" height="40px" width="40px" ></div>
+                            <div class="block box2"><img src="../images/category/其他配料/葡萄乾.png" height="40px" width="40px" ></div>
+                            <div class="block box2"><img src="../images/category/其他配料/胡椒.png" height="40px" width="40px" ></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div><!--    我的冰箱 end        -->
+            
+      
+            
+        </section>
+
+        
+        <footer>
+             Food Society &copy; 2015 All Rights Reserved
+        </footer>
+
 
 <%= yield %>
 
