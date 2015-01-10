@@ -1,9 +1,6 @@
 FacebookUserCast::Application.routes.draw do
   
-  # get "foods/new"
-  # get "foods/create"
 
-  
   match 'auth/failure', to: redirect('/'), via: [:get, :post]
   match 'signout', to:'sessions#destroy', as: 'signout', via: [:get, :post]
   get 'auth/facebook/callback', to: 'sessions#create'
