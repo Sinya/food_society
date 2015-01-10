@@ -6,6 +6,7 @@ gem 'omniauth-facebook', '1.4.0'
 gem 'figaro'
 gem 'koala'
 gem 'hirb'
+gem 'fb_graph'
 
 gem 'bootstrap-sass'
 

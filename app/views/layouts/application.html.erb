@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>FacebookUserCast</title>
+  <title>Food Society</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-
   <!-- Navigation bar
     ================================================== -->
  
   <div class="navbar navbar-inverse">
         <div class="container">
+
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
               <span class="sr-only">Toggle navigation</span>
@@ -23,40 +23,30 @@
             </button>
             <a class="navbar-brand">
         <%= image_tag("dishes_logo.png", size: "30x30") %> 
-
         <%= link_to "Foodtest", root_path, id:"logo" %>
 
             </a>
             </div>
+
             <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav">
                   <li> <%= link_to "Home", root_path %> </li>
                     <% if !current_user.nil? %>
 
                   <li> <%= link_to "Foods", new_food_path %> </li>
-
                   <li> <%= link_to "Many_Foods", show_food_can_use_path %> </li>
-
 
                     <li>
                       <a href="#">
                         <%= image_tag(my_photo, size: "22x25") %> 
                         <%= current_user.name %> 
                       </a>
-                      
- 
-                  <li><%= link_to "sign out",signout_path, id: 'sign_out' %></li>
-                </ul>
-                      </ul>
-                    </li>
-
+                
+                  <li><%= link_to "sign out",signout_path, id: 'sign_out' %></li>                    
 
                     <% else %>
-              <li> <%= link_to "sign in with facebook", "/auth/facebook", id: "sign_in" %> </li> 
-            <% end %>
-
-
-
+                  <li> <%= link_to "sign in with facebook", "/auth/facebook", id: "sign_in" %> </li> 
+                    <% end %>
               </ul>
 
             </div>
@@ -64,14 +54,41 @@
     </div>
 
 
-  <div id="user-widget">
-    <% if current_user %>
-      Signed in as <strong><%= current_user.name %></strong>
-      <%= link_to "sign out",signout_path, id: 'sign_out' %>
-    <% else %>
-      <%= link_to "sign in with facebook", "/auth/facebook", id: "sign_in" %>
-    <% end %>
-  </div>
+  <!-- Top banner
+    ================================================== -->
+
+    <div class="top_banner">
+
+        <div class="block Photo">
+          <% if !current_user.nil? %>
+          <%= image_tag(my_photo) %> 
+          <% end %>
+
+        </div>
+
+        <div class="block name" >
+            <h1> FBUserName 
+              <span class=" block light"> </span>
+            </h1>
+            <div class="block">
+            <h1>
+            <span class="block triangle" id="triangle-left"></span>
+            <span class=" block wanttosay"> want to say...</span>
+            </h1>
+          </div>
+        </div>
+
+    </div>
+
+
+    <div id="user-widget">
+      <% if current_user %>
+        Signed in as <strong><%= current_user.name %></strong>
+        <%= link_to "sign out",signout_path, id: 'sign_out' %>
+      <% else %>
+        <%= link_to "sign in with facebook", "/auth/facebook", id: "sign_in" %>
+      <% end %>
+    </div>
 
 <%= yield %>
 
