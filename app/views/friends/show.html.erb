@@ -1,5 +1,8 @@
-<%=@friends.each do |f| %>
-  <%= f %>
+
+<%=@friends_photo.each do |f| %>
+  
+  <%= f["name"] %>
+  <%= image_tag f["picture"]["data"]["url"] %>
   <br />
 
 <% end %>
