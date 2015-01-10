@@ -9,13 +9,15 @@ class FoodsController < ApplicationController
     @foods = Food.from_food_list(current_user).order('due ASC')
     @food = Food.new(params[:food])
     @food.user_id = current_user.uid
+    @food.uid = current_user.uid
 
   end
 
   def create
     @food = Food.new(create_params) 
     @food.user_id = current_user.uid
-    
+    @food.uid = current_user.uid
+
     if @food.save
       flash[:success] = "Food successfully"
       redirect_to new_food_path
