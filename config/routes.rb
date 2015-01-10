@@ -1,14 +1,17 @@
 FacebookUserCast::Application.routes.draw do
   
-  get "foods/new"
-  get "foods/create"
-  get "food/new"
-  get "food/create"
+  # get "foods/new"
+  # get "foods/create"
+
+  
   match 'auth/failure', to: redirect('/'), via: [:get, :post]
   match 'signout', to:'sessions#destroy', as: 'signout', via: [:get, :post]
   get 'auth/facebook/callback', to: 'sessions#create'
+  
   root "static_pages#home"
   get 'show' => 'friends#show'
+  get 'new_food' => 'foods#new'
+
   get 'show_food_can_use' => 'all_food_can_use#show'
 
   resources :users
