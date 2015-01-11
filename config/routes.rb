@@ -6,13 +6,14 @@ FacebookUserCast::Application.routes.draw do
   get 'auth/facebook/callback', to: 'sessions#create'
   
   root "static_pages#home"
+
   get 'show' => 'friends#show'
   get 'new_food' => 'foods#new'
-
   get 'show_food_can_use' => 'all_food_can_use#show'
 
   resources :users
   resources :foods
+  
   post '/ask_for_food' => 'foods#ask_for_food', as: :ask_for_food
 
 

@@ -1,7 +1,27 @@
 @font-face {
-	font-weight: normal;
-	font-style: normal;
-	font-family: 'codropsicons';
+  font-family: 'codropsicons';
+  src:font-url('codropsicons.eot');
+  src:font-url('codropsicons.eot?#iefix') format('embedded-opentype'),
+    font-url('codropsicons.svg#codropsicons') format('svg'),
+    font-url('codropsicons.woff') format('woff'),
+    font-url('codropsicons.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'linecons';
+  src:font-url('linecons.eot');
+  src:font-url('linecons.eot?#iefix') format('embedded-opentype'),
+    font-url('linecons.svg#linecons') format('svg'),
+    font-url('linecons.woff') format('woff'),
+    font-url('linecons.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+    font-family: 'linecons';
 }
 
 body {

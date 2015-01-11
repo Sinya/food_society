@@ -17,10 +17,10 @@ private
   end
   helper_method :my_photo
 
-  def friendsList
+  def friends
     graph = Koala::Facebook::API.new(current_user.oauth_token)
     u = graph.get_object("me")
-    @friendsList = graph.get_connections(u["id"],"friends?fields=id,name,picture.type(small)")
+    @friends = graph.get_connections(u["id"],"friends?fields=id,name,picture.type(small)")
   end
   helper_method :friends
 
