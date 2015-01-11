@@ -9,7 +9,6 @@
         <%= stylesheet_link_tag "style.css" %>
 		<link href='http://fonts.googleapis.com/css?family=Montserrat|Sail|Concert+One' rel='stylesheet' type='text/css'>
 
-
         <style type="text/css">
             a.wiggle-me {
                 display: block;
@@ -25,22 +24,33 @@
     </head>
     <body>
         <div class="container" >        
-			<header>
-				<h1 id="headline">&nbsp;&nbsp;&hearts;FoodSociety&hearts;&nbsp;&nbsp;</h1>
-			</header>
+
+                <%= image_tag("banner.png",size: "678x188") %> 
+
+                <!-- banner -->
+				<!-- <h1 id="headline">&nbsp;&nbsp;&hearts;FoodSociety&hearts;&nbsp;&nbsp;</h1> -->
+
 			<section class="main">
                 <div class="logo">
                 	<%= image_tag("fork.png") %> 
                 </div>
                 <!-- <canvas id="canvas" style="position:fixed; top:0;left:0"></canvas> -->
                 <div class="middle">
-                    <a href="/auth/facebook" class="wiggle-me">
+
+        <!-- the logo -->
+
+            <%= link_to image_tag('biglogo.png', id: "logo", size:"360x360" ), "/auth/facebook", class: "wiggle-me" %>
+
+          <!--          <a href="/auth/facebook" class="wiggle-me">
                         <div id="arc-wrapper" class="arc-wrapper">
-                            <h3>--&diams;&diams;food &diams; Society&diams;&diams;--</h3>    
+                            <h3>&diams;&diams;food &diams; Society&diams;&diams;</h3>    
                             <h4>FB LOGIN</h4>
 
                         </div>
-                     </a>
+                     </a> -->
+
+
+
                     </div>
                 <div class="logo">
                 	<%= image_tag("knif.png" ) %> 
@@ -84,7 +94,6 @@
 
 	<!-- Annoying Snow
 	    ================================================== -->
-	 
  
         <script>
             window.onload = function(){
