@@ -1,0 +1,93 @@
+
+
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	/*margin:0;
+	padding:0;*/
+}
+html,body {
+	margin:0;
+	padding:0;
+	height: 100%;
+}
+
+
+/* General Demo Style */
+body{
+	font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	background-image: asset-data-url("texture2.png");
+  	background-repeat: repeat;
+    background-color:#95AB9D;
+
+	font-weight: 400;
+	font-size: 15px;
+	color: #3a2127;
+	overflow-y: scroll;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+.container{
+	width: 100%;
+	padding-bottom: 40px;
+	min-width: 590px;
+	position: relative;
+	text-align: center;
+}
+.clr{
+	clear: both;
+}
+.container > header{
+	padding: 20px;
+	margin: 0px 20px 20px 20px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-align: center;
+	font-family: 'Montserrat', Impact, Arial, sans-serif;
+	text-transform: uppercase;
+}
+.container > header h1{
+	font-size: 68px;
+	line-height: 70px;
+	position: relative;
+	font-weight: 800;
+	letter-spacing: 2px;
+	color: #D26A44;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1), 0 0 1px #D26A44;
+    padding: 0px 0px 60px 0px;
+	
+}
+.container > header h1 span:nth-child(4),
+.container > header h1 span:nth-child(5),
+.container > header h1 span:nth-child(6),
+.container > header h1 span:nth-child(7){
+	color: #452716;
+	text-shadow: 1px 0px 1px rgba(255,255,255, 0.4), 0 0 1px #452716;
+}
+
+.main, .sub{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50px;
+    height: 360px;
+    width: 600px;
+	border-bottom: 3px dashed rgba(248, 236, 191, 0.6);
+	padding-bottom: 50px;
+
+}
+
+/* Media Queries */
+@media screen and (max-width: 1140px) {
+	.example, .code{
+		width: 90%;
+		padding: 5%;
+		float: none;
+	}
+	.buttons{
+		clear:both;
+	}
+}
+
