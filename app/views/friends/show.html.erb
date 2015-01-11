@@ -1,1 +1,6 @@
 
+    <% @friends.each do |f| %>
+      <div class="block box">
+      <%= image_tag(f["picture"]["data"]["url"], :class => "block littlePhoto" ) %>
+      </div>
+    <% end %>

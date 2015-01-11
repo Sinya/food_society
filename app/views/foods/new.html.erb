@@ -1,37 +1,269 @@
-<h1>Food New</h1>
+    <script type="text/javascript">
+        $(document).ready(function() {        
 
+       // $(".fancybox").fancybox({
+       //     wrapCSS    : 'fancybox-custom',
+       //     closeClick : true,
+       //     openEffect : 'none',
+       //     helpers : {
+       //         title : {
+       //             type : 'inside'
+       //         },
+       //         overlay : {
+       //             css : {
+       //                 'background' : 'rgba(0,0,0,0.7)'
+       //             }
+       //         }
+       //     }
+       // });
 
-  <%= form_for @food do |f| %>
-
-	<%= f.label :name %>
-	<%= f.text_field :name, :required => true %><br>
-  
-	<%= f.label :category %>
-	<%= f.text_field :category, :required => true %><br>
-
-	<%= f.label :due %>
-	<%= f.date_field :due %><br>
+            $('.fancybox').fancybox({
+                padding:0, margin:0 ,background: 'none',
+                'type': 'inline', //change from iframe
+                'scrolling': 'no',
+                'afterClosed': function(){
+                    parent.location.reload(true); 
+                     $.fancybox.close();
+                },
+                helpers : {
+               
+               overlay : {
+                   css : {
+                       'background' : 'rgba(0,0,0,0.7)'
+                           }
+                       }
+                   }
+            }); 
+        }); 
+    </script>
     
-	
-	<div>
-		<%= f.submit "New Food!", class:"btn btn-primary" %>
-	</div>
-
-  <% end %>
 
 
-  	<div class="span8">
-		<h1>冰箱</h1>
-		<ul class="foods">
-			 <%= render partial: "shared/food", collection: @foods %> 
-		</ul>
-	</div>
+    <section>
+            <!--    左側那欄按鈕        -->
+            <div class="block left_button">
+                <div class="block but">
+                    <a class="fancybox" href="#AddIngredient">
+                       <%= image_tag("add-icon.png", :class=>"add" ) %> </a>
+                </div>
+                <div class="block but">
+                    <a class="fancybox" href="#ChangeIngredient">
+                      <%= image_tag("share.png", :class=>"add" ) %> </a>
+                </div>
+            </div> <!--左側那欄按鈕-->
 
 
-	<div class="span8">
-		<h1>要求</h1>
-			<%= form_tag ask_for_food_path do -%>
-			    <%= text_area :myform, :comments, :cols => '40', :rows => '5' %>
-			    <%= submit_tag "Submit" %>
-			<% end %>
-	</div>
+            <!--    中間那大塊        -->
+            <div class="block comment">
+
+                <!-- Squared THREE -->
+                <div class=" block squaredThree">
+                    <input type="checkbox" value="None" id="squaredThree" name="check" />
+                    <label for="squaredThree"></label>
+                </div><div><p>&nbsp; &nbsp; only show friends</p></div>
+                
+                <!--        清單欄        -->
+                <div class="block requests" style="overflow-x:hidden;overflow-y:auto;">
+                    <div class="block want">want</div>
+                    
+                    <!--        清單 item           -->
+                    <div class="block req_box">
+
+                            <div class="block box">
+                                <a href="#">
+                                  <div class="block littlePhoto"> 
+                                    <img src="#" height="40px" width="40px"></div>
+                                </a>
+                            </div>
+
+                            <div class="block light2"></div>
+                            <div class="block request_name">FriendName</div>
+                            <div class="block need_food">
+                                
+                                <div class="block box2">
+                                    <%= image_tag("category/乳製品/優格.png", size:"40x40" ) %> 
+                                </div>
+
+                                <div class="block box2">
+                                    <%= image_tag("category/其他配料/葡萄乾.png", size:"40x40" ) %> 
+
+                                </div>
+                                <div class="block box2">
+                                    <%= image_tag("category/乳製品/起司.png", size:"40x40" ) %> 
+
+                                </div>
+                            
+                            </div>
+
+                            <div class="block box3">
+                                <a href="#">
+                                    <%= image_tag("Hand.png", size:"40x40" ) %> 
+                                </a>
+                            </div>
+
+                    </div><!--        清單 item end            -->
+                   
+                        
+                    
+                </div><!--      清單欄end          -->
+            </div><!--    中間那大塊 end        -->
+
+                      
+            <!--    我的冰箱        -->
+            <div class="block refriger">
+                <p><strong>My Refrigerator</strong> </p>
+                <div class="block refrigerator" style="overflow-x:hidden;overflow-y:auto;">
+                    
+                    <p class="block class_name">穀物類</p>
+                    <div class="block food_class">
+                        <div class="block need_food">
+                            <div class="block box2"><%= image_tag("category/穀物類/飯.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/穀物類/麵.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/穀物類/堅果.png" , size:"40x40" ) %></div>
+                        </div>
+                    </div>
+
+                    <p class="block class_name">蛋豆魚肉類</p>
+                    <div class="block food_class">
+                        <div class="block need_food">
+                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/豆腐.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/鮭魚.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/蛋.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/鮪魚.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/牛排.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/豬肉.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/雞肉.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/豌豆.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/龍蝦.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/蝦.png" , size:"40x40" ) %></div>
+                        </div>
+                    </div>
+                
+                    <p class="block class_name">蔬菜類</p>
+                    <div class="block food_class">
+                        <div class="block need_food">
+                            <div class="block box2"><%= image_tag("category/蔬菜類/高麗菜.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/蔬菜類/小白菜.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/蔬菜類/蔥.png" , size:"40x40" ) %></div>
+                        </div>
+                    </div>
+                    
+                    <p class="block class_name">果物類</p>
+                    <div class="block food_class">
+                        <div class="block need_food">
+                            <div class="block box2"><%= image_tag("category/果物類/蘋果.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/果物類/香蕉.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/果物類/桑椹.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/果物類/草莓.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/果物類/檸檬.png" , size:"40x40" ) %></div>
+                        </div>
+                    </div>
+                    
+                    <p class="block class_name">乳製品</p>
+                    <div class="block food_class">
+                        <div class="block need_food">
+                            <div class="block box2"><%= image_tag("category/乳製品/優格.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/乳製品/牛奶.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/乳製品/起司.png" , size:"40x40" ) %></div>
+                        </div>
+                    </div>
+                    
+                    <p class="block class_name">其他配料</p>
+                    <div class="block food_class">
+                        <div class="block need_food">
+                            <div class="block box2"><%= image_tag("category/其他配料/糖.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/其他配料/葡萄乾.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/其他配料/胡椒.png" , size:"40x40" ) %></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div><!--    我的冰箱 end        -->
+                       
+        </section>
+
+   
+        <!--        add Ingrident   -->
+        <div id="AddIngredient" style="display:none">
+            <%= stylesheet_link_tag "add_ingrident.css" %>
+
+            <section id="login" class="all">
+                <div class="block title"><h2>Add Ingridents</h2></div>
+                <div class="block addfood" style="overflow-x:hidden;overflow-y:auto;">
+                    <p class="block class_name">穀物類</p>
+                    <div class="block food_class2">
+                        <div class="block need_food">
+                            <div class="block box2"><%= image_tag("category/穀物類/飯.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/穀物類/麵.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/穀物類/堅果.png" , size:"40x40" ) %></div>
+                        </div>
+                    </div>
+
+                    <p class="block class_name">蛋豆魚肉類</p>
+                    <div class="block food_class2">
+                        <div class="block need_food">
+                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/豆腐.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/鮭魚.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/蛋.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/鮪魚.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/牛排.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/豬肉.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/雞肉.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/豌豆.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/龍蝦.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/蝦.png" , size:"40x40" ) %></div>
+                        </div>
+                    </div>
+                
+                    <p class="block class_name">蔬菜類</p>
+                    <div class="block food_class2">
+                        <div class="block need_food">
+                            <div class="block box2"><%= image_tag("category/蔬菜類/高麗菜.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/蔬菜類/小白菜.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/蔬菜類/蔥.png" , size:"40x40" ) %></div>
+                        </div>
+                    </div>
+                    
+                    <p class="block class_name">果物類</p>
+                    <div class="block food_class2">
+                        <div class="block need_food">
+                            <div class="block box2"><%= image_tag("category/果物類/蘋果.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/果物類/香蕉.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/果物類/桑椹.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/果物類/草莓.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/果物類/檸檬.png" , size:"40x40" ) %></div>
+                        </div>
+                    </div>
+                    
+                    <p class="block class_name">乳製品</p>
+                    <div class="block food_class2">
+                        <div class="block need_food">
+                            <div class="block box2"><%= image_tag("category/乳製品/優格.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/乳製品/牛奶.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/乳製品/起司.png" , size:"40x40" ) %></div>
+                        </div>
+                    </div>
+                    
+                    <p class="block class_name">其他配料</p>
+                    <div class="block food_class2">
+                        <div class="block need_food">
+                            <div class="block box2"><%= image_tag("category/其他配料/糖.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/其他配料/葡萄乾.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("category/其他配料/胡椒.png" , size:"40x40" ) %></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+        
+        <!--        change Ingrident    -->
+        <div id="ChangeIngredient" style="display:none">
+        <%= stylesheet_link_tag "change_ingrident.css" %>
+            
+            <section id="login" class="all2">
+
+
+            </section>
+        </div>

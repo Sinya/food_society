@@ -13,4 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require classie.js
+//= require jquery-1.10.1.min.js
+//= require jquery.arctext.js
+//= require jquery.fancybox.js

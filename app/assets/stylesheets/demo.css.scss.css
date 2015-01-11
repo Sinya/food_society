@@ -1,3 +1,5 @@
+
+
 /* CSS reset */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
 	/*margin:0;
@@ -13,7 +15,10 @@ html,body {
 /* General Demo Style */
 body{
 	font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-	background: #95AB9D url(../images/texture2.png) repeat top left;
+	background-image: asset-data-url("texture2.png");
+  	background-repeat: repeat;
+    background-color:#95AB9D;
+
 	font-weight: 400;
 	font-size: 15px;
 	color: #3a2127;
