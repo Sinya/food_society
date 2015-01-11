@@ -12,10 +12,11 @@
  *
  *= require_tree .
  *= require_self
- *= require_demo
- *= require_style
- *= require_home
-
+ *= require demo
+ *= require style
+ *= require jquery.fancybox
+ *= require add_ingrident
+ *= require changee_ingrident
 
  */
 
