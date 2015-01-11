@@ -65640,3 +65640,2620 @@ Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 14:20:09 
 
 
 Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 14:20:09 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 14:40:38 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (1.0ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 14:40:38 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 14:40:38 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 14:40:40 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (0.2ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 14:40:40 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 14:40:40 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 14:40:40 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (0.2ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 14:40:40 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 14:40:40 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 14:40:42 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (0.4ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 14:40:42 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 14:40:42 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 14:41:13 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (2.2ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 14:41:13 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 14:41:13 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 14:41:13 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 14:41:13 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 14:46:55 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (1.9ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 14:46:55 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 14:46:55 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 14:46:55 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 14:46:55 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 14:47:05 +0800
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 14:47:05 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 14:47:17 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (1.3ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 14:47:17 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 14:47:17 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 14:47:17 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 14:47:17 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 14:52:00 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (23.4ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 14:52:00 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 14:52:00 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 14:52:14 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (18.8ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 14:52:15 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 14:52:15 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 14:52:15 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (16.5ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 14:52:15 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 14:52:15 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 14:52:31 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (28.3ms)
+Completed 200 OK in 30ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2015-01-11 14:52:31 +0800
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/style.css"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (27.8ms)
+
+
+Started GET "/stylesheets/demo.css" for 127.0.0.1 at 2015-01-11 14:52:31 +0800
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/demo.css"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (55.1ms)
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 14:52:31 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 14:52:31 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 14:52:32 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (45.0ms)
+Completed 200 OK in 47ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/demo.css" for 127.0.0.1 at 2015-01-11 14:52:32 +0800
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/demo.css"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.4ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (39.3ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2015-01-11 14:52:32 +0800
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/style.css"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (24.3ms)
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 14:52:32 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 14:52:32 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 14:52:47 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (1.9ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 14:52:47 +0800
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 14:52:47 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 14:52:47 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 14:52:47 +0800
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-11 14:54:58 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQDUVgEN_rfYITG2-XDSDLZ_q8xdm4Bxmqk4OT7hTAfrKiTG-CQEtOepr6eNZelKAaQ5hWc5LN-EKrOQjG1JEhdADMdoWdDkFj4Ya23BIQ0A4VbbRjrduAjlCYC_LyZhfycSzNihXPjhk_UQS3vhIT_txPOOwXutYU4Hk7Ij3rqR1OpYQeTU3wEUjrqwuoqfWhY8FcwH5kdz1W-5OnxvYL4PxQOdInq9vkUQU1sVkNjWpwc38MutnZVgke4sA2l4tOhqOV2nsByuwchSk8p99JGnFUPYNIZNGyZYD8L2vI1QkneMA8t-1tTyky2fEqaMVMI" for 127.0.0.1 at 2015-01-11 14:54:59 +0800
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDUVgEN_rfYITG2-XDSDLZ_q8xdm4Bxmqk4OT7hTAfrKiTG-CQEtOepr6eNZelKAaQ5hWc5LN-EKrOQjG1JEhdADMdoWdDkFj4Ya23BIQ0A4VbbRjrduAjlCYC_LyZhfycSzNihXPjhk_UQS3vhIT_txPOOwXutYU4Hk7Ij3rqR1OpYQeTU3wEUjrqwuoqfWhY8FcwH5kdz1W-5OnxvYL4PxQOdInq9vkUQU1sVkNjWpwc38MutnZVgke4sA2l4tOhqOV2nsByuwchSk8p99JGnFUPYNIZNGyZYD8L2vI1QkneMA8t-1tTyky2fEqaMVMI"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10202600536729493' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "users" SET "oauth_token" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["oauth_token", "CAAJH0FLgA7ABAO1oerfw6UrRZAbJLNHIqIZARWIdZCBkG1GmIG0u7LpZBVZBQ0EqAxo7S3meB70HUB6lT2LnJDDUCbAMhDzZBKRZAxkRyS5fV6Xsu2OJQgno4FXDty5tB7JNg9BOOPTOa3AgUY0GzUjeRQxvwlCsNww2jflKGxWA5L1t1W4cRO5ZCk3Qfq7ixOiZCfMKhlJf0eVotW7b878mh"], ["updated_at", Sun, 11 Jan 2015 06:55:00 UTC +00:00]]
+  [1m[35m (9.0ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/new_food
+Completed 302 Found in 14ms (ActiveRecord: 9.9ms)
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-11 14:55:00 +0800
+Processing by FoodsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered foods/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 2069ms (Views: 2067.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/add_ingrident.css.css?body=1" for 127.0.0.1 at 2015-01-11 14:55:02 +0800
+
+
+Started GET "/assets/change_ingrident.css.css?body=1" for 127.0.0.1 at 2015-01-11 14:55:02 +0800
+
+
+Started GET "/assets/home.css.css?body=1" for 127.0.0.1 at 2015-01-11 14:55:02 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 14:55:02 +0800
+
+
+Started GET "/assets/application.css.css?body=1" for 127.0.0.1 at 2015-01-11 14:55:02 +0800
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 14:55:02 +0800
+
+
+Started GET "/assets/jquery.fancybox.css.css?body=1" for 127.0.0.1 at 2015-01-11 14:55:02 +0800
+
+
+Started GET "/assets/jquery-1.10.1.min.js?body=1" for 127.0.0.1 at 2015-01-11 14:55:02 +0800
+
+
+Started GET "/assets/jquery.arctext.js?body=1" for 127.0.0.1 at 2015-01-11 14:55:02 +0800
+
+
+Started GET "/assets/jquery.fancybox.js?body=1" for 127.0.0.1 at 2015-01-11 14:55:02 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-11 14:55:02 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-11 14:55:03 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-11 14:55:03 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-11 14:55:03 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-11 14:55:03 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-11 14:55:03 +0800
+
+
+Started GET "/assets/add-icon.png" for 127.0.0.1 at 2015-01-11 14:55:03 +0800
+
+
+Started GET "/assets/share.png" for 127.0.0.1 at 2015-01-11 14:55:03 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E8%91%A1%E8%90%84%E4%B9%BE.png" for 127.0.0.1 at 2015-01-11 14:55:03 +0800
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E8%B5%B7%E5%8F%B8.png" for 127.0.0.1 at 2015-01-11 14:55:03 +0800
+
+
+Started GET "/assets/Hand.png" for 127.0.0.1 at 2015-01-11 14:55:03 +0800
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E5%A0%85%E6%9E%9C.png" for 127.0.0.1 at 2015-01-11 14:55:03 +0800
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-11 14:55:03 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered foods/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 1259ms (Views: 1256.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E5%84%AA%E6%A0%BC.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E9%BA%B5.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E9%A3%AF.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%86%E8%85%90.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%AE%AD%E9%AD%9A.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/linecons.woff" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%9B%8B.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E7%89%9B%E6%8E%92.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%AE%AA%E9%AD%9A.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%AC%E8%82%89.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%9B%9E%E8%82%89.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%8C%E8%B1%86.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%BE%8D%E8%9D%A6.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%9D%A6.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E9%AB%98%E9%BA%97%E8%8F%9C.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E5%B0%8F%E7%99%BD%E8%8F%9C.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E8%94%A5.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E8%98%8B%E6%9E%9C.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E9%A6%99%E8%95%89.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E8%8D%89%E8%8E%93.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E6%A1%91%E6%A4%B9.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E6%AA%B8%E6%AA%AC.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E7%89%9B%E5%A5%B6.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E7%B3%96.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E8%83%A1%E6%A4%92.png" for 127.0.0.1 at 2015-01-11 14:55:04 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 14:56:38 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (2.3ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 14:56:38 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 14:56:38 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 14:56:38 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 14:56:38 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:06:00 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (15.8ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:06:00 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:06:01 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:06:01 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:06:01 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:06:01 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:07:43 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (2.1ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:07:43 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:07:43 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:07:43 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:07:44 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:07:44 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:08:42 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (1.9ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:08:42 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:08:42 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:08:42 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:08:42 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:08:42 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:13:47 +0800
+Processing by StaticPagesController#home as HTML
+ERROR: compiling _app_views_static_pages_home_html_erb___1433348866738772429_70337714256080 RAISED /Users/SinyaPeng/Programming/SNA/food_society/app/views/static_pages/home.html.erb:40: syntax error, unexpected ')'
+...: "logo"), "/auth/facebook",  );@output_buffer.safe_append='
+...                               ^
+/Users/SinyaPeng/Programming/SNA/food_society/app/views/static_pages/home.html.erb:187: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/SinyaPeng/Programming/SNA/food_society/app/views/static_pages/home.html.erb:189: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_static_pages_home_html_erb___1433348866738772429_70337714256080(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "static_pages/home";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_append='<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Wellcome to Food Society</title>
+		<!-- <link rel="shortcut icon" href="../images/smallicon.png"> -->
+
+        ';@output_buffer.append=( stylesheet_link_tag "demo.css" );@output_buffer.safe_append='
+        ';@output_buffer.append=( stylesheet_link_tag "style.css" );@output_buffer.safe_append='
+		<link href=\'http://fonts.googleapis.com/css?family=Montserrat|Sail|Concert+One\' rel=\'stylesheet\' type=\'text/css\'>
+
+        <style type="text/css">
+            a.wiggle-me {
+                display: block;
+            }
+            @-ms-keyframes wiggle{0%{-ms-transform:rotate(3deg);}50%{-ms-transform:rotate(-3deg);}100%{-ms-transform:rotate(3deg);}}
+            @-moz-keyframes wiggle{0%{-moz-transform:rotate(3deg);}50%{-moz-transform:rotate(-3deg);}100%{-moz-transform:rotate(3deg);}}
+            @-webkit-keyframes wiggle{0%{-webkit-transform:rotate(3deg);}50%{-webkit-transform:rotate(-3deg);}100%{-webkit-transform:rotate(3deg);}}
+            @keyframes wiggle{0%{transform:rotate(3deg);}50%{transform:rotate(-3deg);}100%{transform:rotate(3deg);}}
+            a.wiggle-me:hover{-ms-animation:wiggle .3s 2;-moz-animation:wiggle .3s 2;-webkit-animation:wiggle .3s 2;animation:wiggle .3s 2;}
+
+        </style>
+
+    </head>
+    <body>
+        <div class="container" >        
+			<header>
+				<h1 id="headline">&nbsp;&nbsp;&hearts;FoodSociety&hearts;&nbsp;&nbsp;</h1>
+			</header>
+			<section class="main">
+                <div class="logo">
+                	';@output_buffer.append=( image_tag("fork.png") );@output_buffer.safe_append=' 
+';@output_buffer.safe_append='                </div>
+                <!-- <canvas id="canvas" style="position:fixed; top:0;left:0"></canvas> -->
+                <div class="middle">
+
+        <!-- the logo -->
+
+
+';@output_buffer.append=( link_to image_tag('biglogo.png', id: "logo"), "/auth/facebook",  );@output_buffer.safe_append='
+
+
+          <!--          <a href="/auth/facebook" class="wiggle-me">
+                        <div id="arc-wrapper" class="arc-wrapper">
+                            <h3>&diams;&diams;food &diams; Society&diams;&diams;</h3>    
+                            <h4>FB LOGIN</h4>
+
+                        </div>
+                     </a> -->
+
+
+
+                    </div>
+                <div class="logo">
+                	';@output_buffer.append=( image_tag("knif.png" ) );@output_buffer.safe_append=' 
+';@output_buffer.safe_append='                </div>
+			</section>
+            
+
+        </div>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+			var $headline = $(\'#headline\').hide();
+            var $word1		= $(\'#arc-wrapper\').find(\'h3\').hide();
+			var $word2		= $(\'#arc-wrapper\').find(\'h4\').hide();
+			google.load(\'webfont\',\'1\');
+			
+			google.setOnLoadCallback(function() {
+				console.log("hi");
+
+				WebFont.load({
+					google		: {
+						families	: [\'Montserrat\',\'Concert One\']
+					},
+					fontactive	: function(fontFamily, fontDescription) {
+						init();
+					},
+					fontinactive	: function(fontFamily, fontDescription) {
+						init();
+					}
+				});
+			});
+			
+			function init() {
+			
+				$headline.show().arctext({radius: 500});
+                $word1.show().arctext();
+				$word2.show().arctext({radius: 148, dir: -1});
+            }
+
+		</script>
+
+	<!-- Annoying Snow
+	    ================================================== -->
+ 
+        <script>
+            window.onload = function(){
+            //canvas init
+            var canvas = document.getElementById("canvas");
+            var ctx = canvas.getContext("2d");
+
+            //canvas dimensions
+            var W = window.innerWidth;
+            var H = window.innerHeight;
+            canvas.width = W;
+            canvas.height = H;
+
+            //snowflake particles
+            var mp = 25; //max particles
+            var particles = [];
+            for(var i = 0; i < mp; i++)
+            {
+                particles.push({
+                    x: Math.random()*W, //x-coordinate
+                    y: Math.random()*H, //y-coordinate
+                    r: Math.random()*4+1, //radius
+                    d: Math.random()*mp //density
+                })
+            }
+
+            //Lets draw the flakes
+            function draw()
+            {
+                ctx.clearRect(0, 0, W, H);
+
+                ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
+                ctx.beginPath();
+                for(var i = 0; i < mp; i++)
+                {
+                    var p = particles[i];
+                    ctx.moveTo(p.x, p.y);
+                    ctx.arc(p.x, p.y, p.r, 0, Math.PI*2, true);
+                }
+                ctx.fill();
+                update();
+            }
+
+            //Function to move the snowflakes
+            //angle will be an ongoing incremental flag. Sin and Cos functions will be applied to it to create vertical and horizontal movements of the flakes
+            var angle = 0;
+            function update()
+            {
+                angle += 0.01;
+                for(var i = 0; i < mp; i++)
+                {
+                    var p = particles[i];
+                    //Updating X and Y coordinates
+                    //We will add 1 to the cos function to prevent negative values which will lead flakes to move upwards
+                    //Every particle has its own density which can be used to make the downward movement different for each flake
+                    //Lets make it more random by adding in the radius
+                    p.y += Math.cos(angle+p.d) + 1 + p.r/2;
+                    p.x += Math.sin(angle) * 2;
+
+                    //Sending flakes back from the top when it exits
+                    //Lets make it a bit more organic and let flakes enter from the left and right also.
+                    if(p.x > W+5 || p.x < -5 || p.y > H)
+                    {
+                        if(i%3 > 0) //66.67% of the flakes
+                        {
+                            particles[i] = {x: Math.random()*W, y: -10, r: p.r, d: p.d};
+                        }
+                        else
+                        {
+                            //If the flake is exitting from the right
+                            if(Math.sin(angle) > 0)
+                            {
+                                //Enter from the left
+                                particles[i] = {x: -5, y: Math.random()*H, r: p.r, d: p.d};
+                            }
+                            else
+                            {
+                                //Enter from the right
+                                particles[i] = {x: W+5, y: Math.random()*H, r: p.r, d: p.d};
+                            }
+                        }
+                    }
+                }
+            }
+
+            //animation loop
+            setInterval(draw, 33);
+        }
+        </script>
+    </body>
+</html>';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `module_eval'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `compile'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:248:in `block in compile!'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `synchronize'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `compile!'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:142:in `block in render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications.rb:161:in `instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:141:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/SinyaPeng/Programming/SNA/food_society/app/controllers/static_pages_controller.rb:3:in `home'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:403:in `_run__3107407453450119131__process_action__callbacks'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal.rb:195:in `dispatch'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal.rb:231:in `block in action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `each'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:655:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:186:in `call!'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:164:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/omniauth-1.2.2/lib/omniauth/builder.rb:59:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/query_cache.rb:36:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/migration.rb:369:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__4092611813339572161__call__callbacks'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+/Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+/Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered static_pages/home.html.erb (19.6ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (/Users/SinyaPeng/Programming/SNA/food_society/app/views/static_pages/home.html.erb:40: syntax error, unexpected ')'
+...: "logo"), "/auth/facebook",  );@output_buffer.safe_append='
+...                               ^
+/Users/SinyaPeng/Programming/SNA/food_society/app/views/static_pages/home.html.erb:187: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/SinyaPeng/Programming/SNA/food_society/app/views/static_pages/home.html.erb:189: syntax error, unexpected keyword_end, expecting ')'):
+    37:         <!-- the logo -->
+    38: 
+    39: 
+    40: <%= link_to image_tag('biglogo.png', id: "logo"), "/auth/facebook",  %>
+    41: 
+    42: 
+    43:           <!--          <a href="/auth/facebook" class="wiggle-me">
+  app/controllers/static_pages_controller.rb:3:in `home'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:13:52 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (1.8ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:13:52 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:13:52 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:13:52 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:13:52 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:13:52 +0800
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-11 15:13:53 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQAyQFzf8bP4mSLoAyoloWB-XhWtlKrKoTlq4tbQWS5wtlO7z321GrGdrVcUHVnbYur2yZ8u6keW-bRAwZzYxoDfbRr87-RcFobnf9xmBfz6pehaSs9GtzMXPod0fGQPmKuKKM3i3a3NzqOhcI9ClPJEwCbjtFqjIU2ridckXMtsh6hsHCk2Qmorc7aVCPvZhyhyWOj9Ydse9yGxmz9ElNNHD_SWU16pAT1gtzLQkjCrPlMwZ9HTns52my1scCc4kjcKCeu6fiSxXRjYDw1tC-2r7B64BmKOm-mbaZx6fEPtx88C_ycNw2w4FEr24rlu0V4" for 127.0.0.1 at 2015-01-11 15:13:54 +0800
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAyQFzf8bP4mSLoAyoloWB-XhWtlKrKoTlq4tbQWS5wtlO7z321GrGdrVcUHVnbYur2yZ8u6keW-bRAwZzYxoDfbRr87-RcFobnf9xmBfz6pehaSs9GtzMXPod0fGQPmKuKKM3i3a3NzqOhcI9ClPJEwCbjtFqjIU2ridckXMtsh6hsHCk2Qmorc7aVCPvZhyhyWOj9Ydse9yGxmz9ElNNHD_SWU16pAT1gtzLQkjCrPlMwZ9HTns52my1scCc4kjcKCeu6fiSxXRjYDw1tC-2r7B64BmKOm-mbaZx6fEPtx88C_ycNw2w4FEr24rlu0V4"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10202600536729493' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "oauth_token" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["oauth_token", "CAAJH0FLgA7ABADE8vRmimCYlS1pH9hHZA9n9GNgFONS3rwg5zNO7bad14QlIbVGN4BeVvteSlZCDgOo8RUwVIZBcVm1aQAZBrUv7yS2HbnYSb0svvevPOvq1ZBcFs2ZAaxsKQ7nSGbT0ZCfpcZBXqACquZBdnzmhZBiwGXxkhxprpUhsXjrfQcSs1bUd0cdeDw5lRsUgttUdTYGtnU42wDpLUW"], ["updated_at", Sun, 11 Jan 2015 07:13:56 UTC +00:00]]
+  [1m[35m (9.0ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/new_food
+Completed 302 Found in 16ms (ActiveRecord: 9.9ms)
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-11 15:13:56 +0800
+Processing by FoodsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered foods/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 2879ms (Views: 2876.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/change_ingrident.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:13:59 +0800
+
+
+Started GET "/assets/add_ingrident.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:13:59 +0800
+
+
+Started GET "/assets/jquery.fancybox.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:13:59 +0800
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:13:59 +0800
+
+
+Started GET "/assets/application.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:13:59 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-11 15:13:59 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:13:59 +0800
+
+
+Started GET "/assets/home.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:13:59 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-11 15:13:59 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-11 15:13:59 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-11 15:13:59 +0800
+
+
+Started GET "/assets/jquery-1.10.1.min.js?body=1" for 127.0.0.1 at 2015-01-11 15:13:59 +0800
+
+
+Started GET "/assets/jquery.arctext.js?body=1" for 127.0.0.1 at 2015-01-11 15:13:59 +0800
+
+
+Started GET "/assets/jquery.fancybox.js?body=1" for 127.0.0.1 at 2015-01-11 15:13:59 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-11 15:13:59 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-11 15:13:59 +0800
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-11 15:13:59 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered foods/new.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 3194ms (Views: 3191.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E5%84%AA%E6%A0%BC.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E8%B5%B7%E5%8F%B8.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/add-icon.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/share.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E8%91%A1%E8%90%84%E4%B9%BE.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/linecons.woff" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%9B%9E%E8%82%89.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%BE%8D%E8%9D%A6.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/Hand.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E5%A0%85%E6%9E%9C.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%9B%8B.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%AE%AA%E9%AD%9A.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%AC%E8%82%89.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%9D%A6.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E9%AB%98%E9%BA%97%E8%8F%9C.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E7%89%9B%E6%8E%92.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E9%A3%AF.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E8%94%A5.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%AE%AD%E9%AD%9A.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E5%B0%8F%E7%99%BD%E8%8F%9C.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%8C%E8%B1%86.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%86%E8%85%90.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E9%BA%B5.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E8%98%8B%E6%9E%9C.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E9%A6%99%E8%95%89.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E6%A1%91%E6%A4%B9.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E8%8D%89%E8%8E%93.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E6%AA%B8%E6%AA%AC.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E7%89%9B%E5%A5%B6.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E7%B3%96.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E8%83%A1%E6%A4%92.png" for 127.0.0.1 at 2015-01-11 15:14:02 +0800
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-11 15:14:18 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:14:18 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (1.8ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:14:18 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:14:18 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:14:18 +0800
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-11 15:14:18 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:14:18 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (2.1ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:14:18 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:14:18 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:14:18 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:14:18 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:14:18 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:14:26 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (2.0ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:14:26 +0800
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:14:26 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:14:26 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:14:26 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:14:26 +0800
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-11 15:14:29 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQATWTKJXj8oqX6wunHTfO1c7zd-Vf8EpXjimsjtzjFZP-j_M4QYaJb99mQ6OAGacTgr21vm3Emkpfc4dhPJ-y22YqT126foHAnJNQGdHlQtxlH-_O8TlcpXHbkyGcl8jSWnMNiBrOtXvyJLfnThMgSivS7wcAf6xW7Rg1tMTQGz2JWW1SLAUljv0LEhm2bJacCkSqo6ysJfrRBp0Lo4valguV_2zZ0cpj3TdE-vH5Q4VTeH6VK9GIUqHMbkjtI1FtUK88bK5fTZS1uXz5R8kJn0r4H6CVxtSaitRs19vKYT9OHF0PNFCotbJbysS2RttVA" for 127.0.0.1 at 2015-01-11 15:14:30 +0800
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQATWTKJXj8oqX6wunHTfO1c7zd-Vf8EpXjimsjtzjFZP-j_M4QYaJb99mQ6OAGacTgr21vm3Emkpfc4dhPJ-y22YqT126foHAnJNQGdHlQtxlH-_O8TlcpXHbkyGcl8jSWnMNiBrOtXvyJLfnThMgSivS7wcAf6xW7Rg1tMTQGz2JWW1SLAUljv0LEhm2bJacCkSqo6ysJfrRBp0Lo4valguV_2zZ0cpj3TdE-vH5Q4VTeH6VK9GIUqHMbkjtI1FtUK88bK5fTZS1uXz5R8kJn0r4H6CVxtSaitRs19vKYT9OHF0PNFCotbJbysS2RttVA"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10202600536729493' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "users" SET "oauth_token" = ?, "oauth_expires_at" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["oauth_token", "CAAJH0FLgA7ABAELSBeIjLt9UB1KdeNr2f6tmwvXvoeNegDXj2TGavfY1wQLV2atnLvj0MetXCTwrExuF8RyXSUNQP8cZBC5PWumljAYgZBLzy5pzthZAvXZCgCzCaZAA3yhrAR9ZBZBZAkDonXaWwgr0NaEI0VgHMIZBgNgFVvZCsKnlaY5ZB1n1VBZBqlkyrqtTCPHmMKYKfkqSoeqqoi2jzCxx"], ["oauth_expires_at", Wed, 11 Mar 2015 20:22:12 UTC +00:00], ["updated_at", Sun, 11 Jan 2015 07:14:31 UTC +00:00]]
+  [1m[35m (9.0ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/new_food
+Completed 302 Found in 14ms (ActiveRecord: 9.9ms)
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-11 15:14:31 +0800
+Processing by FoodsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered foods/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 2541ms (Views: 2539.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/add_ingrident.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:14:34 +0800
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:14:34 +0800
+
+
+Started GET "/assets/home.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:14:34 +0800
+
+
+Started GET "/assets/change_ingrident.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:14:34 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:14:34 +0800
+
+
+Started GET "/assets/jquery.fancybox.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:14:34 +0800
+
+
+Started GET "/assets/application.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:14:34 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-11 15:14:34 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-11 15:14:34 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-11 15:14:34 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-11 15:14:34 +0800
+
+
+Started GET "/assets/jquery-1.10.1.min.js?body=1" for 127.0.0.1 at 2015-01-11 15:14:34 +0800
+
+
+Started GET "/assets/jquery.arctext.js?body=1" for 127.0.0.1 at 2015-01-11 15:14:34 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-11 15:14:34 +0800
+
+
+Started GET "/assets/jquery.fancybox.js?body=1" for 127.0.0.1 at 2015-01-11 15:14:34 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-11 15:14:34 +0800
+
+
+Started GET "/assets/add-icon.png" for 127.0.0.1 at 2015-01-11 15:14:34 +0800
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E8%B5%B7%E5%8F%B8.png" for 127.0.0.1 at 2015-01-11 15:14:34 +0800
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-11 15:14:34 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered foods/new.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 2972ms (Views: 2970.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/share.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E5%84%AA%E6%A0%BC.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E8%91%A1%E8%90%84%E4%B9%BE.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/Hand.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E9%A3%AF.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/linecons.woff" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%AE%AD%E9%AD%9A.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%BE%8D%E8%9D%A6.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%9B%8B.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%AE%AA%E9%AD%9A.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E8%94%A5.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E5%A0%85%E6%9E%9C.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%9D%A6.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%86%E8%85%90.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%AC%E8%82%89.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%8C%E8%B1%86.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E5%B0%8F%E7%99%BD%E8%8F%9C.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%9B%9E%E8%82%89.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E7%89%9B%E6%8E%92.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E9%AB%98%E9%BA%97%E8%8F%9C.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E9%BA%B5.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E8%98%8B%E6%9E%9C.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E6%A1%91%E6%A4%B9.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E9%A6%99%E8%95%89.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E8%8D%89%E8%8E%93.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E7%89%9B%E5%A5%B6.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E6%AA%B8%E6%AA%AC.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E7%B3%96.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E8%83%A1%E6%A4%92.png" for 127.0.0.1 at 2015-01-11 15:14:37 +0800
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-11 15:14:48 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:14:48 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (1.7ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:14:48 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:14:48 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:14:48 +0800
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-11 15:14:48 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:14:48 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (1.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:14:48 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:14:48 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:14:48 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:14:48 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:14:48 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:15:02 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (1.8ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:15:02 +0800
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:15:02 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:15:02 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:15:02 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:15:02 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:15:56 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (4.1ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:15:56 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:15:56 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:15:56 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:15:56 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:15:56 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:16:10 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (1.8ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:16:10 +0800
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:16:10 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:16:10 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:16:10 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:16:10 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:16:11 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (0.9ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:16:11 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:16:11 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:16:11 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:16:11 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:16:11 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:16:21 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (2.0ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:16:21 +0800
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:16:21 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:16:21 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:16:21 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:16:21 +0800
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-11 15:16:39 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQAXW8CqAUSsrQj8FwQv5erdx7IaHLzLFvtKRK3L6NfXc660r6h-I0QKToPibXjzeVdEBHUs6XKe_RDY7cFb7ltIyDfIr9SmgQGdLFi4PoN2xn863nnx4F0K-gLigix6s__Rr3lCzqQQMz_v-Titi6UUeFyG6ayHwPzy0mwgsMudxW15ka83HhwEx6Spij4wNwAnNOyOkp5HfK2ngGepYARALJj7pqUUtYhWZwjQbdD0ezEC9gkUks4nlussitNriY2Aw5GH4nsU1TFQ41I7P4p76nwOqtD3gXoyWxLXntBgm2WAQwMA84zhbXgQqslRAo8" for 127.0.0.1 at 2015-01-11 15:16:40 +0800
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAXW8CqAUSsrQj8FwQv5erdx7IaHLzLFvtKRK3L6NfXc660r6h-I0QKToPibXjzeVdEBHUs6XKe_RDY7cFb7ltIyDfIr9SmgQGdLFi4PoN2xn863nnx4F0K-gLigix6s__Rr3lCzqQQMz_v-Titi6UUeFyG6ayHwPzy0mwgsMudxW15ka83HhwEx6Spij4wNwAnNOyOkp5HfK2ngGepYARALJj7pqUUtYhWZwjQbdD0ezEC9gkUks4nlussitNriY2Aw5GH4nsU1TFQ41I7P4p76nwOqtD3gXoyWxLXntBgm2WAQwMA84zhbXgQqslRAo8"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10202600536729493' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.2ms)[0m  [1mUPDATE "users" SET "oauth_token" = ?, "oauth_expires_at" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["oauth_token", "CAAJH0FLgA7ABALgnqQ8NnJF0MbTzPnD3FAcKs5OWxXCAYCIgAZBi9ZCE4jiZAPzmJZCNhMWZAQmdR1SYmdgj0gdZAZCSyj50xmMEVNJPlIR4yZChPCiVORLMY06YuqHQ5ZAV5PLV887H3nSZAoG2ZBcP41SZAtapfZBAKLttpABEerwsJ2ew3VmafUhjCP5wtZC998uHWQQ0hhhyJv8OOa3AvXMINl"], ["oauth_expires_at", Wed, 11 Mar 2015 20:22:11 UTC +00:00], ["updated_at", Sun, 11 Jan 2015 07:16:42 UTC +00:00]]
+  [1m[35m (8.4ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/new_food
+Completed 302 Found in 14ms (ActiveRecord: 9.9ms)
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-11 15:16:42 +0800
+Processing by FoodsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered foods/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 2242ms (Views: 2240.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/add_ingrident.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:16:44 +0800
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:16:44 +0800
+
+
+Started GET "/assets/change_ingrident.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:16:44 +0800
+
+
+Started GET "/assets/jquery.fancybox.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:16:44 +0800
+
+
+Started GET "/assets/home.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:16:44 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:16:44 +0800
+
+
+Started GET "/assets/application.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:16:44 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-11 15:16:44 +0800
+
+
+Started GET "/assets/jquery.arctext.js?body=1" for 127.0.0.1 at 2015-01-11 15:16:44 +0800
+
+
+Started GET "/assets/jquery.fancybox.js?body=1" for 127.0.0.1 at 2015-01-11 15:16:44 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-11 15:16:44 +0800
+
+
+Started GET "/assets/jquery-1.10.1.min.js?body=1" for 127.0.0.1 at 2015-01-11 15:16:44 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-11 15:16:44 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-11 15:16:44 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-11 15:16:44 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-11 15:16:44 +0800
+
+
+Started GET "/assets/add-icon.png" for 127.0.0.1 at 2015-01-11 15:16:44 +0800
+
+
+Started GET "/assets/share.png" for 127.0.0.1 at 2015-01-11 15:16:44 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E8%91%A1%E8%90%84%E4%B9%BE.png" for 127.0.0.1 at 2015-01-11 15:16:44 +0800
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-11 15:16:44 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered foods/new.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 2432ms (Views: 2428.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E5%84%AA%E6%A0%BC.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/Hand.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E8%B5%B7%E5%8F%B8.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E9%BA%B5.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E9%A3%AF.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/linecons.woff" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%BE%8D%E8%9D%A6.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%9B%8B.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%AC%E8%82%89.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%86%E8%85%90.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E5%A0%85%E6%9E%9C.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%9B%9E%E8%82%89.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E5%B0%8F%E7%99%BD%E8%8F%9C.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E7%89%9B%E6%8E%92.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%AE%AD%E9%AD%9A.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%AE%AA%E9%AD%9A.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%8C%E8%B1%86.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E8%94%A5.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%9D%A6.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E9%AB%98%E9%BA%97%E8%8F%9C.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E8%98%8B%E6%9E%9C.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E9%A6%99%E8%95%89.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E8%8D%89%E8%8E%93.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E6%A1%91%E6%A4%B9.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E6%AA%B8%E6%AA%AC.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E7%89%9B%E5%A5%B6.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E7%B3%96.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E8%83%A1%E6%A4%92.png" for 127.0.0.1 at 2015-01-11 15:16:47 +0800
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-11 15:16:49 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:16:49 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (1.9ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:16:49 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:16:49 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:16:49 +0800
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-11 15:16:49 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:16:49 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (1.8ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:16:49 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:16:49 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:16:49 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:16:49 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:16:49 +0800
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-11 15:16:56 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQDjJjy9sD1Urf1j00TlLiBes7iVYQuDlqJouU7voW1d05vkNyRYE2Fg_BF9JsMcUQc00ftDoi6LAXaq65NgsYv2O3II94cD3PS5QWB78rdvlfJ5eIXnM7eVq0O_IDc0G9eC_RIoI6HGiibQLSp_B0aBbA_Vaaco_fm6hFQj9u3GWqLflVd0UyRrD7jMWuiuMdpOEGYBvJD94o_bKee7xEv1gNrVpI0OcEmiIA8m4UacwBOWO_7nFlr14TmahlapvP28LLFDBW9gf3f6x7cPPALjGKV8E8oE8Ve3Tb6Y7JgX36O-NfKMefnV-wLTV9vVw_E" for 127.0.0.1 at 2015-01-11 15:16:56 +0800
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDjJjy9sD1Urf1j00TlLiBes7iVYQuDlqJouU7voW1d05vkNyRYE2Fg_BF9JsMcUQc00ftDoi6LAXaq65NgsYv2O3II94cD3PS5QWB78rdvlfJ5eIXnM7eVq0O_IDc0G9eC_RIoI6HGiibQLSp_B0aBbA_Vaaco_fm6hFQj9u3GWqLflVd0UyRrD7jMWuiuMdpOEGYBvJD94o_bKee7xEv1gNrVpI0OcEmiIA8m4UacwBOWO_7nFlr14TmahlapvP28LLFDBW9gf3f6x7cPPALjGKV8E8oE8Ve3Tb6Y7JgX36O-NfKMefnV-wLTV9vVw_E"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10202600536729493' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "oauth_token" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["oauth_token", "CAAJH0FLgA7ABAMdY0dBZAL0k4tLcYVT6gw3DSDQbbaXU4Y2GhwcIQKQc0ZCoZAHpMXxUTOUli9aZBjsxLZCbxbcsnoWZBFP5g1tFbZA5EdYbyKoferyoTf3QATgTfwg3EhdZBC6lorSAAYHcOYnNJCZAq7TMLuGrHDv1ZC2iUWvhieILiRY6ZAFjAJQZAkvwGFwlTZAU29wwZB9R6xfSByRkv6OZC8Y"], ["updated_at", Sun, 11 Jan 2015 07:16:58 UTC +00:00]]
+  [1m[35m (9.0ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/new_food
+Completed 302 Found in 14ms (ActiveRecord: 9.7ms)
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-11 15:16:58 +0800
+Processing by FoodsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered foods/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 3030ms (Views: 3028.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/add_ingrident.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:17:01 +0800
+
+
+Started GET "/assets/change_ingrident.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:17:01 +0800
+
+
+Started GET "/assets/home.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:17:01 +0800
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:17:01 +0800
+
+
+Started GET "/assets/application.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:17:01 +0800
+
+
+Started GET "/assets/jquery.fancybox.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:17:01 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:17:01 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-11 15:17:01 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-11 15:17:01 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-11 15:17:01 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-11 15:17:01 +0800
+
+
+Started GET "/assets/jquery-1.10.1.min.js?body=1" for 127.0.0.1 at 2015-01-11 15:17:01 +0800
+
+
+Started GET "/assets/jquery.arctext.js?body=1" for 127.0.0.1 at 2015-01-11 15:17:01 +0800
+
+
+Started GET "/assets/jquery.fancybox.js?body=1" for 127.0.0.1 at 2015-01-11 15:17:01 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-11 15:17:01 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-11 15:17:01 +0800
+
+
+Started GET "/assets/share.png" for 127.0.0.1 at 2015-01-11 15:17:01 +0800
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-11 15:17:01 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered foods/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 2416ms (Views: 2412.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/add-icon.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/Hand.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E8%B5%B7%E5%8F%B8.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E5%84%AA%E6%A0%BC.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E8%91%A1%E8%90%84%E4%B9%BE.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/linecons.woff" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%BE%8D%E8%9D%A6.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E9%AB%98%E9%BA%97%E8%8F%9C.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E5%A0%85%E6%9E%9C.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%9B%9E%E8%82%89.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E7%89%9B%E6%8E%92.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%9B%8B.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E9%BA%B5.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%AE%AA%E9%AD%9A.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%AC%E8%82%89.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%AE%AD%E9%AD%9A.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%8C%E8%B1%86.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%86%E8%85%90.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E8%94%A5.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E9%A3%AF.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E5%B0%8F%E7%99%BD%E8%8F%9C.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%9D%A6.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E8%98%8B%E6%9E%9C.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E9%A6%99%E8%95%89.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E6%A1%91%E6%A4%B9.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E8%8D%89%E8%8E%93.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E7%B3%96.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E8%83%A1%E6%A4%92.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E6%AA%B8%E6%AA%AC.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E7%89%9B%E5%A5%B6.png" for 127.0.0.1 at 2015-01-11 15:17:04 +0800
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-11 15:17:07 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:17:07 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (1.0ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:17:07 +0800
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-01-11 15:17:07 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:17:07 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:17:07 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:17:07 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (1.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:17:07 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:17:07 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:17:07 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:17:07 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:17:07 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:19:43 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (10.2ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:19:43 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:19:43 +0800
+
+
+Started GET "/images/banner.png" for 127.0.0.1 at 2015-01-11 15:19:43 +0800
+
+ActionController::RoutingError (No route matches [GET] "/images/banner.png"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.5ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (31.5ms)
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:19:43 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:19:43 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:19:43 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:20:19 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (15.5ms)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:20:20 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:20:20 +0800
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2015-01-11 15:20:20 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:20:20 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:20:20 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:20:20 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:20:53 +0800
+Processing by StaticPagesController#home as HTML
+ERROR: compiling _app_views_static_pages_home_html_erb___1433348866738772429_70337744834080 RAISED /Users/SinyaPeng/Programming/SNA/food_society/app/views/static_pages/home.html.erb:28: syntax error, unexpected ',', expecting ')'
+...end=( image_tag("banner.png") ,size: "540x200" );@output_buf...
+...                               ^
+Function body:           def _app_views_static_pages_home_html_erb___1433348866738772429_70337744834080(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "static_pages/home";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_append='<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Wellcome to Food Society</title>
+		<!-- <link rel="shortcut icon" href="../images/smallicon.png"> -->
+
+        ';@output_buffer.append=( stylesheet_link_tag "demo.css" );@output_buffer.safe_append='
+        ';@output_buffer.append=( stylesheet_link_tag "style.css" );@output_buffer.safe_append='
+		<link href=\'http://fonts.googleapis.com/css?family=Montserrat|Sail|Concert+One\' rel=\'stylesheet\' type=\'text/css\'>
+
+        <style type="text/css">
+            a.wiggle-me {
+                display: block;
+            }
+            @-ms-keyframes wiggle{0%{-ms-transform:rotate(3deg);}50%{-ms-transform:rotate(-3deg);}100%{-ms-transform:rotate(3deg);}}
+            @-moz-keyframes wiggle{0%{-moz-transform:rotate(3deg);}50%{-moz-transform:rotate(-3deg);}100%{-moz-transform:rotate(3deg);}}
+            @-webkit-keyframes wiggle{0%{-webkit-transform:rotate(3deg);}50%{-webkit-transform:rotate(-3deg);}100%{-webkit-transform:rotate(3deg);}}
+            @keyframes wiggle{0%{transform:rotate(3deg);}50%{transform:rotate(-3deg);}100%{transform:rotate(3deg);}}
+            a.wiggle-me:hover{-ms-animation:wiggle .3s 2;-moz-animation:wiggle .3s 2;-webkit-animation:wiggle .3s 2;animation:wiggle .3s 2;}
+
+        </style>
+
+    </head>
+    <body>
+        <div class="container" >        
+
+                ';@output_buffer.append=( image_tag("banner.png") ,size: "540x200" );@output_buffer.safe_append=' 
+';@output_buffer.safe_append='
+                <!-- banner -->
+				<!-- <h1 id="headline">&nbsp;&nbsp;&hearts;FoodSociety&hearts;&nbsp;&nbsp;</h1> -->
+
+			<section class="main">
+                <div class="logo">
+                	';@output_buffer.append=( image_tag("fork.png") );@output_buffer.safe_append=' 
+';@output_buffer.safe_append='                </div>
+                <!-- <canvas id="canvas" style="position:fixed; top:0;left:0"></canvas> -->
+                <div class="middle">
+
+        <!-- the logo -->
+
+            ';@output_buffer.append=( link_to image_tag('biglogo.png', id: "logo", size:"360x360" ), "/auth/facebook", class: "wiggle-me" );@output_buffer.safe_append='
+
+          <!--          <a href="/auth/facebook" class="wiggle-me">
+                        <div id="arc-wrapper" class="arc-wrapper">
+                            <h3>&diams;&diams;food &diams; Society&diams;&diams;</h3>    
+                            <h4>FB LOGIN</h4>
+
+                        </div>
+                     </a> -->
+
+
+
+                    </div>
+                <div class="logo">
+                	';@output_buffer.append=( image_tag("knif.png" ) );@output_buffer.safe_append=' 
+';@output_buffer.safe_append='                </div>
+			</section>
+            
+
+        </div>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+			var $headline = $(\'#headline\').hide();
+            var $word1		= $(\'#arc-wrapper\').find(\'h3\').hide();
+			var $word2		= $(\'#arc-wrapper\').find(\'h4\').hide();
+			google.load(\'webfont\',\'1\');
+			
+			google.setOnLoadCallback(function() {
+				console.log("hi");
+
+				WebFont.load({
+					google		: {
+						families	: [\'Montserrat\',\'Concert One\']
+					},
+					fontactive	: function(fontFamily, fontDescription) {
+						init();
+					},
+					fontinactive	: function(fontFamily, fontDescription) {
+						init();
+					}
+				});
+			});
+			
+			function init() {
+			
+				$headline.show().arctext({radius: 500});
+                $word1.show().arctext();
+				$word2.show().arctext({radius: 148, dir: -1});
+            }
+
+		</script>
+
+	<!-- Annoying Snow
+	    ================================================== -->
+ 
+        <script>
+            window.onload = function(){
+            //canvas init
+            var canvas = document.getElementById("canvas");
+            var ctx = canvas.getContext("2d");
+
+            //canvas dimensions
+            var W = window.innerWidth;
+            var H = window.innerHeight;
+            canvas.width = W;
+            canvas.height = H;
+
+            //snowflake particles
+            var mp = 25; //max particles
+            var particles = [];
+            for(var i = 0; i < mp; i++)
+            {
+                particles.push({
+                    x: Math.random()*W, //x-coordinate
+                    y: Math.random()*H, //y-coordinate
+                    r: Math.random()*4+1, //radius
+                    d: Math.random()*mp //density
+                })
+            }
+
+            //Lets draw the flakes
+            function draw()
+            {
+                ctx.clearRect(0, 0, W, H);
+
+                ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
+                ctx.beginPath();
+                for(var i = 0; i < mp; i++)
+                {
+                    var p = particles[i];
+                    ctx.moveTo(p.x, p.y);
+                    ctx.arc(p.x, p.y, p.r, 0, Math.PI*2, true);
+                }
+                ctx.fill();
+                update();
+            }
+
+            //Function to move the snowflakes
+            //angle will be an ongoing incremental flag. Sin and Cos functions will be applied to it to create vertical and horizontal movements of the flakes
+            var angle = 0;
+            function update()
+            {
+                angle += 0.01;
+                for(var i = 0; i < mp; i++)
+                {
+                    var p = particles[i];
+                    //Updating X and Y coordinates
+                    //We will add 1 to the cos function to prevent negative values which will lead flakes to move upwards
+                    //Every particle has its own density which can be used to make the downward movement different for each flake
+                    //Lets make it more random by adding in the radius
+                    p.y += Math.cos(angle+p.d) + 1 + p.r/2;
+                    p.x += Math.sin(angle) * 2;
+
+                    //Sending flakes back from the top when it exits
+                    //Lets make it a bit more organic and let flakes enter from the left and right also.
+                    if(p.x > W+5 || p.x < -5 || p.y > H)
+                    {
+                        if(i%3 > 0) //66.67% of the flakes
+                        {
+                            particles[i] = {x: Math.random()*W, y: -10, r: p.r, d: p.d};
+                        }
+                        else
+                        {
+                            //If the flake is exitting from the right
+                            if(Math.sin(angle) > 0)
+                            {
+                                //Enter from the left
+                                particles[i] = {x: -5, y: Math.random()*H, r: p.r, d: p.d};
+                            }
+                            else
+                            {
+                                //Enter from the right
+                                particles[i] = {x: W+5, y: Math.random()*H, r: p.r, d: p.d};
+                            }
+                        }
+                    }
+                }
+            }
+
+            //animation loop
+            setInterval(draw, 33);
+        }
+        </script>
+    </body>
+</html>';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `module_eval'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `compile'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:248:in `block in compile!'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `synchronize'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `compile!'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:142:in `block in render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications.rb:161:in `instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/template.rb:141:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/SinyaPeng/Programming/SNA/food_society/app/controllers/static_pages_controller.rb:3:in `home'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:403:in `_run__3107407453450119131__process_action__callbacks'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal.rb:195:in `dispatch'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_controller/metal.rb:231:in `block in action'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `each'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:655:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:186:in `call!'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:164:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/omniauth-1.2.2/lib/omniauth/builder.rb:59:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/query_cache.rb:36:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activerecord-4.0.0/lib/active_record/migration.rb:369:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__4092611813339572161__call__callbacks'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+/Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+/Users/SinyaPeng/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered static_pages/home.html.erb (8.8ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (/Users/SinyaPeng/Programming/SNA/food_society/app/views/static_pages/home.html.erb:28: syntax error, unexpected ',', expecting ')'
+...end=( image_tag("banner.png") ,size: "540x200" );@output_buf...
+...                               ^):
+    25:     <body>
+    26:         <div class="container" >        
+    27: 
+    28:                 <%= image_tag("banner.png") ,size: "540x200" %> 
+    29: 
+    30:                 <!-- banner -->
+    31: 				<!-- <h1 id="headline">&nbsp;&nbsp;&hearts;FoodSociety&hearts;&nbsp;&nbsp;</h1> -->
+  app/controllers/static_pages_controller.rb:3:in `home'
+
+
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/SinyaPeng/.rvm/gems/ruby-2.1.2/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:21:05 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (2.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:21:05 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:21:05 +0800
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2015-01-11 15:21:05 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:21:05 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:21:05 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:21:05 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:21:20 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (3.0ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:21:20 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:21:20 +0800
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2015-01-11 15:21:20 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:21:20 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:21:20 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:21:20 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:21:41 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (3.7ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:21:41 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:21:41 +0800
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2015-01-11 15:21:41 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:21:41 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:21:41 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:21:41 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:22:23 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (2.1ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:22:23 +0800
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2015-01-11 15:22:23 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:22:23 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:22:23 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:22:23 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:22:23 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:22:46 +0800
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:22:46 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 15:24:56 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (5.6ms)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:24:56 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:24:56 +0800
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2015-01-11 15:24:56 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-11 15:24:56 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-11 15:24:56 +0800
+
+
+Started GET "/assets/knif.png" for 127.0.0.1 at 2015-01-11 15:24:56 +0800
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-11 15:25:03 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQBpXISLFn673f_XyCoPcO6C_TeYedEcMy1jCGl7FQx8aZggusPZvU9xklXJzRurNdPdO_X6XsjJ-FHu83e0HjrCRzO7EhmrvfvXKnelyf6G1XXygMhZL0_KsOuAJwZnTwkizuKUoqnsBeytrv_In9aNapyDhPtzts53ePICwCBZcdytoWh5QcsMmwXp7MS3J26idtHH5WpQCCXCM44FmpINSpxZTbPa4NL0-pA2l6SiNFc2S5ehjbr9Ba6Nzs2GecJ3Nu_VLjdJ2bsq9pmfur7ildEVMdEKNIvvEfj5H_EsGpsb-rqnFG2SfFWdErbzCGM" for 127.0.0.1 at 2015-01-11 15:25:03 +0800
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBpXISLFn673f_XyCoPcO6C_TeYedEcMy1jCGl7FQx8aZggusPZvU9xklXJzRurNdPdO_X6XsjJ-FHu83e0HjrCRzO7EhmrvfvXKnelyf6G1XXygMhZL0_KsOuAJwZnTwkizuKUoqnsBeytrv_In9aNapyDhPtzts53ePICwCBZcdytoWh5QcsMmwXp7MS3J26idtHH5WpQCCXCM44FmpINSpxZTbPa4NL0-pA2l6SiNFc2S5ehjbr9Ba6Nzs2GecJ3Nu_VLjdJ2bsq9pmfur7ildEVMdEKNIvvEfj5H_EsGpsb-rqnFG2SfFWdErbzCGM"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10202600536729493' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "users" SET "oauth_token" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["oauth_token", "CAAJH0FLgA7ABAEAvFZCMQY1aTiR3J4kg3hxSEdesiMUspcZBmKwVC9GG8zYNOYGy8foMQPkq7mxZArWaXwDZBS6JNnO6sumvX4N7xAEtZBTosWGIZBiVplCvKw87uZAVZAqTeAKfhIZAndRew52FMmFyPkxa92b1hohnGCq2sVaJl1wCuFusp6hZB4v59jXYRJsnLhWsn1HOKqMFEAtQZAhsVGw"], ["updated_at", Sun, 11 Jan 2015 07:25:05 UTC +00:00]]
+  [1m[35m (8.2ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/new_food
+Completed 302 Found in 13ms (ActiveRecord: 9.2ms)
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-11 15:25:05 +0800
+Processing by FoodsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered foods/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 3639ms (Views: 3637.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/change_ingrident.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:25:09 +0800
+
+
+Started GET "/assets/home.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:25:09 +0800
+
+
+Started GET "/assets/jquery.fancybox.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:25:09 +0800
+
+
+Started GET "/assets/add_ingrident.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:25:09 +0800
+
+
+Started GET "/assets/style.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:25:09 +0800
+
+
+Started GET "/assets/demo.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:25:09 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-11 15:25:09 +0800
+
+
+Started GET "/assets/application.css.css?body=1" for 127.0.0.1 at 2015-01-11 15:25:09 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-11 15:25:09 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-11 15:25:09 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-11 15:25:09 +0800
+
+
+Started GET "/assets/jquery-1.10.1.min.js?body=1" for 127.0.0.1 at 2015-01-11 15:25:09 +0800
+
+
+Started GET "/assets/jquery.arctext.js?body=1" for 127.0.0.1 at 2015-01-11 15:25:09 +0800
+
+
+Started GET "/assets/jquery.fancybox.js?body=1" for 127.0.0.1 at 2015-01-11 15:25:09 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-11 15:25:09 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-11 15:25:09 +0800
+
+
+Started GET "/assets/add-icon.png" for 127.0.0.1 at 2015-01-11 15:25:09 +0800
+
+
+Started GET "/assets/share.png" for 127.0.0.1 at 2015-01-11 15:25:09 +0800
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E8%B5%B7%E5%8F%B8.png" for 127.0.0.1 at 2015-01-11 15:25:09 +0800
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-11 15:25:09 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered foods/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 2292ms (Views: 2272.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E9%BA%B5.png" for 127.0.0.1 at 2015-01-11 15:25:11 +0800
+
+
+Started GET "/assets/Hand.png" for 127.0.0.1 at 2015-01-11 15:25:11 +0800
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E9%A3%AF.png" for 127.0.0.1 at 2015-01-11 15:25:11 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E8%91%A1%E8%90%84%E4%B9%BE.png" for 127.0.0.1 at 2015-01-11 15:25:11 +0800
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E5%84%AA%E6%A0%BC.png" for 127.0.0.1 at 2015-01-11 15:25:11 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%BE%8D%E8%9D%A6.png" for 127.0.0.1 at 2015-01-11 15:25:11 +0800
+
+
+Started GET "/assets/linecons.woff" for 127.0.0.1 at 2015-01-11 15:25:11 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E9%AB%98%E9%BA%97%E8%8F%9C.png" for 127.0.0.1 at 2015-01-11 15:25:11 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%8C%E8%B1%86.png" for 127.0.0.1 at 2015-01-11 15:25:11 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E7%89%9B%E6%8E%92.png" for 127.0.0.1 at 2015-01-11 15:25:11 +0800
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E5%A0%85%E6%9E%9C.png" for 127.0.0.1 at 2015-01-11 15:25:11 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%86%E8%85%90.png" for 127.0.0.1 at 2015-01-11 15:25:11 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E8%94%A5.png" for 127.0.0.1 at 2015-01-11 15:25:11 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%AC%E8%82%89.png" for 127.0.0.1 at 2015-01-11 15:25:11 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%9B%8B.png" for 127.0.0.1 at 2015-01-11 15:25:11 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E5%B0%8F%E7%99%BD%E8%8F%9C.png" for 127.0.0.1 at 2015-01-11 15:25:11 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%9D%A6.png" for 127.0.0.1 at 2015-01-11 15:25:11 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%AE%AD%E9%AD%9A.png" for 127.0.0.1 at 2015-01-11 15:25:11 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%9B%9E%E8%82%89.png" for 127.0.0.1 at 2015-01-11 15:25:11 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%AE%AA%E9%AD%9A.png" for 127.0.0.1 at 2015-01-11 15:25:11 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E8%8D%89%E8%8E%93.png" for 127.0.0.1 at 2015-01-11 15:25:11 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E9%A6%99%E8%95%89.png" for 127.0.0.1 at 2015-01-11 15:25:12 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E6%A1%91%E6%A4%B9.png" for 127.0.0.1 at 2015-01-11 15:25:12 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E6%AA%B8%E6%AA%AC.png" for 127.0.0.1 at 2015-01-11 15:25:12 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E8%98%8B%E6%9E%9C.png" for 127.0.0.1 at 2015-01-11 15:25:12 +0800
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E7%89%9B%E5%A5%B6.png" for 127.0.0.1 at 2015-01-11 15:25:12 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E7%B3%96.png" for 127.0.0.1 at 2015-01-11 15:25:12 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E8%83%A1%E6%A4%92.png" for 127.0.0.1 at 2015-01-11 15:25:12 +0800
