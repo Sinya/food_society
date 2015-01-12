@@ -70205,3 +70205,213 @@ Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E7%B3%96.png
 
 
 Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E8%83%A1%E6%A4%92.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-12 23:39:30 +0800
+Processing by FoodsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered foods/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 792ms (Views: 790.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/add_ingrident.css?body=1" for 127.0.0.1 at 2015-01-12 23:39:31 +0800
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2015-01-12 23:39:31 +0800
+
+
+Started GET "/assets/change_ingrident.css?body=1" for 127.0.0.1 at 2015-01-12 23:39:31 +0800
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-12 23:39:31 +0800
+
+
+Started GET "/assets/for_home.css?body=1" for 127.0.0.1 at 2015-01-12 23:39:31 +0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-12 23:39:31 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-12 23:39:31 +0800
+
+
+Started GET "/assets/jquery.fancybox.css?body=1" for 127.0.0.1 at 2015-01-12 23:39:31 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-12 23:39:31 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-12 23:39:31 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-12 23:39:31 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-12 23:39:31 +0800
+
+
+Started GET "/assets/jquery-1.10.1.min.js?body=1" for 127.0.0.1 at 2015-01-12 23:39:31 +0800
+
+
+Started GET "/assets/jquery.arctext.js?body=1" for 127.0.0.1 at 2015-01-12 23:39:31 +0800
+
+
+Started GET "/assets/jquery.fancybox.js?body=1" for 127.0.0.1 at 2015-01-12 23:39:31 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-12 23:39:31 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-12 23:39:31 +0800
+
+
+Started GET "/assets/add-icon.png" for 127.0.0.1 at 2015-01-12 23:39:31 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E8%91%A1%E8%90%84%E4%B9%BE.png" for 127.0.0.1 at 2015-01-12 23:39:31 +0800
+
+
+Started GET "/assets/share.png" for 127.0.0.1 at 2015-01-12 23:39:31 +0800
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E9%A3%AF.png" for 127.0.0.1 at 2015-01-12 23:39:31 +0800
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E9%BA%B5.png" for 127.0.0.1 at 2015-01-12 23:39:31 +0800
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-12 23:39:31 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered foods/new.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 815ms (Views: 812.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E5%A0%85%E6%9E%9C.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E5%84%AA%E6%A0%BC.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E8%B5%B7%E5%8F%B8.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%86%E8%85%90.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/Hand.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E7%89%9B%E6%8E%92.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/linecons.woff" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%AC%E8%82%89.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%BE%8D%E8%9D%A6.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%9B%9E%E8%82%89.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%AE%AA%E9%AD%9A.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%AE%AD%E9%AD%9A.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%9B%8B.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%8C%E8%B1%86.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%9D%A6.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E9%AB%98%E9%BA%97%E8%8F%9C.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E5%B0%8F%E7%99%BD%E8%8F%9C.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E8%94%A5.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E8%98%8B%E6%9E%9C.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E9%A6%99%E8%95%89.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E6%A1%91%E6%A4%B9.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E8%8D%89%E8%8E%93.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E6%AA%B8%E6%AA%AC.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E7%89%9B%E5%A5%B6.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E7%B3%96.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E8%83%A1%E6%A4%92.png" for 127.0.0.1 at 2015-01-12 23:39:32 +0800
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-12 23:39:33 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1708ms (Views: 798.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-12 23:39:35 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1597ms (Views: 779.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/show_food_can_use" for 127.0.0.1 at 2015-01-12 23:39:37 +0800
+Processing by AllFoodCanUseController#show as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mFood Load (0.3ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10202600536729493'
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10203635573353449'[0m
+  [1m[35mFood Load (0.1ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '931369630206444'
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '785426611527110'[0m
+  [1m[35mFood Load (0.1ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '727421794021395'
+  Rendered all_food_can_use/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1398ms (Views: 675.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-12 23:39:40 +0800
+Processing by FriendsController#show as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2034ms (Views: 1362.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/show_food_can_use" for 127.0.0.1 at 2015-01-12 23:39:42 +0800
+Processing by AllFoodCanUseController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mFood Load (0.3ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10202600536729493'[0m
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '10203635573353449'
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '931369630206444'[0m
+  [1m[35mFood Load (0.1ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."uid" = '785426611527110'
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."uid" = '727421794021395'[0m
+  Rendered all_food_can_use/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1474ms (Views: 666.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-01-12 23:39:43 +0800
+Processing by FriendsController#show as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1470ms (Views: 751.9ms | ActiveRecord: 0.1ms)
