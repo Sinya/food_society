@@ -69998,3 +69998,210 @@ Completed 200 OK in 894ms (Views: 891.4ms | ActiveRecord: 0.2ms)
 
 
 Started GET "/assets/change_ingrident.css?body=1" for 127.0.0.1 at 2015-01-12 21:24:48 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-12 23:30:47 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/for_home (2.3ms)
+Completed 200 OK in 33ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-12 23:30:47 +0800
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2015-01-12 23:30:47 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-12 23:30:47 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/for_home (1.1ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-12 23:30:47 +0800
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2015-01-12 23:30:47 +0800
+
+
+Started GET "/assets/for_home.css?body=1" for 127.0.0.1 at 2015-01-12 23:30:47 +0800
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-12 23:30:47 +0800
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2015-01-12 23:30:47 +0800
+
+
+Started GET "/assets/fork.png" for 127.0.0.1 at 2015-01-12 23:30:47 +0800
+
+
+Started GET "/assets/biglogo.png" for 127.0.0.1 at 2015-01-12 23:30:47 +0800
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2015-01-12 23:30:51 +0800
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-12 23:30:51 +0800
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-01-12 23:30:53 +0800
+(facebook) Request phase initiated.
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-12 23:35:10 +0800
+Processing by FoodsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered foods/new.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 1427ms (Views: 1376.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/add_ingrident.css?body=1" for 127.0.0.1 at 2015-01-12 23:35:11 +0800
+
+
+Started GET "/assets/change_ingrident.css?body=1" for 127.0.0.1 at 2015-01-12 23:35:11 +0800
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-12 23:35:11 +0800
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2015-01-12 23:35:11 +0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-12 23:35:11 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-12 23:35:11 +0800
+
+
+Started GET "/assets/jquery.fancybox.css?body=1" for 127.0.0.1 at 2015-01-12 23:35:11 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-12 23:35:11 +0800
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-01-12 23:35:11 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-12 23:35:11 +0800
+
+
+Started GET "/assets/for_home.css?body=1" for 127.0.0.1 at 2015-01-12 23:35:11 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-12 23:35:11 +0800
+
+
+Started GET "/assets/jquery-1.10.1.min.js?body=1" for 127.0.0.1 at 2015-01-12 23:35:11 +0800
+
+
+Started GET "/assets/jquery.arctext.js?body=1" for 127.0.0.1 at 2015-01-12 23:35:11 +0800
+
+
+Started GET "/assets/jquery.fancybox.js?body=1" for 127.0.0.1 at 2015-01-12 23:35:11 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-12 23:35:11 +0800
+
+
+Started GET "/assets/dishes_logo.png" for 127.0.0.1 at 2015-01-12 23:35:11 +0800
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E8%B5%B7%E5%8F%B8.png" for 127.0.0.1 at 2015-01-12 23:35:11 +0800
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E5%84%AA%E6%A0%BC.png" for 127.0.0.1 at 2015-01-12 23:35:11 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E8%91%A1%E8%90%84%E4%B9%BE.png" for 127.0.0.1 at 2015-01-12 23:35:11 +0800
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E9%A3%AF.png" for 127.0.0.1 at 2015-01-12 23:35:11 +0800
+
+
+Started GET "/new_food" for 127.0.0.1 at 2015-01-12 23:35:11 +0800
+Processing by FoodsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered foods/new.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 814ms (Views: 810.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E9%BA%B5.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/category/%E7%A9%80%E7%89%A9%E9%A1%9E/%E5%A0%85%E6%9E%9C.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/Hand.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/share.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/add-icon.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/linecons.woff" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%86%E8%85%90.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%AE%AA%E9%AD%9A.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%BE%8D%E8%9D%A6.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E7%89%9B%E6%8E%92.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%AC%E8%82%89.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%AE%AD%E9%AD%9A.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%9B%8B.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%B1%8C%E8%B1%86.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E9%9B%9E%E8%82%89.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E9%AB%98%E9%BA%97%E8%8F%9C.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/category/%E8%9B%8B%E8%B1%86%E9%AD%9A%E8%82%89%E9%A1%9E/%E8%9D%A6.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E5%B0%8F%E7%99%BD%E8%8F%9C.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/category/%E8%94%AC%E8%8F%9C%E9%A1%9E/%E8%94%A5.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E8%98%8B%E6%9E%9C.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E9%A6%99%E8%95%89.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E6%A1%91%E6%A4%B9.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E8%8D%89%E8%8E%93.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/category/%E6%9E%9C%E7%89%A9%E9%A1%9E/%E6%AA%B8%E6%AA%AC.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/category/%E4%B9%B3%E8%A3%BD%E5%93%81/%E7%89%9B%E5%A5%B6.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E7%B3%96.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
+
+
+Started GET "/assets/category/%E5%85%B6%E4%BB%96%E9%85%8D%E6%96%99/%E8%83%A1%E6%A4%92.png" for 127.0.0.1 at 2015-01-12 23:35:12 +0800
