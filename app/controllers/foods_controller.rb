@@ -10,7 +10,12 @@ class FoodsController < ApplicationController
     @food = Food.new(params[:food])
     # @food.user_id = current_user.uid
     @food.uid = current_user.uid
-
+    @foods_grains = Dir["public/assets/category/grains/*.png"].map { |f| f.sub('public','') }
+    @foods_dairy = Dir["public/assets/category/dairy/*.png"].map { |f| f.sub('public','') }
+    @foods_fruits = Dir["public/assets/category/fruits/*.png"].map { |f| f.sub('public','') }
+    @foods_meatandbean = Dir["public/assets/category/meatandbean/*.png"].map { |f| f.sub('public','') }
+    @foods_vegetables = Dir["public/assets/category/vegetables/*.png"].map { |f| f.sub('public','') }
+    @foods_others = Dir["public/assets/category/others/*.png"].map { |f| f.sub('public','') }
   end
 
   def create
@@ -36,6 +41,10 @@ class FoodsController < ApplicationController
   def ask_for_food
     @ask = params[:myform][:comments]
     render :text => @ask 
+  end
+
+  def add_food
+    
   end
 
   # private

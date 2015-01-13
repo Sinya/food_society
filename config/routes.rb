@@ -10,6 +10,7 @@ FacebookUserCast::Application.routes.draw do
   get 'show' => 'friends#show'
   get 'new_food' => 'foods#new'
   get 'show_food_can_use' => 'all_food_can_use#show'
+  get 'add_food' => 'foods#add_food'
 
   resources :users
   resources :foods
