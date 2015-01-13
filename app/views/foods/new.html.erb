@@ -25,6 +25,10 @@
                     parent.location.reload(true); 
                      $.fancybox.close();
                 },
+                afterClose : function(){
+                    $('#login #add_name').empty();
+
+                },
                 helpers : {
                
                overlay : {
@@ -81,15 +85,15 @@
                             <div class="block need_food">
                                 
                                 <div class="block box2">
-                                    <%= image_tag("category/乳製品/優格.png", size:"40x40" ) %> 
+                                    <%= image_tag(" ", size:"40x40" ) %> 
                                 </div>
 
                                 <div class="block box2">
-                                    <%= image_tag("category/其他配料/葡萄乾.png", size:"40x40" ) %> 
+                                    <%= image_tag(" ", size:"40x40" ) %> 
 
                                 </div>
                                 <div class="block box2">
-                                    <%= image_tag("category/乳製品/起司.png", size:"40x40" ) %> 
+                                    <%= image_tag(" ", size:"40x40" ) %> 
 
                                 </div>
                             
@@ -117,63 +121,48 @@
                     <p class="block class_name">穀物類</p>
                     <div class="block food_class">
                         <div class="block need_food">
-                            <div class="block box2"><%= image_tag("category/穀物類/飯.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/穀物類/麵.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/穀物類/堅果.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag("" , size:"40x40" ) %></div>
+                            
                         </div>
                     </div>
 
                     <p class="block class_name">蛋豆魚肉類</p>
                     <div class="block food_class">
                         <div class="block need_food">
-                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/豆腐.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/鮭魚.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/蛋.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/鮪魚.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/牛排.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/豬肉.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/雞肉.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/豌豆.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/龍蝦.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/蝦.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag(" " , size:"40x40" ) %></div>
+                            
                         </div>
                     </div>
                 
                     <p class="block class_name">蔬菜類</p>
                     <div class="block food_class">
                         <div class="block need_food">
-                            <div class="block box2"><%= image_tag("category/蔬菜類/高麗菜.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/蔬菜類/小白菜.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/蔬菜類/蔥.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag(" " , size:"40x40" ) %></div>
+                            
                         </div>
                     </div>
                     
                     <p class="block class_name">果物類</p>
                     <div class="block food_class">
                         <div class="block need_food">
-                            <div class="block box2"><%= image_tag("category/果物類/蘋果.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/果物類/香蕉.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/果物類/桑椹.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/果物類/草莓.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/果物類/檸檬.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag(" " , size:"40x40" ) %></div>
+                           
                         </div>
                     </div>
                     
                     <p class="block class_name">乳製品</p>
                     <div class="block food_class">
                         <div class="block need_food">
-                            <div class="block box2"><%= image_tag("category/乳製品/優格.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/乳製品/牛奶.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/乳製品/起司.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag(" " , size:"40x40" ) %></div>
+
                         </div>
                     </div>
                     
                     <p class="block class_name">其他配料</p>
                     <div class="block food_class">
                         <div class="block need_food">
-                            <div class="block box2"><%= image_tag("category/其他配料/糖.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/其他配料/葡萄乾.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/其他配料/胡椒.png" , size:"40x40" ) %></div>
+                            <div class="block box2"><%= image_tag(" " , size:"40x40" ) %></div>
+                            
                         </div>
                     </div>
                     
@@ -189,67 +178,64 @@
 
             <section id="login" class="all">
                 <div class="block title"><h2>Add Ingridents</h2></div>
+                <div class="block title"><h2 id="show_name"></h2></div>
+                <h2 class="add_list">
+                    <button type="button" id="addSubmit">^ _ ^</button>
+                    加入清單</h2> 
+                <div class="block title" id="add_name">
+                </div>
                 <div class="block addfood" style="overflow-x:hidden;overflow-y:auto;">
                     <p class="block class_name">穀物類</p>
                     <div class="block food_class2">
                         <div class="block need_food">
-                            <div class="block box2"><%= image_tag("category/穀物類/飯.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/穀物類/麵.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/穀物類/堅果.png" , size:"40x40" ) %></div>
+                            <% @foods_grains.each do |img| %>
+                            <div class="block box2"><%= image_tag img.gsub("", ""), :size => "40x40", :name => "1"+img.split('/').last[0..-5] %></div>
+                            <% end %>
                         </div>
                     </div>
 
                     <p class="block class_name">蛋豆魚肉類</p>
                     <div class="block food_class2">
                         <div class="block need_food">
-                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/豆腐.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/鮭魚.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/蛋.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/鮪魚.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/牛排.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/豬肉.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/雞肉.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/豌豆.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/龍蝦.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/蛋豆魚肉類/蝦.png" , size:"40x40" ) %></div>
+                            <% @foods_meatandbean.each do |img| %>
+                            <div class="block box2"><%= image_tag img.gsub("", ""), :size => "40x40", :name => "1"+img.split('/').last[0..-5] %></div>
+                            <% end %>
                         </div>
                     </div>
                 
                     <p class="block class_name">蔬菜類</p>
                     <div class="block food_class2">
                         <div class="block need_food">
-                            <div class="block box2"><%= image_tag("category/蔬菜類/高麗菜.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/蔬菜類/小白菜.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/蔬菜類/蔥.png" , size:"40x40" ) %></div>
+                            <% @foods_vegetables.each do |img| %>
+                            <div class="block box2"><%= image_tag img.gsub("", ""), :size => "40x40", :name => "2"+img.split('/').last[0..-5] %></div>
+                            <% end %>
                         </div>
                     </div>
                     
                     <p class="block class_name">果物類</p>
                     <div class="block food_class2">
                         <div class="block need_food">
-                            <div class="block box2"><%= image_tag("category/果物類/蘋果.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/果物類/香蕉.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/果物類/桑椹.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/果物類/草莓.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/果物類/檸檬.png" , size:"40x40" ) %></div>
+                            <% @foods_fruits.each do |img| %>
+                            <div class="block box2"><%= image_tag img.gsub("", ""), :size => "40x40", :name => "3"+img.split('/').last[0..-5] %></div>
+                            <% end %>
                         </div>
                     </div>
                     
                     <p class="block class_name">乳製品</p>
                     <div class="block food_class2">
                         <div class="block need_food">
-                            <div class="block box2"><%= image_tag("category/乳製品/優格.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/乳製品/牛奶.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/乳製品/起司.png" , size:"40x40" ) %></div>
+                            <% @foods_dairy.each do |img| %>
+                            <div class="block box2"><%= image_tag img.gsub("", ""), :size => "40x40", :name => "4"+img.split('/').last[0..-5] %></div>
+                            <% end %>
                         </div>
                     </div>
                     
                     <p class="block class_name">其他配料</p>
                     <div class="block food_class2">
                         <div class="block need_food">
-                            <div class="block box2"><%= image_tag("category/其他配料/糖.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/其他配料/葡萄乾.png" , size:"40x40" ) %></div>
-                            <div class="block box2"><%= image_tag("category/其他配料/胡椒.png" , size:"40x40" ) %></div>
+                            <% @foods_others.each do |img| %>
+                            <div class="block box2"><%= image_tag img.gsub("", ""), :size => "40x40", :name => "5"+img.split('/').last[0..-5] %></div>
+                            <% end %>
                         </div>
                     </div>
                 </div>
@@ -267,3 +253,26 @@
 
             </section>
         </div>
+
+        <script>
+        $("#AddIngredient img").mouseover(function(){
+            var name=$(this).attr('name');
+            $( "#show_name" ).text(name);
+        });      
+
+        $("#AddIngredient img").click(function(){
+            var name=$(this).attr('name');
+            $( "#add_name" ).append("<span ondblclick='$(this).remove();'>"+name+"</span> ");
+        });
+
+        $("#addSubmit").click(function(){
+            var food_list = $('#add_name span').contents();
+            $.ajax({
+                url: "/add_food",
+                data: {food_list : food_list},
+                dataType: "xmlDocument",
+                success:function(data){}
+            });
+        });      
+
+        </script>

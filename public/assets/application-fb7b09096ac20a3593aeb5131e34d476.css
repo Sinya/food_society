@@ -812,7 +812,7 @@ footer {
   overflow: hidden;
   display: none;
   z-index: 8010;
-  background: url("fancybox_overlay.png");
+  /*background: url("fancybox_overlay.png");*/
 }
 
 /* line 191, /Users/SinyaPeng/Programming/SNA/food_society/app/assets/stylesheets/jquery.fancybox.css.scss */
