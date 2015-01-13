@@ -44,6 +44,11 @@ class FoodsController < ApplicationController
   end
 
   def add_food
+    @data = params[:_json]
+    @data.each do |d|
+      
+      Rails.logger.debug("data: #{d[:穀類]}")  
+    end
     
   end
 
