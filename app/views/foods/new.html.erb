@@ -1,27 +1,11 @@
     <script type="text/javascript">
         $(document).ready(function() {        
 
-       // $(".fancybox").fancybox({
-       //     wrapCSS    : 'fancybox-custom',
-       //     closeClick : true,
-       //     openEffect : 'none',
-       //     helpers : {
-       //         title : {
-       //             type : 'inside'
-       //         },
-       //         overlay : {
-       //             css : {
-       //                 'background' : 'rgba(0,0,0,0.7)'
-       //             }
-       //         }
-       //     }
-       // });
-
             $('.fancybox').fancybox({
                 padding:0, margin:0 ,background: 'none',
-                'type': 'inline', //change from iframe
-                'scrolling': 'no',
-                'afterClosed': function(){
+                type: 'inline', //change from iframe
+                scrolling: 'no',
+                afterClosed: function(){
                     parent.location.reload(true); 
                      $.fancybox.close();
                 },
@@ -38,7 +22,14 @@
                        }
                    }
             }); 
+
+        <% @foods.each do |f| %>
+            $("#<%=f.category%>box").append('<div class="block box2" ondblclick="$(this).remove();"><img src="/assets/<%=f.name%>.png" width="40" height="40"></div>');
+        <% end %>
+
         }); 
+
+
     </script>
     
 
@@ -71,31 +62,30 @@
                     <div class="block want">want</div>
                     
                     <!--        清單 item           -->
+                   
+                    <% friends.each do |f| %>
+
                     <div class="block req_box">
 
-                            <div class="block box">
-                                <a href="#">
-                                  <div class="block littlePhoto"> 
-                                    <img src="#" height="40px" width="40px"></div>
-                                </a>
-                            </div>
+                        <div class="block box">
+                                <div class="block littlePhoto">
+                                <%= image_tag(f["picture"]["data"]["url"], :class => "block littlePhoto" ) %>
+                                </div>
+                        </div>
 
                             <div class="block light2"></div>
-                            <div class="block request_name">FriendName</div>
+
+                            <div class="block request_name">
+                               <%= f["name"] %>
+                            </div>
+
                             <div class="block need_food">
-                                
+                                <% WantFood.from_wantfood_list(f["id"]).order('due ASC').each do |w| %>
                                 <div class="block box2">
-                                    <%= image_tag(" ", size:"40x40" ) %> 
+                                    <%= image_tag( '/assets/' + w.name + '.png', size:"40x40" ) %> 
                                 </div>
 
-                                <div class="block box2">
-                                    <%= image_tag(" ", size:"40x40" ) %> 
-
-                                </div>
-                                <div class="block box2">
-                                    <%= image_tag(" ", size:"40x40" ) %> 
-
-                                </div>
+                                <% end %>
                             
                             </div>
 
@@ -105,10 +95,9 @@
                                 </a>
                             </div>
 
-                    </div><!--        清單 item end            -->
-                   
-                        
-                    
+                    </div>
+
+                    <% end %>   <!--        清單 item end            -->
                 </div><!--      清單欄end          -->
             </div><!--    中間那大塊 end        -->
 
@@ -117,52 +106,46 @@
             <div class="block refriger">
                 <p><strong>My Refrigerator</strong> </p>
                 <div class="block refrigerator" style="overflow-x:hidden;overflow-y:auto;">
-                    
+
                     <p class="block class_name">穀物類</p>
                     <div class="block food_class">
-                        <div class="block need_food">
-                            <div class="block box2"><%= image_tag("" , size:"40x40" ) %></div>
-                            
+                        <div class="block need_food" id="穀物類box">
+                            <!-- insert ingreidient -->
                         </div>
                     </div>
 
                     <p class="block class_name">蛋豆魚肉類</p>
                     <div class="block food_class">
-                        <div class="block need_food">
-                            <div class="block box2"><%= image_tag(" " , size:"40x40" ) %></div>
-                            
+                        <div class="block need_food" id="蛋豆魚肉類box">
+                            <!-- insert ingreidient -->
                         </div>
                     </div>
                 
                     <p class="block class_name">蔬菜類</p>
                     <div class="block food_class">
-                        <div class="block need_food">
-                            <div class="block box2"><%= image_tag(" " , size:"40x40" ) %></div>
-                            
+                        <div class="block need_food" id="蔬菜類box">
+                            <!-- insert ingreidient -->
                         </div>
                     </div>
                     
-                    <p class="block class_name">果物類</p>
+                    <p class="block class_name">水果類</p>
                     <div class="block food_class">
-                        <div class="block need_food">
-                            <div class="block box2"><%= image_tag(" " , size:"40x40" ) %></div>
-                           
+                        <div class="block need_food" id="水果類box">
+                            <!-- insert ingreidient -->
                         </div>
                     </div>
                     
                     <p class="block class_name">乳製品</p>
                     <div class="block food_class">
-                        <div class="block need_food">
-                            <div class="block box2"><%= image_tag(" " , size:"40x40" ) %></div>
-
+                        <div class="block need_food" id="乳製品box">
+                            <!-- insert ingreidient -->
                         </div>
                     </div>
                     
                     <p class="block class_name">其他配料</p>
                     <div class="block food_class">
-                        <div class="block need_food">
-                            <div class="block box2"><%= image_tag(" " , size:"40x40" ) %></div>
-                            
+                        <div class="block need_food" id="其他配料box">
+                            <!-- insert ingreidient -->
                         </div>
                     </div>
                     
@@ -180,8 +163,8 @@
                 <div class="block title"><h2>Add Ingridents</h2></div>
                 <div class="block title"><h2 id="show_name"></h2></div>
                 <h2 class="add_list">
-                    <button type="button" id="addSubmit">^ _ ^</button>
-                    加入清單</h2> 
+                    加入清單(點兩下消除) 
+                    <button type="button" id="addSubmit">+</button></h2>
                 <div class="block title" id="add_name">
                 </div>
                 <div class="block addfood" style="overflow-x:hidden;overflow-y:auto;">
@@ -212,7 +195,7 @@
                         </div>
                     </div>
                     
-                    <p class="block class_name">4 果物類</p>
+                    <p class="block class_name">4 水果類</p>
                     <div class="block food_class2">
                         <div class="block need_food">
                             <% @foods_fruits.each do |img| %>
@@ -249,7 +232,68 @@
         <%= stylesheet_link_tag "change_ingrident.css" %>
             
             <section id="login" class="all2">
+               <div class="block title"><h2>Want Ingridents</h2></div>
+                <div class="block title"><h2 id="show_name"></h2></div>
+                <h2 class="want_list">
+                    加入清單(點兩下消除) 
+                    <button type="button" id="wantSubmit">+</button></h2>
+                <div class="block title" id="want_name">
+                </div>
+                <div class="block wantfood" style="overflow-x:hidden;overflow-y:auto;">
+                    <p class="block class_name">1 穀物類</p>
+                    <div class="block food_class2">
+                        <div class="block need_food">
+                            <% @foods_grains.each do |img| %>
+                            <div class="block box2"><%= image_tag img.gsub("", ""), :size => "40x40", :name => "1"+img.split('/').last[0..-5] %></div>
+                            <% end %>
+                        </div>
+                    </div>
 
+                    <p class="block class_name">2 蛋豆魚肉類</p>
+                    <div class="block food_class2">
+                        <div class="block need_food">
+                            <% @foods_meatandbean.each do |img| %>
+                            <div class="block box2"><%= image_tag img.gsub("", ""), :size => "40x40", :name => "2"+img.split('/').last[0..-5] %></div>
+                            <% end %>
+                        </div>
+                    </div>
+                
+                    <p class="block class_name">3 蔬菜類</p>
+                    <div class="block food_class2">
+                        <div class="block need_food">
+                            <% @foods_vegetables.each do |img| %>
+                            <div class="block box2"><%= image_tag img.gsub("", ""), :size => "40x40", :name => "3"+img.split('/').last[0..-5] %></div>
+                            <% end %>
+                        </div>
+                    </div>
+                    
+                    <p class="block class_name">4 水果類</p>
+                    <div class="block food_class2">
+                        <div class="block need_food">
+                            <% @foods_fruits.each do |img| %>
+                            <div class="block box2"><%= image_tag img.gsub("", ""), :size => "40x40", :name => "4"+img.split('/').last[0..-5] %></div>
+                            <% end %>
+                        </div>
+                    </div>
+                    
+                    <p class="block class_name">5 乳製品</p>
+                    <div class="block food_class2">
+                        <div class="block need_food">
+                            <% @foods_dairy.each do |img| %>
+                            <div class="block box2"><%= image_tag img.gsub("", ""), :size => "40x40", :name => "5"+img.split('/').last[0..-5] %></div>
+                            <% end %>
+                        </div>
+                    </div>
+                    
+                    <p class="block class_name">6 其他配料</p>
+                    <div class="block food_class2">
+                        <div class="block need_food">
+                            <% @foods_others.each do |img| %>
+                            <div class="block box2"><%= image_tag img.gsub("", ""), :size => "40x40", :name => "6"+img.split('/').last[0..-5] %></div>
+                            <% end %>
+                        </div>
+                    </div>
+                </div>
 
             </section>
         </div>
@@ -262,7 +306,7 @@
 
         $("#AddIngredient img").click(function(){
             var name=$(this).attr('name');
-            $( "#add_name" ).append("<span ondblclick='$(this).remove();'>"+name+"</span> ");
+            $( "#add_name" ).append("<span ondblclick='$(this).remove();'>"+name+"</span>");
         });
 
         $("#addSubmit").click(function(){
@@ -270,7 +314,7 @@
 
             $('#add_name').children("span").each(function(){
                 if($(this).html()[0] == 1){
-                    data.push({"穀類":$(this).html().slice(1,$(this).html().length)});
+                    data.push({"穀物類":$(this).html().slice(1,$(this).html().length)});
                 }
                 if($(this).html()[0] == 2){
                     data.push({"蛋豆魚肉類":$(this).html().slice(1,$(this).html().length)});
@@ -285,17 +329,56 @@
                     data.push({"乳製品":$(this).html().slice(1,$(this).html().length)});
                 }
                 if($(this).html()[0] == 6){
-                    data.push({"其他類":$(this).html().slice(1,$(this).html().length)});
+                    data.push({"其他配料":$(this).html().slice(1,$(this).html().length)});
                 }
                 
             })
             console.log(JSON.stringify(data));
-            // var food_list = $.each($('#add_name span').contents(),function(){});
-            // console.log(food_list)
             $.ajax({
                 beforeSend : function(xhr) {xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))},
                 type : "post",
                 url: "/add_food",
+                data: JSON.stringify(data),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success:function(data){}
+            });
+        });      
+
+        $("#ChangeIngredient img").click(function(){
+            var name=$(this).attr('name');
+            $( "#want_name" ).append("<span ondblclick='$(this).remove();'>"+name+"</span>");
+        });
+
+        $("#wantSubmit").click(function(){
+            var data = [];
+
+            $('#want_name').children("span").each(function(){
+                if($(this).html()[0] == 1){
+                    data.push({"穀物類":$(this).html().slice(1,$(this).html().length)});
+                }
+                if($(this).html()[0] == 2){
+                    data.push({"蛋豆魚肉類":$(this).html().slice(1,$(this).html().length)});
+                }
+                if($(this).html()[0] == 3){
+                    data.push({"蔬菜類":$(this).html().slice(1,$(this).html().length)});
+                }
+                if($(this).html()[0] == 4){
+                    data.push({"水果類":$(this).html().slice(1,$(this).html().length)});
+                }
+                if($(this).html()[0] == 5){
+                    data.push({"乳製品":$(this).html().slice(1,$(this).html().length)});
+                }
+                if($(this).html()[0] == 6){
+                    data.push({"其他配料":$(this).html().slice(1,$(this).html().length)});
+                }
+                
+            })
+            console.log(JSON.stringify(data));
+            $.ajax({
+                beforeSend : function(xhr) {xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))},
+                type : "post",
+                url: "/want_food",
                 data: JSON.stringify(data),
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",

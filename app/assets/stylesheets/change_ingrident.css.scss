@@ -11,3 +11,47 @@
 	position: relative;
 
 }
+
+
+.title {
+    margin: 0 0 0 2em;
+}
+
+#want_name {
+    color: gray;
+    margin-bottom: 20px;
+    width: 700px;
+    clear: both;
+}
+
+#want_name span {
+    font-size: 1.1em;
+    border-width: 1px;
+    border-style: outset;
+}
+.want_list {
+    margin-left: 2em;
+    clear: both;
+}
+
+.wantfood {
+    /*    overflow: auto;*/
+    margin: 0 0 0 2em;
+    width: 90%;
+    height: 80%;
+    background-color: rgba(255,255,255,0.6);
+/*    #b8b789;*/
+    border-radius: 20px;
+/*    border: 5px solid #fff;*/
+}
+
+.food_class2 {
+    margin: 1em;
+    width: 90%;
+    
+    background-color: rgba(255,255,255,0.6);
+/*    #ded7ad;*/
+    border-radius: 5px;
+/*    border: 5px solid #dfd0b7;*/
+/*    solid #fff;*/
+}

@@ -7,6 +7,7 @@ class FoodsController < ApplicationController
 
   def new
     @foods = Food.from_food_list(current_user).order('due ASC')
+
     @food = Food.new(params[:food])
     # @food.user_id = current_user.uid
     @food.uid = current_user.uid
@@ -46,8 +47,11 @@ class FoodsController < ApplicationController
   def add_food
     @data = params[:_json]
     @data.each do |d|
-      
-      Rails.logger.debug("data: #{d[:穀類]}")  
+      d.each do |key, val|
+        Food.create(uid: current_user.uid, category: key, name: val )
+        Rails.logger.debug("data: #{key} and #{val}")  
+      end
+      # @food.uid = current_user.uid
     end
     
   end

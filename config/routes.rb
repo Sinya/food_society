@@ -16,6 +16,7 @@ FacebookUserCast::Application.routes.draw do
   
   post '/ask_for_food' => 'foods#ask_for_food', as: :ask_for_food
   post 'add_food' => 'foods#add_food'
+  post 'want_food' => 'want_foods#want_food'
 
 
 
