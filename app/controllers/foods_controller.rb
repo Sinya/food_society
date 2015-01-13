@@ -53,7 +53,7 @@ class FoodsController < ApplicationController
       end
       # @food.uid = current_user.uid
     end
-    
+    render json: nil, status: :ok
   end
 
   # private
