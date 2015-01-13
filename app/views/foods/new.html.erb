@@ -185,7 +185,7 @@
                 <div class="block title" id="add_name">
                 </div>
                 <div class="block addfood" style="overflow-x:hidden;overflow-y:auto;">
-                    <p class="block class_name">穀物類</p>
+                    <p class="block class_name">1 穀物類</p>
                     <div class="block food_class2">
                         <div class="block need_food">
                             <% @foods_grains.each do |img| %>
@@ -194,47 +194,47 @@
                         </div>
                     </div>
 
-                    <p class="block class_name">蛋豆魚肉類</p>
+                    <p class="block class_name">2 蛋豆魚肉類</p>
                     <div class="block food_class2">
                         <div class="block need_food">
                             <% @foods_meatandbean.each do |img| %>
-                            <div class="block box2"><%= image_tag img.gsub("", ""), :size => "40x40", :name => "1"+img.split('/').last[0..-5] %></div>
-                            <% end %>
-                        </div>
-                    </div>
-                
-                    <p class="block class_name">蔬菜類</p>
-                    <div class="block food_class2">
-                        <div class="block need_food">
-                            <% @foods_vegetables.each do |img| %>
                             <div class="block box2"><%= image_tag img.gsub("", ""), :size => "40x40", :name => "2"+img.split('/').last[0..-5] %></div>
                             <% end %>
                         </div>
                     </div>
-                    
-                    <p class="block class_name">果物類</p>
+                
+                    <p class="block class_name">3 蔬菜類</p>
                     <div class="block food_class2">
                         <div class="block need_food">
-                            <% @foods_fruits.each do |img| %>
+                            <% @foods_vegetables.each do |img| %>
                             <div class="block box2"><%= image_tag img.gsub("", ""), :size => "40x40", :name => "3"+img.split('/').last[0..-5] %></div>
                             <% end %>
                         </div>
                     </div>
                     
-                    <p class="block class_name">乳製品</p>
+                    <p class="block class_name">4 果物類</p>
                     <div class="block food_class2">
                         <div class="block need_food">
-                            <% @foods_dairy.each do |img| %>
+                            <% @foods_fruits.each do |img| %>
                             <div class="block box2"><%= image_tag img.gsub("", ""), :size => "40x40", :name => "4"+img.split('/').last[0..-5] %></div>
                             <% end %>
                         </div>
                     </div>
                     
-                    <p class="block class_name">其他配料</p>
+                    <p class="block class_name">5 乳製品</p>
+                    <div class="block food_class2">
+                        <div class="block need_food">
+                            <% @foods_dairy.each do |img| %>
+                            <div class="block box2"><%= image_tag img.gsub("", ""), :size => "40x40", :name => "5"+img.split('/').last[0..-5] %></div>
+                            <% end %>
+                        </div>
+                    </div>
+                    
+                    <p class="block class_name">6 其他配料</p>
                     <div class="block food_class2">
                         <div class="block need_food">
                             <% @foods_others.each do |img| %>
-                            <div class="block box2"><%= image_tag img.gsub("", ""), :size => "40x40", :name => "5"+img.split('/').last[0..-5] %></div>
+                            <div class="block box2"><%= image_tag img.gsub("", ""), :size => "40x40", :name => "6"+img.split('/').last[0..-5] %></div>
                             <% end %>
                         </div>
                     </div>
@@ -257,7 +257,7 @@
         <script>
         $("#AddIngredient img").mouseover(function(){
             var name=$(this).attr('name');
-            $( "#show_name" ).text(name);
+            $( "#show_name" ).text(name.slice(1,name.length));
         });      
 
         $("#AddIngredient img").click(function(){
@@ -266,11 +266,39 @@
         });
 
         $("#addSubmit").click(function(){
-            var food_list = $('#add_name span').contents();
+            var data = [];
+
+            $('#add_name').children("span").each(function(){
+                if($(this).html()[0] == 1){
+                    data.push({"穀類":$(this).html().slice(1,$(this).html().length)});
+                }
+                if($(this).html()[0] == 2){
+                    data.push({"蛋豆魚肉類":$(this).html().slice(1,$(this).html().length)});
+                }
+                if($(this).html()[0] == 3){
+                    data.push({"蔬菜類":$(this).html().slice(1,$(this).html().length)});
+                }
+                if($(this).html()[0] == 4){
+                    data.push({"水果類":$(this).html().slice(1,$(this).html().length)});
+                }
+                if($(this).html()[0] == 5){
+                    data.push({"乳製品":$(this).html().slice(1,$(this).html().length)});
+                }
+                if($(this).html()[0] == 6){
+                    data.push({"其他類":$(this).html().slice(1,$(this).html().length)});
+                }
+                
+            })
+            console.log(JSON.stringify(data));
+            // var food_list = $.each($('#add_name span').contents(),function(){});
+            // console.log(food_list)
             $.ajax({
+                beforeSend : function(xhr) {xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))},
+                type : "post",
                 url: "/add_food",
-                data: {food_list : food_list},
-                dataType: "xmlDocument",
+                data: JSON.stringify(data),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
                 success:function(data){}
             });
         });      
