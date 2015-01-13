@@ -11,7 +11,6 @@
                 },
                 afterClose : function(){
                     $('#login #add_name').empty();
-
                 },
                 helpers : {
                
@@ -164,6 +163,7 @@
                 <div class="block title"><h2 id="show_name"></h2></div>
                 <h2 class="add_list">
                     加入清單(點兩下消除) 
+                    <%# image_tag('loading1.gif', :id => "loadingimage", :style => "display:none;") %>
                     <button type="button" id="addSubmit">+</button></h2>
                 <div class="block title" id="add_name">
                 </div>
@@ -233,7 +233,7 @@
             
             <section id="login" class="all2">
                <div class="block title"><h2>Want Ingridents</h2></div>
-                <div class="block title"><h2 id="show_name"></h2></div>
+                <div class="block title"><h2 id="show_name2"></h2></div>
                 <h2 class="want_list">
                     加入清單(點兩下消除) 
                     <button type="button" id="wantSubmit">+</button></h2>
@@ -302,6 +302,11 @@
         $("#AddIngredient img").mouseover(function(){
             var name=$(this).attr('name');
             $( "#show_name" ).text(name.slice(1,name.length));
+        });        
+
+        $("#ChangeIngredient img").mouseover(function(){
+            var name=$(this).attr('name');
+            $( "#show_name2" ).text(name.slice(1,name.length));
         });      
 
         $("#AddIngredient img").click(function(){
@@ -310,6 +315,7 @@
         });
 
         $("#addSubmit").click(function(){
+            $('#loadingimage').show();
             var data = [];
 
             $('#add_name').children("span").each(function(){
@@ -341,7 +347,20 @@
                 data: JSON.stringify(data),
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
-                success:function(data){}
+                success: function (response, status) {
+                    console.log(response);
+                    console.log(status);
+                    if (status == "erro") {
+                        alert("erro")
+                    } else {
+                        location.reload();
+                    }
+                },
+                complete: function(){
+                    // $('#loadingimage').hide();
+                    console.log("close");
+                    $.fancybox.close();
+                },
             });
         });      
 
@@ -382,7 +401,21 @@
                 data: JSON.stringify(data),
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
-                success:function(data){}
+                success: function (response, status) {
+                    console.log(response);
+                    console.log(status);
+                    if (status == "erro") {
+                        alert("erro")
+                    } else {
+                        location.reload();
+                    }
+                },
+                complete: function(){
+                    // $('#loadingimage').hide();
+                    console.log("close");
+                    $.fancybox.close();
+                },
+
             });
         });      
 
