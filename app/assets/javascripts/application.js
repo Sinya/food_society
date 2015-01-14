@@ -17,3 +17,5 @@
 //= require jquery-1.10.1.min.js
 //= require jquery.arctext.js
 //= require jquery.fancybox.js
+//= require jquery.slotmachine.js
+//= require bootstrap.min.js

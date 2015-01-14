@@ -22,9 +22,6 @@
                    }
             }); 
 
-        <% @foods.each do |f| %>
-            $("#<%=f.category%>box").append('<div class="block box2" ondblclick="$(this).remove();"><img src="/assets/<%=f.name%>.png" width="40" height="40" ></div>');
-        <% end %>
 
         }); 
 
@@ -32,6 +29,52 @@
     </script>
     
 
+
+  <!-- Top banner
+    ================================================== -->
+
+        <div class="top_banner animated fadeInDown">
+
+                <div class="block Photo">
+                  <% if !current_user.nil? %>
+                  <%= image_tag(my_photo, size:"122x125", :class => "FBPhOTO") %> 
+                  <% else %>
+
+                  <% end %>
+
+                </div>
+
+                <div class="block name" >
+                    <h1> 
+                       <% if !current_user.nil? %>
+         
+                      <strong><%= current_user.name %></strong> 
+
+
+                      <span class=" block light"> </span>
+                    </h1>
+                    <div class="block">
+                    <h1>
+                    <span class="block triangle" id="triangle-left"></span>
+                    <span class=" block wanttosay"> want to say...</span>
+                    </h1>
+                  </div>
+                </div>
+
+
+                <div class="block topFriends">
+
+                  <% friends.each do |f| %>
+                    <div class="block box">
+                    <%= image_tag(f["picture"]["data"]["url"], :class => "block littlePhoto" ) %>
+                    </div>
+                  <% end %>                 
+
+                </div>
+
+            <% end %>
+
+        </div>
 
     <section class = "animated fadeInUpBig">
             <!--    左側那欄按鈕        -->
@@ -103,7 +146,10 @@
                       
             <!--    我的冰箱        -->
             <div class="block refriger">
-                <p><strong>My Refrigerator</strong> </p>
+                <p>
+                    <strong>My Refrigerator(點兩下消除)</strong> 
+                    <strong id="show_name3"></strong>
+                </p>
                 <div class="block refrigerator" style="overflow-x:hidden;overflow-y:auto;">
 
                     <p class="block class_name">穀物類</p>
@@ -163,8 +209,11 @@
                 <div class="block title"><h2 id="show_name"></h2></div>
                 <h2 class="add_list">
                     加入清單(點兩下消除) 
-                    <%# image_tag('loading1.gif', :id => "loadingimage", :style => "display:none;") %>
-                    <button type="button" id="addSubmit">+</button></h2>
+                    <%= image_tag('loading1.gif', :id => "loadingimage", :style => "display:none;") %>
+                    <!-- <button type="button" id="addSubmit">+ -->
+                        <%= image_tag "addfood.png", :size => "30x30", :id => "addSubmit" %>
+                    <!-- </button> -->
+                </h2>
                 <div class="block title" id="add_name">
                 </div>
                 <div class="block addfood" style="overflow-x:hidden;overflow-y:auto;">
@@ -236,7 +285,10 @@
                 <div class="block title"><h2 id="show_name2"></h2></div>
                 <h2 class="want_list">
                     加入清單(點兩下消除) 
-                    <button type="button" id="wantSubmit">+</button></h2>
+                   <!-- <button type="button" id="wantSubmit">+</button>    -->
+                        <%= image_tag "addfood.png", :size => "30x30", :id => "wantSubmit" %>
+
+              </h2>
                 <div class="block title" id="want_name">
                 </div>
                 <div class="block wantfood" style="overflow-x:hidden;overflow-y:auto;">
@@ -299,26 +351,37 @@
         </div>
 
         <script>
-        $("#AddIngredient img").mouseover(function(){
+
+
+        <% @foods.each do |f| %>
+            $("#<%=f.category%>box").append('<div class="block box2" ondblclick="$(this).remove();"><img src="/assets/<%=f.name%>.png" width="40" height="40" class="refrigerator_food" name="<%=f.name%>" ></div>');
+        <% end %>
+
+        $("#AddIngredient .addfood img").mouseover(function(){
             var name=$(this).attr('name');
             $( "#show_name" ).text(name.slice(1,name.length));
         });        
 
-        $("#ChangeIngredient img").mouseover(function(){
+        $("#ChangeIngredient .wantfood img").mouseover(function(){
             var name=$(this).attr('name');
             $( "#show_name2" ).text(name.slice(1,name.length));
-        });      
+        });  
 
-        $("#AddIngredient img").click(function(){
+        $(".refrigerator_food").mouseover(function(){
             var name=$(this).attr('name');
-            $( "#add_name" ).append("<span ondblclick='$(this).remove();'>"+name+"</span>");
+            $( "#show_name3" ).text(name.slice(0,name.length));
+        });     
+
+        $("#AddIngredient .addfood img").click(function(){
+            var name=$(this).attr('name');
+            $( "#add_name" ).append("<p ondblclick='$(this).remove();'>"+name+"</p>");
         });
 
         $("#addSubmit").click(function(){
             $('#loadingimage').show();
             var data = [];
 
-            $('#add_name').children("span").each(function(){
+            $('#add_name').children("p").each(function(){
                 if($(this).html()[0] == 1){
                     data.push({"穀物類":$(this).html().slice(1,$(this).html().length)});
                 }
@@ -357,8 +420,8 @@
                     }
                 },
                 complete: function(){
-                    // $('#loadingimage').hide();
-                    console.log("close");
+                    $('#loadingimage').hide();
+                    // console.log("close");
                     $.fancybox.close();
                 },
             });
@@ -372,7 +435,7 @@
         $("#wantSubmit").click(function(){
             var data = [];
 
-            $('#want_name').children("span").each(function(){
+            $('#want_name').children("p").each(function(){
                 if($(this).html()[0] == 1){
                     data.push({"穀物類":$(this).html().slice(1,$(this).html().length)});
                 }
