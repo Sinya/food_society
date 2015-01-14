@@ -48,7 +48,7 @@ class FoodsController < ApplicationController
     @data = params[:_json]
     @data.each do |d|
       d.each do |key, val|
-        Food.create(uid: current_user.uid, category: key, name: val )
+        Food.create(uid: current_user.uid, category: key, name: val, due: DateTime.now )
         Rails.logger.debug("data: #{key} and #{val}")  
       end
       # @food.uid = current_user.uid

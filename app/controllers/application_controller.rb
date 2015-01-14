@@ -13,7 +13,7 @@ private
   def my_photo
     graph = Koala::Facebook::API.new(current_user.oauth_token)
     u = graph.get_object("me")
-    @my_photo ||= graph.get_picture(u["id"])
+    @my_photo ||= graph.get_picture(u["id"],type: :large)
   end
   helper_method :my_photo
 
