@@ -1,17 +1,20 @@
 
-        <div class="container" >        
+        <div class="container" > 
+
+        <header class="animated bounceInDown">      
 
                 <%= image_tag("banner.png",size: "678x188") %> 
 
                 <!-- banner -->
 				<!-- <h1 id="headline">&nbsp;&nbsp;&hearts;FoodSociety&hearts;&nbsp;&nbsp;</h1> -->
 
+        </header>
 			<section class="main">
-                <div class="logo">
+                <div class="logo animated fadeInLeftBig">
                 	<%= image_tag("fork.png") %> 
                 </div>
-                <!-- <canvas id="canvas" style="position:fixed; top:0;left:0"></canvas> -->
-                <div class="middle">
+                <canvas id="canvas" style="position:fixed; top:0;left:0"></canvas>
+                <div class="middle animated rotateIn">
 
         <!-- the logo -->
 
@@ -28,13 +31,20 @@
 
 
                     </div>
-                <div class="logo">
+                <div class="logo animated fadeInRightBig">
                 	<%= image_tag("knif.png" ) %> 
                 </div>
 			</section>
             
 
         </div>
+
+        <footer>
+            Food Society &copy; 2015 All Rights Reserved.
+        </footer>
+
+
+
 <!--
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
@@ -70,11 +80,8 @@
 		</script> 
 
     -->
-
-	<!-- Annoying Snow
-	    ==================================================
- 
-        <script>
+    
+    <script>
             window.onload = function(){
             //canvas init
             var canvas = document.getElementById("canvas");
@@ -163,4 +170,3 @@
         }
         </script>  
 
-    -->

@@ -23,7 +23,7 @@
             }); 
 
         <% @foods.each do |f| %>
-            $("#<%=f.category%>box").append('<div class="block box2" ondblclick="$(this).remove();"><img src="/assets/<%=f.name%>.png" width="40" height="40"></div>');
+            $("#<%=f.category%>box").append('<div class="block box2" ondblclick="$(this).remove();"><img src="/assets/<%=f.name%>.png" width="40" height="40" ></div>');
         <% end %>
 
         }); 
@@ -33,9 +33,9 @@
     
 
 
-    <section>
+    <section class = "animated fadeInUpBig">
             <!--    左側那欄按鈕        -->
-            <div class="block left_button">
+            <div class="block left_button ">
                 <div class="block but">
                     <a class="fancybox" href="#AddIngredient">
                        <%= image_tag("add-icon.png", :class=>"add" ) %> </a>

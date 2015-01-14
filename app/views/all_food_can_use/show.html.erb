@@ -1,7 +1,22 @@
 
+<div class="friendList_select">
 
-<% @friend_and_me_food.each do |f| %>
-	<%= f["name"] %>
-<% end %>
+	<% friends.each do |f| %>
+	<div class="block box">
+	<%= image_tag(f["picture"]["data"]["url"], :class => "block littlePhoto" ) %>
+	</div>
+	<% end %> 
+
+</div>
+
+
+<div class="all_friend_and_me_food">
+	<% @friend_and_me_food.each do |f| %>
+		<%# f["name"] %>
+	    <%= image_tag( '/assets/' + f["name"] + '.png', size:"40x40" ) %> 
+
+	<% end %>
+
+</div>
 
 
