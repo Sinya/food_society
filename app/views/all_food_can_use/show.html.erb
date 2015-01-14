@@ -1,22 +1,489 @@
+<style type="text/css">
+ @charset "utf-8";
+/* CSS Document */
 
-<div class="friendList_select">
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css");
+@import url("http://fonts.googleapis.com/css?family=Pathway+Gothic+One");
 
-	<% friends.each do |f| %>
-	<div class="block box">
-	<%= image_tag(f["picture"]["data"]["url"], :class => "block littlePhoto" ) %>
-	</div>
-	<% end %> 
+a{
+	color: #ccd500;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	color: #a9b119;
+}
+.clear {
+    clear: both;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    background-color:  #bfdecd;
+    padding: 0;
+    margin: 0;
+}
 
-</div>
+b{
+	font-weight: 600;
+}
 
 
-<div class="all_friend_and_me_food">
-	<% @friend_and_me_food.each do |f| %>
-		<%# f["name"] %>
-	    <%= image_tag( '/assets/' + f["name"] + '.png', size:"40x40" ) %> 
+/* Titulos
+-------------------------------------------------------------------------*/
+h1{
+	width: 100%;
+	color: #000000;
+	font-size: 40px;
+	margin-bottom: 25px;
+}
 
-	<% end %>
+p.title{
+	color: #000000;
+    display: table-cell;
+    float: left;
+    font-size: 45px;
+    line-height: 40px;
+    margin: 0 0 50px;
+    text-align: center;
+    width: 100%;
+    font-weight: 300;
+}
 
-</div>
+.grey {	color:#444;}
 
+/* INICIO
+-------------------------------------------------------------------------*/
+#header{
+	margin: 0 auto 0;
+	width: 100%;
+/*    height: 200px;*/
+	position: absolute;
+	text-align: center;
+	top: 0px;
+	background-color: #9dccb0;
+	overflow: hidden;
+	position: relative;
+
+}
+#header table{
+	height: 100%;
+	width: 100%;
+}
+#header table td{
+	vertical-align: middle;
+}
+#header .content1{
+	color: #FFFFFF;
+    float: left;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 42px;
+/*    margin-top: 30px;*/
+    text-align: center;
+    width: 100%;
+}
+#header .content1{
+	font-family: 'Pathway Gothic One';
+	color: #ffffff;
+    float: left;
+    font-size: 70px;
+    font-weight: 300;
+    line-height: 80px;
+/*    margin-top: 2px;*/
+/*    margin-bottom: 20px;*/
+    text-align: center;
+    width: 100%;
+    padding: 30px 0px;
+}
+#header .content > div, #footer .content > div{
+	display: inline-block;
+}
+
+.machineContainer{
+    display: block;
+    width: 310px;
+    position:absolute;
+    margin: 16em 0 0 30%;
+	background-color: #fff;
+/*	padding: 5px 1px 5px 1px;*/
+	overflow: hidden;
+	height: 100px;
+}
+.slotMachine{
+	width: 100px;
+/*	border: 5px solid #ffddc4;*/
+	height: 100px;
+	padding: 0px;
+	overflow: hidden;
+	display: inline-block;
+	text-align: center;
+	/*margin: 0px 5px;*/
+	/*border: 5px solid #000;*/
+	background-color: #ffffff;
+}
+.machineResult{
+	color:#fff;
+	text-align:center;
+	font-weight: 900;
+}
+.noBorder{
+	border:none !important;
+	background: transparent !important;
+}
+.slotMachine .slot{
+	height:100px;
+	background-position-x: 55%;
+	background-repeat: no-repeat;
+}
+.slot1{
+	background-image: url("/assets/slot1.png");
+}
+.slot2{
+	background-image: url("/assets/slot2.png");
+}
+.slot3{
+	background-image: url("/assets/slot3.png");
+}
+.slot4{
+	background-image: url("/assets/slot4.png");
+}
+.slot5{
+	background-image: url("/assets/slot5.png");
+}
+.slot6{
+	background-image: url("/assets/slot6.png");
+}
+.slot7{
+	background-image: url("/assets/slot7.png");
+}
+.slot8{
+	background-image: url("/assets/slot8.png");
+}
+.slot9{
+	background-image: url("/assets/slot9.png");
+}
+.slot10{
+	background-image: url("/assets/slot10.png");
+}
+
+#textMachine{
+	width:520px;
+	height: 67px;
+	overflow: hidden;
+	display: inline-block;
+	text-align: left;
+    color: #d6e5e6;
+/*    font-size: 40px;*/
+}
+#textMachine > *{
+	padding: 0px 0px;
+}
+
+
+
+
+.slotMachineButton{
+	width:100px;
+	height: 100px;
+	overflow: hidden;
+	display: inline-block;
+	text-align: center;
+}
+.slotMachineButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25) );
+	background:-moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25');
+	background-color:#ffc477;
+	border-radius: 75px;
+	text-indent:0px;
+	border:6px solid #eeb44f;
+	display:inline-block;
+	color:#ffffff;
+	font-size:40px;
+	font-weight:bold;
+	font-style:normal;
+	height:100px;
+	line-height:90px;
+	margin-top:10px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #cc9f52;
+	cursor:pointer;
+}
+.slotMachineButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477) );
+	background:-moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477');
+	background-color:#fb9e25;
+}.slotMachineButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.fix {
+    display: block;
+    position: relative;
+}
+
+.go {
+    width: 95%;
+/*
+    float: left;
+    display: block;
+    height: 100px;
+    width: 100px;
+*/
+}
+
+.maintion {
+/*
+    display: block;
+    width: 600px;
+*/
+/*    float:left;*/
+}
+
+.search {
+    margin: 5%;
+    width: 90%;
+    height: 600px;
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 5px;
+}
+
+.foodimg {
+    display: block;
+    float: left;
+    width: 20%;
+    margin: 1em;
+    padding: 1em;
+}
+
+.foodphoto {
+    display: block;
+    float: left;
+    border-radius: 5px;
+    border:5px solid #fff;
+}
+
+.foodTitle {
+    display: block;
+    font-size: 30px;
+}
+
+.infoFood {
+    display: block;
+    float: left;
+    width: 70%;
+    margin: 2em;
+    padding: 2em;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 5px;
+}
+
+.recip {
+    display: block;
+}
+
+.recipe {
+    width: 100%;
+}
+
+footer {
+  padding-bottom: 20px;
+  clear:both;
+  text-align: center;
+/*    background-color: #bfdecd;*/
+}
+</style>
+		<div id="header" class="animated fadeInDownBig">
+			<div class="content1 ">
+				<div class="">
+					<div style="display: inline-block;">Cook What? </div>
+						
+					<div id="textMachine">
+						<div>&diams;&diams;Fun&diams;&diams;</div>
+						<div>Smart &hearts;</div>
+						<div>IS EASY TO USE</div>
+						<div>From iCook &cup;&#8226;x&#8226;&cup;</div>
+					</div>
+					<script>
+						$(document).ready(function(){
+							$("#textMachine").slotMachine({
+								active	: 1,
+								delay	: 1000,
+								auto	: 1500
+							});
+						});
+					</script>
+				</div>
+			</div>
+			
+		</div>
+		
+
+			
+        <div class="content1" style="text-align: center" >
+
+<!--            <h2 class="animated bounceInLeft">今天要煮什麼呢？</h2>-->
+
+            <div class="maintion">
+                <div class="content1 fix animated bounceInRight" style="text-align: center; background: url('/assets/machine.png') no-repeat 50% 0px; height: 400px;">
+                    <div class=" " style="clear:both; padding-top: 160px;padding-right:60px;width: 370px;margin: 0 auto;">
+                        <div id="machine1" class="slotMachine">
+                            <div class="slot slot1"></div>
+                            <div class="slot slot2"></div>
+                            <div class="slot slot3"></div>
+                            <div class="slot slot4"></div>
+                            <div class="slot slot5"></div>
+                            <div class="slot slot6"></div>
+                            <div class="slot slot7"></div>
+                            <div class="slot slot8"></div>
+                            <div class="slot slot9"></div>
+                            <div class="slot slot10"></div>
+                        </div>
+
+                        <div id="machine2" class="slotMachine">
+                            <div class="slot slot1"></div>
+                            <div class="slot slot2"></div>
+                            <div class="slot slot3"></div>
+                            <div class="slot slot4"></div>
+                            <div class="slot slot5"></div>
+                            <div class="slot slot6"></div>
+                            <div class="slot slot7"></div>
+                            <div class="slot slot8"></div>
+                            <div class="slot slot9"></div>
+                            <div class="slot slot10"></div>
+                        </div>
+
+                        <div id="machine3" class="slotMachine">
+                            <div class="slot slot1"></div>
+                            <div class="slot slot2"></div>
+                            <div class="slot slot3"></div>
+                            <div class="slot slot4"></div>
+                            <div class="slot slot5"></div>
+                            <div class="slot slot6"></div>
+                            <div class="slot slot7"></div>
+                            <div class="slot slot8"></div>
+                            <div class="slot slot9"></div>
+                            <div class="slot slot10"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="go animated bounceInLeft">
+                    <div id="slotMachineButton1" class="slotMachineButton">GO!</div>
+                </div>
+            </div>
+        </div>
+		
+        
+		<script>
+			$(document).ready(function(){
+				var machine1 = $("#machine1").slotMachine({
+					active	: 0,
+					delay	: 500
+				});
+				
+				var machine2 = $("#machine2").slotMachine({
+					active	: 1,
+					delay	: 500
+				});
+				
+				var machine3 = $("#machine3").slotMachine({
+					active	: 2,
+					delay	: 500
+				});
+				
+				function onComplete(active){
+					switch(this.element[0].id){
+						case 'machine1':
+							$("#machine1Result").text("Index: "+this.active);
+							break;
+						case 'machine2':
+							$("#machine2Result").text("Index: "+this.active);
+							break;
+						case 'machine3':
+							$("#machine3Result").text("Index: "+this.active);
+							break;
+					}
+				}
+				
+				$("#slotMachineButton1").click(function(){
+					
+					machine1.shuffle(5, onComplete);
+					
+					setTimeout(function(){
+						machine2.shuffle(5, onComplete);
+					}, 500);
+					
+					setTimeout(function(){
+						machine3.shuffle(5, onComplete);
+					}, 1000);
+					
+				})
+			});
+		</script>
+        
+        <div class="search" style="overflow-x:hidden;overflow-y:auto;">
+            <div class="recipe">
+                <div class="foodimg">
+                    <img  class="foodphoto" src="https://dbjdsnch130xu.cloudfront.net/uploads/recipe/cover/71248/large_517561f44d68b7f5.jpg" width="200px; hight:100px;">
+                </div>
+                <div class="infoFood"><p class="foodTitle">珍珠奶茶蛋糕</p><p class="foodInfo">茶香四溢的蛋糕佐奶茶口味的鮮奶油,再放上清爽的茶凍當粉圓,三種都不難的作法組合在一起變成絕妙好滋味,突發奇想的點子,好吃又好看的珍奶蛋糕</p></div>
+            </div>
+             <div class="recipe">
+                <div class="foodimg">
+                    <img  class="foodphoto" src="https://dbjdsnch130xu.cloudfront.net/uploads/recipe/cover/71248/large_517561f44d68b7f5.jpg" width="200px; hight:100px;">
+                </div>
+                <div class="infoFood"><p class="foodTitle">珍珠奶茶蛋糕</p><p class="foodInfo">茶香四溢的蛋糕佐奶茶口味的鮮奶油,再放上清爽的茶凍當粉圓,三種都不難的作法組合在一起變成絕妙好滋味,突發奇想的點子,好吃又好看的珍奶蛋糕</p></div>
+            </div>
+            <div class="recipe">
+                <div class="foodimg">
+                    <img  class="foodphoto" src="https://dbjdsnch130xu.cloudfront.net/uploads/recipe/cover/71248/large_517561f44d68b7f5.jpg" width="200px; hight:100px;">
+                </div>
+                <div class="infoFood"><p class="foodTitle">珍珠奶茶蛋糕</p><p class="foodInfo">茶香四溢的蛋糕佐奶茶口味的鮮奶油,再放上清爽的茶凍當粉圓,三種都不難的作法組合在一起變成絕妙好滋味,突發奇想的點子,好吃又好看的珍奶蛋糕</p></div>
+            </div>
+            <div class="recipe">
+                <div class="foodimg">
+                    <img  class="foodphoto" src="https://dbjdsnch130xu.cloudfront.net/uploads/recipe/cover/71248/large_517561f44d68b7f5.jpg" width="200px; hight:100px;">
+                </div>
+                <div class="infoFood"><p class="foodTitle">珍珠奶茶蛋糕</p><p class="foodInfo">茶香四溢的蛋糕佐奶茶口味的鮮奶油,再放上清爽的茶凍當粉圓,三種都不難的作法組合在一起變成絕妙好滋味,突發奇想的點子,好吃又好看的珍奶蛋糕</p></div>
+            </div>
+        </div>
+        
+
+		<div class="friendList_select">
+
+			<% friends.each do |f| %>
+			<div class="block box">
+			<%= image_tag(f["picture"]["data"]["url"], :class => "block littlePhoto" ) %>
+			</div>
+			<% end %> 
+
+		</div>
+
+
+		<div class="all_friend_and_me_food">
+			<% @friend_and_me_food.each do |f| %>
+				<%# f["name"] %>
+			    <%= image_tag( '/assets/' + f["name"] + '.png', size:"40x40" ) %> 
+
+			<% end %>
+
+		</div>
+
+<footer>
+     Food Society &copy; 2015 All Rights Reserved
+</footer>
 

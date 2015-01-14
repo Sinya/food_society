@@ -16,15 +16,15 @@
       <nav class="nav">
           
             <a class="top">
-        <strong><%= link_to "Foodtest", root_path, id:"logo" %></strong>
+        <strong><%= link_to "Food Society", root_path, id:"logo" %></strong>
         <span><%= image_tag("dishes_logo.png", size: "30x30", :class => "img_banner" ) %></span> 
 
             </a>
        
                     <% if !current_user.nil? %>
 
-                  <span> <%= link_to "Foods", new_food_path %> </span>
-                  <span> <%= link_to "Many_Foods", show_food_can_use_path %> </span>
+                  <span> <%= link_to "Refrigerator", new_food_path %> </span>
+                  <span> <%= link_to "Recipe", show_food_can_use_path %> </span>
 
                     <span>
                       <a href="#">
@@ -43,22 +43,22 @@
 
 
   <!-- Top banner
-    ================================================== -->
+    ================================================== 
 
         <div class="top_banner animated fadeInDown">
 
                 <div class="block Photo">
-                  <% if !current_user.nil? %>
-                  <%= image_tag(my_photo, size:"122x125", :class => "FBPhOTO") %> 
-                  <% else %>
+                  <%# if !current_user.nil? %>
+                  <%# image_tag(my_photo, size:"122x125", :class => "FBPhOTO") %> 
+                  <%# else %>
 
-                  <% end %>
+                  <%# end %>
 
                 </div>
 
                 <div class="block name" >
                     <h1> 
-                       <% if !current_user.nil? %>
+                       <%# if !current_user.nil? %>
          
                       <strong><%= current_user.name %></strong> 
 
@@ -76,17 +76,17 @@
 
                 <div class="block topFriends">
 
-                  <% friends.each do |f| %>
+                  <%# friends.each do |f| %>
                     <div class="block box">
-                    <%= image_tag(f["picture"]["data"]["url"], :class => "block littlePhoto" ) %>
+                    <%# image_tag(f["picture"]["data"]["url"], :class => "block littlePhoto" ) %>
                     </div>
-                  <% end %>                 
+                  <%# end %>                 
 
                 </div>
 
-            <% end %>
+            <%# end %>
 
-        </div>
+        </div> -->
 
 <%= yield %>
 
