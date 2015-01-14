@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150113132242) do
+ActiveRecord::Schema.define(version: 20150114172806) do
 
   create_table "foods", force: true do |t|
     t.string   "name"
@@ -21,6 +21,18 @@ ActiveRecord::Schema.define(version: 20150113132242) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "uid"
+  end
+
+  create_table "icook_recipes", force: true do |t|
+    t.string   "url"
+    t.string   "title"
+    t.string   "image_url"
+    t.string   "description"
+    t.string   "ingredient"
+    t.string   "step"
+    t.string   "match_ingredient"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "ingredients", force: true do |t|
