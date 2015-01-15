@@ -33,6 +33,7 @@
                 },
                 afterClose : function(){
                     $('#login #add_name').empty();
+                    $('#login #want_name').empty();
                 },
                 helpers : {
                
@@ -305,7 +306,7 @@
                 <div class="block title"><h2 id="show_name"></h2></div>
                 <h2 class="add_list">
                     加入清單(點兩下消除) 
-                    <%= image_tag('loading1.gif', :id => "loadingimage", :style => "display:none;") %>
+                    <%# image_tag('loading1.gif', :id => "loadingimage", :style => "display:none;") %>
                     <!-- <button type="button" id="addSubmit">+ -->
                         <%= image_tag "addfood.png", :size => "30x30", :id => "addSubmit" %>
                     <!-- </button> -->
@@ -516,7 +517,7 @@
                     }
                 },
                 complete: function(){
-                    $('#loadingimage').hide();
+                    // $('#loadingimage').hide();
                     // console.log("close");
                     $.fancybox.close();
                 },
@@ -571,7 +572,7 @@
                 },
                 complete: function(){
                     // $('#loadingimage').hide();
-                    console.log("close");
+                    // console.log("close");
                     $.fancybox.close();
                 },
 
