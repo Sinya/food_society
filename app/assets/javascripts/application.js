@@ -19,3 +19,6 @@
 //= require jquery.fancybox.js
 //= require jquery.slotmachine.js
 //= require bootstrap.min.js
+//= require jquery.easing.1.2.js
+//= require jquery.circulate.js
+//= require sticky.min.js

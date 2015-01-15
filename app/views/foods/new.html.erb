@@ -1,5 +1,27 @@
     <script type="text/javascript">
-        $(document).ready(function() {        
+        $(document).ready(function() {  
+
+            $(".fly").click(function() {
+            $(this).children().children("#change").attr('src',"/assets/wait.png");
+            console.log($(this).prev().children(".box4"));
+            $(this).prev().children(".box4").each(function() {
+                $(this).circulate({
+                    speed: Math.floor(Math.random()*300) + 100,
+                    height: Math.floor(Math.random()*1000) - 470,
+                    width: Math.floor(Math.random()*1000) - 470
+                });
+            });
+            $(".box2").each(function() {
+                $(this).circulate({
+                    speed: Math.floor(Math.random()*300) + 100,
+                    height: Math.floor(Math.random()*1000) - 470,
+                    width: Math.floor(Math.random()*1000) - 470
+                });
+            });
+           
+            $.sticky('<b>You have new Message.</b>  Send complete!');
+            });
+              
 
             $('.fancybox').fancybox({
                 padding:0, margin:0 ,background: 'none',
@@ -100,46 +122,120 @@
                 </div><div><p>&nbsp; &nbsp; only show friends</p></div>
                 
                 <!--        清單欄        -->
-                <div class="block requests" style="overflow-x:hidden;overflow-y:auto;">
-                    <div class="block want">want</div>
+                <div class="block requests tabs">
+
+                    <!--          選單          -->
+                    <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1" checked="checked" />
+                    <label for="tab-1" class="tab-label-1">Friends</label>
+                    <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
+                    <label for="tab-2" class="tab-label-2">Request</label>
+                    <div class="clear-shadow"></div>
+
+                    <div class="content3">
+
+                        <div class="content-1 noposition" style="overflow-x:hidden;overflow-y:auto;">
+
+                            <div class="block"><h2>Helping Friends 看他可憐 </h2></div> 
+
+
+                    <!-- <div class="block want">want</div> -->
                     
                     <!--        清單 item           -->
                    
-                    <% friends.each do |f| %>
+                        <% friends.each do |f| %>
 
-                    <div class="block req_box">
+                        <div class="block req_box">
 
-                        <div class="block box">
-                                <div class="block littlePhoto">
-                                <%= image_tag(f["picture"]["data"]["url"], :class => "block littlePhoto" ) %>
+                            <div class="block box">
+                                    <div class="block littlePhoto">
+                                    <%= image_tag(f["picture"]["data"]["url"], :class => "block littlePhoto" ) %>
+                                    </div>
+                            </div>
+
+                                <div class="block light2"></div>
+
+                                <div class="block request_name">
+                                   <%= f["name"] %>
                                 </div>
+
+                                <div class="block need_food">
+                                    <% WantFood.from_wantfood_list(f["id"]).order('due ASC').each do |w| %>
+                                    <div class="block box4">
+                                        <%= image_tag( '/assets/' + w.name + '.png', size:"40x40" ) %> 
+                                    </div>
+
+                                    <% end %>
+                                
+                                </div>
+
+                                <div class="block box3 fly">
+                                    <a href="#">
+                                        <%= image_tag("Hand.png", size:"40x40", id:"change" ) %> 
+                                    </a>
+                                </div>
+
+                            </div> 
+                            <!-- a friend want list -->
+
+                        <% end %>  
+                        
+                    </div>  <!--        清單1 item end            -->
+
+                        <div class="content-2 noposition" style="overflow-x:hidden;overflow-y:auto;">
+                            <h2>My Request 嗟來食</h2>
+                            <!--        清單 item           -->
+
+                            <% @mywantfoods.each do |w| %>
+
+                                    <div class="block req_box">
+                                        <div class="block box">
+                                            <a href="#">
+                                                <div class="block littlePhoto"> 
+                                                <%= image_tag(my_photo, size:"40x40" ) %> 
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="block light2"></div>
+
+                                        <div class="block request_name">
+                                            <%= current_user.name %>
+                                        </div>
+
+                                        <div class="block need_food">
+                                                <div class="block box4">
+
+                                                <%= image_tag( '/assets/' + w.name + '.png' , size:"40x40" ) %> 
+
+                                                </div>
+
+                                        </div>
+                                        <div class="block box3 fly"><a href="#"><img id="change" src="/assets/wait.png" height="40px" width="40px"></a></div>
+                                    </div><!--        an item end            -->
+
+                            <% end %>  
+
+
+                            <div class="block req_box">
+                                <div class="block box"><a href="#"><div class="block littlePhoto"> 
+                                    <%= image_tag(my_photo, size:"40x40" ) %> 
+                                </div></a></div>
+
+                                <div class="block light2"></div>
+                                        <div class="block request_name">
+                                            <%= current_user.name %>
+                                        </div>
+                                    <div class="block need_food">
+                                    <div class="block box2"><img src="/assets/優格.png" height="40px" width="40px" ></div>
+                                </div>
+                                <div class="block box3"><a href="#"><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c47.0.160.160/p160x160/10354686_10150004552801856_220367501106153455_n.jpg?oh=8c14def50e1c6328a13afe614b4e5d89&oe=553FEF49&__gda__=1428867897_ca8b25cac702abc76f6a867ac7f819c7" height="40px" width="40px"></a></div>
+                            </div><!--        清單 item end            -->
+                            
                         </div>
 
-                            <div class="block light2"></div>
 
-                            <div class="block request_name">
-                               <%= f["name"] %>
-                            </div>
+                    </div>   <!-- content3 -->
 
-                            <div class="block need_food">
-                                <% WantFood.from_wantfood_list(f["id"]).order('due ASC').each do |w| %>
-                                <div class="block box2">
-                                    <%= image_tag( '/assets/' + w.name + '.png', size:"40x40" ) %> 
-                                </div>
-
-                                <% end %>
-                            
-                            </div>
-
-                            <div class="block box3">
-                                <a href="#">
-                                    <%= image_tag("Hand.png", size:"40x40" ) %> 
-                                </a>
-                            </div>
-
-                    </div>
-
-                    <% end %>   <!--        清單 item end            -->
                 </div><!--      清單欄end          -->
             </div><!--    中間那大塊 end        -->
 
@@ -354,7 +450,7 @@
 
 
         <% @foods.each do |f| %>
-            $("#<%=f.category%>box").append('<div class="block box2" ondblclick="$(this).remove();"><img src="/assets/<%=f.name%>.png" width="40" height="40" class="refrigerator_food" name="<%=f.name%>" ></div>');
+            $("#<%=f.category%>box").append('<div class="block box2" ondblclick="$(this).remove();"><img src="/assets/<%=f.name%>.png" width="40" height="40" class="refrigerator_food" name="<%=f.name%>  <%=f.due%> " ></div>');
         <% end %>
 
         $("#AddIngredient .addfood img").mouseover(function(){
@@ -427,9 +523,9 @@
             });
         });      
 
-        $("#ChangeIngredient img").click(function(){
+        $("#ChangeIngredient .wantfood img").click(function(){
             var name=$(this).attr('name');
-            $( "#want_name" ).append("<span ondblclick='$(this).remove();'>"+name+"</span>");
+            $( "#want_name" ).append("<p ondblclick='$(this).remove();'>"+name+"</p>");
         });
 
         $("#wantSubmit").click(function(){
