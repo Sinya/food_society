@@ -299,6 +299,7 @@ p.title{
     width: 100%;
 }
 
+
 footer {
   padding-bottom: 20px;
   clear:both;
@@ -421,53 +422,54 @@ footer {
 				}
 				
 				$("#slotMachineButton1").click(function(){
-					
+
 					machine1.shuffle(5, onComplete);
 					
 					setTimeout(function(){
 						machine2.shuffle(5, onComplete);
-					}, 500);
+					}, 1000);
 					
 					setTimeout(function(){
 						machine3.shuffle(5, onComplete);
-					}, 1000);
-					
+					}, 2000);
+
+					location.reload();
+
 				})
 			});
 		</script>
         
         <div class="search" style="overflow-x:hidden;overflow-y:auto;">
-            <div class="recipe">
-                <div class="foodimg">
-                    <img  class="foodphoto" src="https://dbjdsnch130xu.cloudfront.net/uploads/recipe/cover/71248/large_517561f44d68b7f5.jpg" width="200px; hight:100px;">
-                </div>
-                <div class="infoFood"><p class="foodTitle">珍珠奶茶蛋糕</p><p class="foodInfo">茶香四溢的蛋糕佐奶茶口味的鮮奶油,再放上清爽的茶凍當粉圓,三種都不難的作法組合在一起變成絕妙好滋味,突發奇想的點子,好吃又好看的珍奶蛋糕</p></div>
-            </div>
-             <div class="recipe">
-                <div class="foodimg">
-                    <img  class="foodphoto" src="https://dbjdsnch130xu.cloudfront.net/uploads/recipe/cover/71248/large_517561f44d68b7f5.jpg" width="200px; hight:100px;">
-                </div>
-                <div class="infoFood"><p class="foodTitle">珍珠奶茶蛋糕</p><p class="foodInfo">茶香四溢的蛋糕佐奶茶口味的鮮奶油,再放上清爽的茶凍當粉圓,三種都不難的作法組合在一起變成絕妙好滋味,突發奇想的點子,好吃又好看的珍奶蛋糕</p></div>
-            </div>
-            <div class="recipe">
-                <div class="foodimg">
-                    <img  class="foodphoto" src="https://dbjdsnch130xu.cloudfront.net/uploads/recipe/cover/71248/large_517561f44d68b7f5.jpg" width="200px; hight:100px;">
-                </div>
-                <div class="infoFood"><p class="foodTitle">珍珠奶茶蛋糕</p><p class="foodInfo">茶香四溢的蛋糕佐奶茶口味的鮮奶油,再放上清爽的茶凍當粉圓,三種都不難的作法組合在一起變成絕妙好滋味,突發奇想的點子,好吃又好看的珍奶蛋糕</p></div>
-            </div>
-            <div class="recipe">
-                <div class="foodimg">
-                    <img  class="foodphoto" src="https://dbjdsnch130xu.cloudfront.net/uploads/recipe/cover/71248/large_517561f44d68b7f5.jpg" width="200px; hight:100px;">
-                </div>
-                <div class="infoFood"><p class="foodTitle">珍珠奶茶蛋糕</p><p class="foodInfo">茶香四溢的蛋糕佐奶茶口味的鮮奶油,再放上清爽的茶凍當粉圓,三種都不難的作法組合在一起變成絕妙好滋味,突發奇想的點子,好吃又好看的珍奶蛋糕</p></div>
-            </div>
+        	<% @output.results.each do |result| %>
+        	<div class="recipe">
+        		<div class="foodimg">
+        			<a href="<%=result.url%>" target="_blank"><img class="foodphoto" src="<%=result.image_url%>" style="width:200px;"></a>
+
+
+        		</div>
+        		<div class="infoFood"><p class="foodTitle"><%=result.title%></p><p class="foodInfo"><%=result.description%></p>
+        			
+        			<% result.match_ingredient.split("|").each do |i| %>
+	        			<% if i==result.match_ingredient.split("|").last %>
+	        				<% next %>
+	        			<% else %> 
+						    <%= image_tag( '/assets/' + i + '.png', size:"40x40" ) %> 
+	        			<% end %>
+
+        			<% end %>
+        		</div>
+        	</div>
+        	<% end %>
+
         
+        </div>
+
 
 		<div class="friendList_select">
 
 			<% friends.each do |f| %>
 			<div class="block box">
-			<%= image_tag(f["picture"]["data"]["url"], :class => "block littlePhoto" ) %>
+			<%= image_tag(f["picture"]["data"]["url"], :class => "block littlePhoto select_friend" ) %>
 			</div>
 			<% end %> 
 
@@ -483,5 +485,13 @@ footer {
 
 		</div>
 
-		</div>
+
+	<script>
+
+        $(".select_friend").click(function(){
+            var name=$(this).attr('name');
+            console.log(name);
+        });
+
+	</script>
 
