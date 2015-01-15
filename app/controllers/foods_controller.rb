@@ -7,6 +7,7 @@ class FoodsController < ApplicationController
 
   def new
     @foods = Food.from_food_list(current_user).order('due ASC')
+    @mywantfoods = WantFood.from_wantfood_list(current_user.uid)
 
     @food = Food.new(params[:food])
     # @food.user_id = current_user.uid
