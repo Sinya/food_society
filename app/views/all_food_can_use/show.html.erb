@@ -448,7 +448,7 @@ footer {
 
         		</div>
         		<div class="infoFood"><p class="foodTitle"><%=result.title%></p><p class="foodInfo"><%=result.description%></p>
-        			
+
         			<% result.match_ingredient.split("|").each do |i| %>
 	        			<% if i==result.match_ingredient.split("|").last %>
 	        				<% next %>
@@ -465,25 +465,25 @@ footer {
         </div>
 
 
-		<div class="friendList_select">
+<!-- 		<div class="friendList_select">
 
-			<% friends.each do |f| %>
+			<%# friends.each do |f| %>
 			<div class="block box">
-			<%= image_tag(f["picture"]["data"]["url"], :class => "block littlePhoto select_friend" ) %>
+			<%# image_tag(f["picture"]["data"]["url"], :class => "block littlePhoto select_friend" ) %>
 			</div>
-			<% end %> 
+			<%# end %> 
 
 		</div>
 
 
 		<div class="all_friend_and_me_food">
-			<% @friend_and_me_food.each do |f| %>
+			<%# @friend_and_me_food.each do |f| %>
 				<%# f["name"] %>
-			    <%= image_tag( '/assets/' + f["name"] + '.png', size:"40x40" ) %> 
+			    <%# image_tag( '/assets/' + f["name"] + '.png', size:"40x40" ) %> 
 
-			<% end %>
+			<%# end %>
 
-		</div>
+		</div> -->
 
 
 	<script>
